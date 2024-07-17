@@ -8,9 +8,9 @@
   },
   "scripts": {
     "gulp": "gulp",
-    "svgo:simple": "svgo --config ./svgo.simple.config.js -f ./dist/svg/simple -r -o ./dist/svg/simple",
+    "svgo:monochrome": "svgo --config ./svgo.monochrome.config.js -f ./dist/svg/monochrome -r -o ./dist/svg/monochrome",
     "svgo:duotone": "svgo --config ./svgo.duotone.config.js -f ./dist/svg/duotone -r -o ./dist/svg/duotone",
-    "build": "npm run gulp && npm run svgo:simple && npm run svgo:duotone",
+    "build": "npm run gulp && npm run svgo:monochrome && npm run svgo:duotone",
     "help": "svgo --help"
   },
   "devDependencies": {
