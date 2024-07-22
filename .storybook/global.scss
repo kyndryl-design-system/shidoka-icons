@@ -1,0 +1,35 @@
+@use '~@kyndryl-design-system/shidoka-foundation/scss/root.scss';
+@use '~@kyndryl-design-system/shidoka-foundation/scss/utility/index.scss';
+
+.category-name {
+  margin-bottom: 8px;
+}
+
+.icons {
+  display: flex;
+  gap: 16px;
+}
+
+kd-card {
+  width: 175px;
+  height: 175px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  height: 100%;
+
+  img {
+    width: 32px;
+  }
+}
+
+.svg {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}

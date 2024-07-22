@@ -1,0 +1,14 @@
+[
+  {
+    "name": "account",
+    "friendly_name": "Account",
+    "aliases": ["Account"],
+    "duotone": true
+  },
+  {
+    "name": "hamburger-menu",
+    "friendly_name": "Hamburger Menu",
+    "aliases": ["Hamburger", "Menu", "Nav", "Navigation"],
+    "duotone": false
+  }
+]

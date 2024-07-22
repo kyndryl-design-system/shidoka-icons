@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 2a6 6 0 1 0 0 12A6 6 0 0 0 8 2ZM1 8a7 7 0 1 1 14 0A7 7 0 0 1 1 8Z" clip-rule="evenodd"/>
+  <path fill-rule="evenodd" d="M5.146 5.146a.5.5 0 0 1 .708 0l5 5a.5.5 0 0 1-.708.708l-5-5a.5.5 0 0 1 0-.708Z" clip-rule="evenodd"/>
+  <path fill-rule="evenodd" d="M10.854 5.146a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708l5-5a.5.5 0 0 1 .708 0Z" clip-rule="evenodd"/>
+</svg>
