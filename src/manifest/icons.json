@@ -1,14 +1,275 @@
 [
   {
+    "name": "access-management",
+    "friendly_name": "Access Management",
+    "category": "Test Category",
+    "aliases": ["Access Management"],
+    "duotone": true
+  },
+  {
     "name": "account",
     "friendly_name": "Account",
+    "category": "Test Category",
     "aliases": ["Account"],
+    "duotone": true
+  },
+  {
+    "name": "add",
+    "friendly_name": "Add",
+    "category": "Test Category",
+    "aliases": ["Add"],
+    "duotone": false
+  },
+  {
+    "name": "add-filled",
+    "friendly_name": "Add Filled",
+    "category": "Test Category",
+    "aliases": ["Add", "Add Filled"],
+    "duotone": false
+  },
+  {
+    "name": "analytics",
+    "friendly_name": "Analytics",
+    "category": "Test Category",
+    "aliases": ["Analytics"],
+    "duotone": true
+  },
+  {
+    "name": "anomaly",
+    "friendly_name": "Anomaly",
+    "category": "Test Category",
+    "aliases": ["Anomaly"],
+    "duotone": true
+  },
+  {
+    "name": "applications",
+    "friendly_name": "Applications",
+    "category": "Test Category",
+    "aliases": ["Applications"],
+    "duotone": false
+  },
+  {
+    "name": "applications-data-&-Ai",
+    "friendly_name": "Applications Data & AI",
+    "category": "Test Category",
+    "aliases": ["Applications Data & AI"],
+    "duotone": true
+  },
+  {
+    "name": "approval-policy",
+    "friendly_name": "Approval Policy",
+    "category": "Test Category",
+    "aliases": ["Approval Policy"],
+    "duotone": true
+  },
+  {
+    "name": "assets",
+    "friendly_name": "Assets",
+    "category": "Test Category",
+    "aliases": ["Assets"],
+    "duotone": true
+  },
+  {
+    "name": "attachment",
+    "friendly_name": "Attachment",
+    "category": "Test Category",
+    "aliases": ["Attachment"],
+    "duotone": false
+  },
+  {
+    "name": "arrow-down",
+    "friendly_name": "Arrow Down",
+    "category": "Test Category",
+    "aliases": ["Arrow Down"],
+    "duotone": false
+  },
+  {
+    "name": "arrow-left",
+    "friendly_name": "Arrow Left",
+    "category": "Test Category",
+    "aliases": ["Arrow Left"],
+    "duotone": false
+  },
+  {
+    "name": "arrow-right",
+    "friendly_name": "Arrow Right",
+    "category": "Test Category",
+    "aliases": ["Arrow Right"],
+    "duotone": false
+  },
+  {
+    "name": "arrow-up",
+    "friendly_name": "Arrow Up",
+    "category": "Test Category",
+    "aliases": ["Arrow Up"],
+    "duotone": false
+  },
+  {
+    "name": "arrow-down",
+    "friendly_name": "Arrow Down",
+    "category": "Test Category",
+    "aliases": ["Arrow Down"],
+    "duotone": false
+  },
+  {
+    "name": "arrow-up-left",
+    "friendly_name": "Arrow Up Left",
+    "category": "Test Category",
+    "aliases": ["Arrow Up Left"],
+    "duotone": false
+  },
+  {
+    "name": "arrow-up-right",
+    "friendly_name": "Arrow Up Right",
+    "category": "Test Category",
+    "aliases": ["Arrow Up Right"],
+    "duotone": false
+  },
+  {
+    "name": "bookmark",
+    "friendly_name": "Bookmark",
+    "category": "Test Category",
+    "aliases": ["Bookmark"],
+    "duotone": false
+  },
+  {
+    "name": "calendar",
+    "friendly_name": "Calendar",
+    "category": "Test Category",
+    "aliases": ["Calendar"],
+    "duotone": true
+  },
+  {
+    "name": "cart",
+    "friendly_name": "Cart",
+    "category": "Test Category",
+    "aliases": ["Cart"],
+    "duotone": false
+  },
+  {
+    "name": "catalog-management",
+    "friendly_name": "Catalog Management",
+    "category": "Test Category",
+    "aliases": ["Catalog Management"],
+    "duotone": true
+  },
+  {
+    "name": "chat",
+    "friendly_name": "Chat",
+    "category": "Test Category",
+    "aliases": ["Chat"],
+    "duotone": false
+  },
+  {
+    "name": "checkbox",
+    "friendly_name": "Checkbox",
+    "category": "Test Category",
+    "aliases": ["Checkbox"],
+    "duotone": false
+  },
+  {
+    "name": "checkmark",
+    "friendly_name": "Checkmark",
+    "category": "Test Category",
+    "aliases": ["Checkmark"],
+    "duotone": false
+  },
+  {
+    "name": "checkmark-filled",
+    "friendly_name": "Checkmark Filled",
+    "category": "Test Category",
+    "aliases": ["Checkmark Filled"],
+    "duotone": false
+  },
+  {
+    "name": "chevron-down",
+    "friendly_name": "Chevron Down",
+    "category": "Test Category",
+    "aliases": ["Chevron Down"],
+    "duotone": false
+  },
+  {
+    "name": "chevron-left",
+    "friendly_name": "Chevron Left",
+    "category": "Test Category",
+    "aliases": ["Chevron Left"],
+    "duotone": false
+  },
+  {
+    "name": "chevron-right",
+    "friendly_name": "Chevron Right",
+    "category": "Test Category",
+    "aliases": ["Chevron Right"],
+    "duotone": false
+  },
+  {
+    "name": "chevron-up",
+    "friendly_name": "Chevron Up",
+    "category": "Test Category",
+    "aliases": ["Chevron Up"],
+    "duotone": false
+  },
+  {
+    "name": "circle-filled",
+    "friendly_name": "Circle Filled",
+    "category": "Test Category",
+    "aliases": ["Circle Filled"],
+    "duotone": false
+  },
+  {
+    "name": "circle-stroke",
+    "friendly_name": "Circle Stroke",
+    "category": "Test Category",
+    "aliases": ["Circle Stroke"],
+    "duotone": false
+  },
+  {
+    "name": "close",
+    "friendly_name": "Close",
+    "category": "Test Category",
+    "aliases": ["Close"],
+    "duotone": false
+  },
+  {
+    "name": "close-filled",
+    "friendly_name": "Close Filled",
+    "category": "Test Category",
+    "aliases": ["Close Filled"],
+    "duotone": false
+  },
+  {
+    "name": "cloud",
+    "friendly_name": "Cloud",
+    "category": "Test Category",
+    "aliases": ["Cloud"],
+    "duotone": false
+  },
+  {
+    "name": "cloud-download",
+    "friendly_name": "Cloud Download",
+    "category": "Test Category",
+    "aliases": ["Cloud Download"],
+    "duotone": true
+  },
+  {
+    "name": "cloud-services",
+    "friendly_name": "Cloud Services",
+    "category": "Test Category",
+    "aliases": ["Cloud Services"],
+    "duotone": true
+  },
+  {
+    "name": "cloud-upload",
+    "friendly_name": "Cloud Upload",
+    "category": "Test Category",
+    "aliases": ["Cloud Upload"],
     "duotone": true
   },
   {
     "name": "hamburger-menu",
     "friendly_name": "Hamburger Menu",
-    "aliases": ["Hamburger", "Menu", "Nav", "Navigation"],
+    "category": "Test Category",
+    "aliases": ["Hamburger Menu", "Hamburger", "Menu", "Nav", "Navigation"],
     "duotone": false
   }
 ]
