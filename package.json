@@ -12,9 +12,12 @@
     "help": "svgo --help",
     "dev": "npm run storybook",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "npx husky"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@kyndryl-design-system/shidoka-applications": "^1.27.12",
     "@kyndryl-design-system/shidoka-foundation": "^1.7.1",
     "@storybook/addon-essentials": "^8.2.5",
@@ -28,6 +31,7 @@
     "@storybook/web-components-webpack5": "^8.2.5",
     "gulp": "^5.0.0",
     "gulp-clean": "^0.4.0",
+    "husky": "^9.1.1",
     "lit": "^3.1.4",
     "sass": "^1.77.8",
     "storybook": "^8.2.5",
