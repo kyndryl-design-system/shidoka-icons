@@ -3,7 +3,7 @@ const clean = require('gulp-clean');
 
 // clean dist folder
 const clear = () => {
-  return gulp.src('dist', { read: false }).pipe(clean());
+  return gulp.src('dist', { read: false, allowEmpty: true }).pipe(clean());
 };
 
 // copy SVG files
