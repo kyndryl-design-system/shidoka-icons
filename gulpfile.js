@@ -11,4 +11,12 @@ const copy = () => {
   return gulp.src('src/svg/**/*.svg').pipe(gulp.dest('dist/svg'));
 };
 
-exports.default = gulp.series(clear, copy);
+const copyReadme = () => {
+  return gulp.src('README.md').pipe(gulp.dest('dist'));
+};
+
+const copyPackagejson = () => {
+  return gulp.src('package.json').pipe(gulp.dest('dist'));
+};
+
+exports.default = gulp.series(clear, copy, copyReadme, copyPackagejson);
