@@ -105,13 +105,6 @@
     "duotone": false
   },
   {
-    "name": "arrow-down",
-    "friendly_name": "Arrow Down",
-    "category": "Test Category",
-    "aliases": [],
-    "duotone": false
-  },
-  {
     "name": "arrow-up-left",
     "friendly_name": "Arrow Up Left",
     "category": "Test Category",

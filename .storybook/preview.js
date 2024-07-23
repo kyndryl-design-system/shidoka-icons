@@ -5,7 +5,7 @@ const preview = {
   parameters: {
     controls: {
       matchers: {
-        color: /(background|color)$/i,
+        color: /(background|color|fill)$/i,
         date: /Date$/i,
       },
     },
