@@ -14,8 +14,8 @@
 }
 
 kd-card {
-  width: 175px;
-  height: 175px;
+  width: 180px;
+  height: 180px;
 }
 
 .icon {
@@ -35,4 +35,27 @@ kd-card {
   flex-grow: 1;
   display: flex;
   align-items: center;
+}
+
+.icon-path {
+  transition: opacity 150ms ease-out;
+  opacity: 0;
+  display: flex;
+  gap: 8px;
+
+  kd-card:hover & {
+    opacity: 1;
+  }
+}
+
+.copy-code {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+
+  svg {
+    display: block;
+  }
 }

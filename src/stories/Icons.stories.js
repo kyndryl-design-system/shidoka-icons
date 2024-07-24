@@ -8,6 +8,7 @@ import Icons from '../manifest/icons.json';
 
 import amMono from '../svg/monochrome/32/access-management.svg';
 import amDuo from '../svg/duotone/access-management.svg';
+import copy from '../svg/monochrome/16/copy.svg';
 
 const sortIcons = (icons) => {
   // sort by name
@@ -21,6 +22,13 @@ const sortIcons = (icons) => {
   });
 
   return sortedIcons;
+};
+
+const copyCode = (icon) => {
+  const code = icon.duotone
+    ? `import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/${icon.name}.svg'`
+    : `import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/32/${icon.name}.svg'`;
+  navigator.clipboard.writeText(code);
 };
 
 export default {
@@ -42,7 +50,11 @@ export const Library = {
       const filteredIcons = Icons.filter((icon) => {
         let returnVal = false;
 
-        if (icon.friendly_name.toLowerCase().includes(e.detail.value.toLowerCase())) {
+        if (
+          icon.friendly_name
+            .toLowerCase()
+            .includes(e.detail.value.toLowerCase())
+        ) {
           returnVal = true;
         } else {
           icon.aliases.forEach((alias) => {
@@ -61,7 +73,9 @@ export const Library = {
     };
 
     return html`
-      <kyn-search .value=${searchTerm} @on-input=${(e) => handleSearch(e)}>Search</kyn-search>
+      <kyn-search .value=${searchTerm} @on-input=${(e) => handleSearch(e)}
+        >Search</kyn-search
+      >
 
       <div class="icons">
         ${args.icons.map((icon) => {
@@ -74,17 +88,37 @@ export const Library = {
 
           return html`
             ${renderCategory
-              ? html` <div class="category-name kd-type--headline-08">${icon.category}</div> `
+              ? html`
+                  <div class="category-name kd-type--headline-08">
+                    ${icon.category}
+                  </div>
+                `
               : null}
 
             <kd-card>
               <div class="icon">
-                <div class="icon-name kd-type--ui-04">${icon.friendly_name}</div>
+                <div class="icon-name kd-type--ui-04">
+                  ${icon.friendly_name}
+                </div>
 
                 <div class="svg">
                   ${icon.duotone
                     ? unsafeSVG(require(`../svg/duotone/${icon.name}.svg`))
-                    : unsafeSVG(require(`../svg/monochrome/32/${icon.name}.svg`))}
+                    : unsafeSVG(
+                        require(`../svg/monochrome/32/${icon.name}.svg`)
+                      )}
+                </div>
+
+                <div class="icon-path kd-type--ui-03">
+                  ${icon.name}
+
+                  <button
+                    class="copy-code"
+                    title="Copy import path"
+                    @click=${() => copyCode(icon)}
+                  >
+                    ${unsafeSVG(copy)}
+                  </button>
                 </div>
               </div>
             </kd-card>
