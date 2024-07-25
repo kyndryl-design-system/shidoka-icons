@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/kyndryl-design-system/shidoka-icons.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "gulp": "gulp",
     "build": "npm run gulp",
