@@ -2,959 +2,959 @@
   {
     "name": "access-management",
     "friendly_name": "Access Management",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "account",
     "friendly_name": "Account",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "add",
     "friendly_name": "Add",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "add-filled",
     "friendly_name": "Add Filled",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "analytics",
     "friendly_name": "Analytics",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "anomaly",
     "friendly_name": "Anomaly",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "applications",
     "friendly_name": "Applications",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "applications-data-&-Ai",
     "friendly_name": "Applications Data & AI",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "approval-policy",
     "friendly_name": "Approval Policy",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "assets",
     "friendly_name": "Assets",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "attachment",
     "friendly_name": "Attachment",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "arrow-down",
     "friendly_name": "Arrow Down",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "arrow-left",
     "friendly_name": "Arrow Left",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "arrow-right",
     "friendly_name": "Arrow Right",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "arrow-up",
     "friendly_name": "Arrow Up",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "arrow-up-left",
     "friendly_name": "Arrow Up Left",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "arrow-up-right",
     "friendly_name": "Arrow Up Right",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "bookmark",
     "friendly_name": "Bookmark",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "calendar",
     "friendly_name": "Calendar",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "cart",
     "friendly_name": "Cart",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "catalog-management",
     "friendly_name": "Catalog Management",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "chat",
     "friendly_name": "Chat",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "checkbox",
     "friendly_name": "Checkbox",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "checkmark",
     "friendly_name": "Checkmark",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "checkmark-filled",
     "friendly_name": "Checkmark Filled",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "chevron-down",
     "friendly_name": "Chevron Down",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "chevron-left",
     "friendly_name": "Chevron Left",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "chevron-right",
     "friendly_name": "Chevron Right",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "chevron-up",
     "friendly_name": "Chevron Up",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "circle-filled",
     "friendly_name": "Circle Filled",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "circle-stroke",
     "friendly_name": "Circle Stroke",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "close",
     "friendly_name": "Close",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "close-filled",
     "friendly_name": "Close Filled",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "cloud",
     "friendly_name": "Cloud",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "cloud-download",
     "friendly_name": "Cloud Download",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "cloud-services",
     "friendly_name": "Cloud Services",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "cloud-upload",
     "friendly_name": "Cloud Upload",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "collab-drive",
     "friendly_name": "Collab Drive",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "console",
     "friendly_name": "Console",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "control-tower",
     "friendly_name": "Control Tower",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "copy",
     "friendly_name": "Copy",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "core-enterprise-&-zCloud",
     "friendly_name": "Core Enterprise & zCloud",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "core-services",
     "friendly_name": "Core Services",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "cost",
     "friendly_name": "Cost",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "cost-&-asset-management",
     "friendly_name": "Cost & Asset Management",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "consultation",
     "friendly_name": "Consultation",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "cursor",
     "friendly_name": "Cursor",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "customer-engagement",
     "friendly_name": "Customer Engagement",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "dashboard",
     "friendly_name": "Dashboard",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "database",
     "friendly_name": "Database",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "delete",
     "friendly_name": "Delete",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "devops-intelligence",
     "friendly_name": "Devops Intelligence",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "digital-workplace",
     "friendly_name": "Digital Workplace",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "discount",
     "friendly_name": "Discount",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "document",
     "friendly_name": "Document",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "document-add",
     "friendly_name": "Document Add",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "document-task",
     "friendly_name": "Document Task",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "double-integer",
     "friendly_name": "Double Integer",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "download",
     "friendly_name": "Download",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "draggable",
     "friendly_name": "Draggable",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "edit",
     "friendly_name": "Edit",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "edit-2",
     "friendly_name": "Edit 2",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "enterprise-marketplace",
     "friendly_name": "Enterprise Marketplace",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "expand",
     "friendly_name": "Expand",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "explore",
     "friendly_name": "Explore",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "filter",
     "friendly_name": "Filter",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "finance",
     "friendly_name": "Finance",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "go-to-market",
     "friendly_name": "Go To Market",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "group",
     "friendly_name": "Group",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "hamburger-menu",
     "friendly_name": "Hamburger Menu",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "health",
     "friendly_name": "Health",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "history",
     "friendly_name": "History",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "home",
     "friendly_name": "Home",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "hourglass",
     "friendly_name": "Hourglass",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "ibm-cloud-pal",
     "friendly_name": "IBM Cloud Pal",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "ID",
     "friendly_name": "ID",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "information",
     "friendly_name": "Information",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "integrated-AIOps",
     "friendly_name": "Integrated AIOps",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "key",
     "friendly_name": "Key",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "launch",
     "friendly_name": "Launch",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "lightbulb",
     "friendly_name": "Lightbulb",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "list",
     "friendly_name": "List",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "location",
     "friendly_name": "Location",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "lock",
     "friendly_name": "Lock",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "log-out",
     "friendly_name": "Log Out",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "mail",
     "friendly_name": "Mail",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "map",
     "friendly_name": "Map",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "marketplace",
     "friendly_name": "Marketplace",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "navaid-military-civil",
     "friendly_name": "Navaid Military Civil",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "navaid-ndb",
     "friendly_name": "Navaid NDB",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "network",
     "friendly_name": "Network",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "network-&-edge",
     "friendly_name": "Network & Edge",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "notification",
     "friendly_name": "Notification",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "open-developer",
     "friendly_name": "Open Developer",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "operation-policies",
     "friendly_name": "Operation Policies",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "ordered-services",
     "friendly_name": "Ordered Services",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "overflow",
     "friendly_name": "Overflow",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "overview",
     "friendly_name": "Overview",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "personalization-policies",
     "friendly_name": "Personalization Policies",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "placeholder",
     "friendly_name": "Placeholder",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "platform",
     "friendly_name": "Platform",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "police",
     "friendly_name": "Police",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "portfolio",
     "friendly_name": "Portfolio",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "private-catalog",
     "friendly_name": "Private Catalog",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "program-management-portal",
     "friendly_name": "Program Management Portal",
-    "category": "Test Category",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "question",
     "friendly_name": "Question",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "quotation",
     "friendly_name": "Quotation",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "recommend",
     "friendly_name": "Recommend",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "reference-architecture",
     "friendly_name": "Reference Architecture",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "roles",
     "friendly_name": "Roles",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "rule-test",
     "friendly_name": "Rule Test",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "save",
     "friendly_name": "Save",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "scale",
     "friendly_name": "Scale",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "schedule",
     "friendly_name": "Schedule",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "search",
     "friendly_name": "Search",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "security-&-resiliency",
     "friendly_name": "Security & Resiliency",
-    "category": "Test Category",
+    "category": "Services",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "services",
     "friendly_name": "Services",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "settings",
     "friendly_name": "Settings",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "settings-adjust",
     "friendly_name": "Settings Adjust",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "share",
     "friendly_name": "Share",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "shared-services",
     "friendly_name": "Shared Services",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "subscription",
     "friendly_name": "Subscription",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "support",
     "friendly_name": "Support",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "square-filled",
     "friendly_name": "Square Filled",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "tags",
     "friendly_name": "Tags",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "template",
     "friendly_name": "Template",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "ticket",
     "friendly_name": "Ticket",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "time",
     "friendly_name": "Time",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "touch",
     "friendly_name": "Touch",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "touch-filled",
     "friendly_name": "Touch Filled",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "track",
     "friendly_name": "Track",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "update",
     "friendly_name": "Update",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "user",
     "friendly_name": "User",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "user-manual",
     "friendly_name": "User Manual",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "video-tutorial",
     "friendly_name": "Video Tutorial",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   },
   {
     "name": "warning",
     "friendly_name": "Warning",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
     "name": "workflow-automation",
     "friendly_name": "Workflow Automation",
-    "category": "Test Category",
+    "category": "Functional",
     "aliases": [],
     "duotone": true
   }
