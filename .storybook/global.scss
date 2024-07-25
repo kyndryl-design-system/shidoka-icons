@@ -64,6 +64,12 @@ kd-card {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  outline: 1px solid #fff;
+  z-index: 1;
+  padding: 8px 0;
 }
 
 .search-icon {
