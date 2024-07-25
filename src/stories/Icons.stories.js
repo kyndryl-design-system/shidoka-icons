@@ -36,6 +36,9 @@ const copyCode = (icon) => {
 
 export default {
   title: 'Icons',
+};
+
+export const Library = {
   parameters: {
     controls: {
       disable: true,
@@ -44,9 +47,6 @@ export default {
       disable: true,
     },
   },
-};
-
-export const Library = {
   args: {
     icons: sortIcons(Icons),
     searchTerm: '',
