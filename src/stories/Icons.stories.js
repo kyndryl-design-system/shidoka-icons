@@ -2,13 +2,16 @@ import { html } from 'lit';
 import { useArgs } from '@storybook/preview-api';
 import { unsafeSVG } from 'lit-html/directives/unsafe-svg.js';
 import '@kyndryl-design-system/shidoka-foundation/components/card';
-import '@kyndryl-design-system/shidoka-applications/components/reusable/search';
+import '@kyndryl-design-system/shidoka-applications/components/reusable/textInput';
+import '@kyndryl-design-system/shidoka-applications/components/reusable/dropdown';
+import '@kyndryl-design-system/shidoka-applications/components/reusable/toggleButton';
 // import Categories from '../manifest/categories.json';
 import Icons from '../manifest/icons.json';
 
 import amMono from '../svg/monochrome/32/access-management.svg';
 import amDuo from '../svg/duotone/access-management.svg';
 import copy from '../svg/monochrome/16/copy.svg';
+import search from '../svg/monochrome/24/search.svg';
 
 const sortIcons = (icons) => {
   // sort by name
@@ -33,16 +36,26 @@ const copyCode = (icon) => {
 
 export default {
   title: 'Icons',
+  parameters: {
+    controls: {
+      disable: true,
+    },
+    actions: {
+      disable: true,
+    },
+  },
 };
 
 export const Library = {
   args: {
     icons: sortIcons(Icons),
     searchTerm: '',
+    size: 32,
+    duotone: true,
   },
   render: (args) => {
     let currentCategory;
-    const [{ searchTerm }, updateArgs] = useArgs();
+    const [{ searchTerm, size }, updateArgs] = useArgs();
 
     const handleSearch = (e) => {
       updateArgs({ searchTerm: e.detail.value });
@@ -72,10 +85,51 @@ export const Library = {
       });
     };
 
+    const handleSize = (e) => {
+      updateArgs({ size: Number(e.detail.value) });
+    };
+
+    const handleDuotone = (e) => {
+      updateArgs({ duotone: e.detail.checked });
+    };
+
     return html`
-      <kyn-search .value=${searchTerm} @on-input=${(e) => handleSearch(e)}
-        >Search</kyn-search
-      >
+      <div class="filters">
+        <kyn-text-input
+          placeholder="Search"
+          .value=${searchTerm}
+          @on-input=${(e) => handleSearch(e)}
+        >
+          Search
+          <span slot="icon" class="search-icon"> ${unsafeSVG(search)} </span>
+        </kyn-text-input>
+
+        <kyn-dropdown @on-change=${(e) => handleSize(e)}>
+          <span slot="label">Size</span>
+          <kyn-dropdown-option value="16" ?selected=${size === 16}>
+            16
+          </kyn-dropdown-option>
+          <kyn-dropdown-option value="20" ?selected=${size === 20}>
+            20
+          </kyn-dropdown-option>
+          <kyn-dropdown-option value="24" ?selected=${size === 24}>
+            24
+          </kyn-dropdown-option>
+          <kyn-dropdown-option value="32" ?selected=${size === 32}>
+            32
+          </kyn-dropdown-option>
+        </kyn-dropdown>
+
+        <kyn-toggle-button
+          class="duotone-toggle"
+          checked
+          checkedtext="Visible"
+          uncheckedtext="Hidden"
+          @on-change=${(e) => handleDuotone(e)}
+        >
+          Duotone
+        </kyn-toggle-button>
+      </div>
 
       <div class="icons">
         ${args.icons.map((icon) => {
@@ -102,10 +156,10 @@ export const Library = {
                 </div>
 
                 <div class="svg">
-                  ${icon.duotone
+                  ${icon.duotone && args.duotone
                     ? unsafeSVG(require(`../svg/duotone/${icon.name}.svg`))
                     : unsafeSVG(
-                        require(`../svg/monochrome/32/${icon.name}.svg`)
+                        require(`../svg/monochrome/${size}/${icon.name}.svg`)
                       )}
                 </div>
 

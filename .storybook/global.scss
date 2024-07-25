@@ -59,3 +59,15 @@ kd-card {
     display: block;
   }
 }
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.search-icon {
+  svg {
+    display: block;
+  }
+}
