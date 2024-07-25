@@ -27,13 +27,6 @@ const sortIcons = (icons) => {
   return sortedIcons;
 };
 
-const copyCode = (icon) => {
-  const code = icon.duotone
-    ? `import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/${icon.name}.svg'`
-    : `import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/32/${icon.name}.svg'`;
-  navigator.clipboard.writeText(code);
-};
-
 export default {
   title: 'Icons',
 };
@@ -93,10 +86,20 @@ export const Library = {
       updateArgs({ duotone: e.detail.checked });
     };
 
+    const copyCode = (icon) => {
+      const code =
+        icon.duotone && args.duotone
+          ? `import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/${icon.name}.svg'`
+          : `import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/${args.size}/${icon.name}.svg'`;
+
+      navigator.clipboard.writeText(code);
+    };
+
     return html`
       <div class="filters">
         <kyn-text-input
           placeholder="Search"
+          caption=${args.icons.length + ' Icons'}
           .value=${searchTerm}
           @on-input=${(e) => handleSearch(e)}
         >

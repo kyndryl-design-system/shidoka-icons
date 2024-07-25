@@ -672,6 +672,13 @@
     "duotone": true
   },
   {
+    "name": "overflow",
+    "friendly_name": "Overflow",
+    "category": "Test Category",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "overview",
     "friendly_name": "Overview",
     "category": "Test Category",
