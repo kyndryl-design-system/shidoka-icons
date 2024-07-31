@@ -809,7 +809,7 @@
     "friendly_name": "Security & Resiliency",
     "category": "Services",
     "aliases": [],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "services",
