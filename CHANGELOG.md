@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.0.0...v1.0.1) (2024-07-31)
+
+
+### Bug Fixes
+
+* update personalization policies icon ([b4728b0](https://github.com/kyndryl-design-system/shidoka-icons/commit/b4728b08e351f97c048a34c224659823ea89f2cf))
+
 # 1.0.0 (2024-07-25)
 
 
