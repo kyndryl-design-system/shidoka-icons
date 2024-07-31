@@ -5,7 +5,6 @@ import '@kyndryl-design-system/shidoka-foundation/components/card';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/textInput';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/dropdown';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/toggleButton';
-// import Categories from '../manifest/categories.json';
 import Icons from '../manifest/icons.json';
 
 import amMono from '../svg/monochrome/32/access-management.svg';
