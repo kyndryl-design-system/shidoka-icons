@@ -22,11 +22,15 @@ Generic loaders:
 - [Webpack SVG Inline Loader](https://www.npmjs.com/package/svg-inline-loader)
 - [Rollup Plugin SVG](https://www.npmjs.com/package/rollup-plugin-svg)
 
-React specific [SVGR](https://react-svgr.com/) loaders:
+React [SVGR](https://react-svgr.com/) loaders:
 
 - [Vite Plugin SVGR](https://www.npmjs.com/package/vite-plugin-svgr)
 - [@svgr/webpack](https://www.npmjs.com/package/@svgr/webpack)
 - [@svgr/rollup](https://www.npmjs.com/package/@svgr/rollup)
+
+Angular loaders:
+
+- [Angular SVG Icon](https://www.npmjs.com/package/angular-svg-icon)
 
 ### Import an Icon
 
