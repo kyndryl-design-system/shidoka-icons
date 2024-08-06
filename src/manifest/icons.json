@@ -952,6 +952,13 @@
     "duotone": false
   },
   {
+    "name": "workbench",
+    "friendly_name": "Workbench",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "workflow-automation",
     "friendly_name": "Workflow Automation",
     "category": "Functional",
