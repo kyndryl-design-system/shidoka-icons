@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.0.2...v1.1.0) (2024-08-06)
+
+
+### Bug Fixes
+
+* update marketplace icons ([0d7ec86](https://github.com/kyndryl-design-system/shidoka-icons/commit/0d7ec863d1ec65b78e29d696a81f6d2b7e7646a5))
+
+
+### Features
+
+* add workbench icon ([f8d8c4d](https://github.com/kyndryl-design-system/shidoka-icons/commit/f8d8c4de893baef213b8df44fbca7ff3c77a1545))
+
 ## [1.0.2](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.0.1...v1.0.2) (2024-08-01)
 
 
