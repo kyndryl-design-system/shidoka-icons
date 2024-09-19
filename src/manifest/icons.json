@@ -644,6 +644,13 @@
     "duotone": true
   },
   {
+    "name": "no-access",
+    "friendly_name": "No Access",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "notification",
     "friendly_name": "Notification",
     "category": "Functional",
