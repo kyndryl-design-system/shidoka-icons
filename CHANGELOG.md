@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.1.0...v1.2.0) (2024-09-20)
+
+
+### Features
+
+* add no-access icon ([#3](https://github.com/kyndryl-design-system/shidoka-icons/issues/3)) ([bfbaa03](https://github.com/kyndryl-design-system/shidoka-icons/commit/bfbaa0311365536bac9fff39c2471778bf12ee20))
+
 # [1.1.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.0.2...v1.1.0) (2024-08-06)
 
 
