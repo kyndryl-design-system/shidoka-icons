@@ -196,7 +196,7 @@
     "duotone": false
   },
   {
-    "name": "calendar-settings ",
+    "name": "calendar-settings",
     "friendly_name": "Calendar Settings",
     "category": "Functional",
     "aliases": [],
@@ -665,7 +665,7 @@
     "duotone": false
   },
   {
-    "name": "filter-edit ",
+    "name": "filter-edit",
     "friendly_name": "Filter Edit",
     "category": "Functional",
     "aliases": [],
