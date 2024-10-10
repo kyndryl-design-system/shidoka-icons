@@ -1,5 +1,19 @@
 [
   {
+    "name": "AIOps",
+    "friendly_name": "AIOps",
+    "category": "Gateway",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "ID",
+    "friendly_name": "ID",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "access-management",
     "friendly_name": "Access Management",
     "category": "Functional",
@@ -28,6 +42,13 @@
     "duotone": false
   },
   {
+    "name": "add-simple",
+    "friendly_name": "Add Simple",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "analytics",
     "friendly_name": "Analytics",
     "category": "Functional",
@@ -40,6 +61,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "aperture",
+    "friendly_name": "Aperture",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "applications",
@@ -61,20 +89,6 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
-  },
-  {
-    "name": "assets",
-    "friendly_name": "Assets",
-    "category": "Functional",
-    "aliases": [],
-    "duotone": true
-  },
-  {
-    "name": "attachment",
-    "friendly_name": "Attachment",
-    "category": "Functional",
-    "aliases": [],
-    "duotone": false
   },
   {
     "name": "arrow-down",
@@ -119,8 +133,57 @@
     "duotone": false
   },
   {
+    "name": "arrows-vertical",
+    "friendly_name": "Arrows Vertical",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "assets",
+    "friendly_name": "Assets",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "attachment",
+    "friendly_name": "Attachment",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "billing",
+    "friendly_name": "Billing",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "book",
+    "friendly_name": "Book",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "bookmark",
     "friendly_name": "Bookmark",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "branch",
+    "friendly_name": "Branch",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "bug",
+    "friendly_name": "Bug",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -131,6 +194,34 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "calendar-add",
+    "friendly_name": "Calendar Add",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "calendar-delete",
+    "friendly_name": "Calendar Delete",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "calendar-settings",
+    "friendly_name": "Calendar Settings",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "camera",
+    "friendly_name": "Camera",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "cart",
@@ -147,6 +238,20 @@
     "duotone": true
   },
   {
+    "name": "certificate-check",
+    "friendly_name": "Certificate Check",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "chart-pie",
+    "friendly_name": "Chart Pie",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "chat",
     "friendly_name": "Chat",
     "category": "Functional",
@@ -154,8 +259,29 @@
     "duotone": false
   },
   {
+    "name": "chat-bot",
+    "friendly_name": "Chat Bot",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "checkbox",
     "friendly_name": "Checkbox",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "checkbox-filled",
+    "friendly_name": "Checkbox Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "checkbox-selected",
+    "friendly_name": "Checkbox Selected",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -231,6 +357,13 @@
     "duotone": false
   },
   {
+    "name": "close-simple",
+    "friendly_name": "Close Simple",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "cloud",
     "friendly_name": "Cloud",
     "category": "Functional",
@@ -243,6 +376,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "cloud-security",
+    "friendly_name": "Cloud Security",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "cloud-services",
@@ -259,6 +399,13 @@
     "duotone": true
   },
   {
+    "name": "code",
+    "friendly_name": "Code",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "collab-drive",
     "friendly_name": "Collab Drive",
     "category": "Gateway",
@@ -266,11 +413,32 @@
     "duotone": true
   },
   {
+    "name": "concept",
+    "friendly_name": "Concept",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "connect",
+    "friendly_name": "Connect",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "console",
     "friendly_name": "Console",
     "category": "Gateway",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "consultation",
+    "friendly_name": "Consultation",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "control-tower",
@@ -315,8 +483,8 @@
     "duotone": true
   },
   {
-    "name": "consultation",
-    "friendly_name": "Consultation",
+    "name": "cube",
+    "friendly_name": "Cube",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -343,6 +511,13 @@
     "duotone": true
   },
   {
+    "name": "data-check",
+    "friendly_name": "Data Check",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "database",
     "friendly_name": "Database",
     "category": "Functional",
@@ -352,6 +527,13 @@
   {
     "name": "delete",
     "friendly_name": "Delete",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "delivery",
+    "friendly_name": "Delivery",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -392,11 +574,53 @@
     "duotone": true
   },
   {
+    "name": "document-attachment",
+    "friendly_name": "Document Attachment",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-blank",
+    "friendly_name": "Document Blank",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-delete",
+    "friendly_name": "Document Delete",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-protected",
+    "friendly_name": "Document Protected",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-task",
     "friendly_name": "Document Task",
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "document-unprotected",
+    "friendly_name": "Document Unprotected",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-view",
+    "friendly_name": "Document View",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "double-integer",
@@ -462,11 +686,60 @@
     "duotone": false
   },
   {
+    "name": "filter-edit",
+    "friendly_name": "Filter Edit",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "finance",
     "friendly_name": "Finance",
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "flag",
+    "friendly_name": "Flag",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "flag-filled",
+    "friendly_name": "Flag Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "flow-data",
+    "friendly_name": "Flow Data",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder",
+    "friendly_name": "Folder",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "gateway-security",
+    "friendly_name": "Gateway Security",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "globe",
+    "friendly_name": "Globe",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "go-to-market",
@@ -481,6 +754,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "growth-crop",
+    "friendly_name": "Growth Crop",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "hamburger-menu",
@@ -525,15 +805,29 @@
     "duotone": false
   },
   {
-    "name": "ID",
-    "friendly_name": "ID",
+    "name": "id-management",
+    "friendly_name": "Id Management",
     "category": "Functional",
     "aliases": [],
-    "duotone": true
+    "duotone": false
+  },
+  {
+    "name": "industry",
+    "friendly_name": "Industry",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "information",
     "friendly_name": "Information",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "information-filled",
+    "friendly_name": "Information Filled",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -551,6 +845,27 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "key-add",
+    "friendly_name": "Key Add",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "key-delete",
+    "friendly_name": "Key Delete",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "key-security",
+    "friendly_name": "Key Security",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "launch",
@@ -616,6 +931,20 @@
     "duotone": true
   },
   {
+    "name": "money",
+    "friendly_name": "Money",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "monitoring",
+    "friendly_name": "Monitoring",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "navaid-military-civil",
     "friendly_name": "Navaid Military Civil",
     "category": "Functional",
@@ -658,6 +987,13 @@
     "duotone": true
   },
   {
+    "name": "notifications-new",
+    "friendly_name": "Notifications New",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "open-developer",
     "friendly_name": "Open Developer",
     "category": "Gateway",
@@ -670,6 +1006,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "operations-record",
+    "friendly_name": "Operations Record",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "ordered-services",
@@ -698,6 +1041,20 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "piggy-bank",
+    "friendly_name": "Piggy Bank",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "pin",
+    "friendly_name": "Pin",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "placeholder",
@@ -735,6 +1092,13 @@
     "duotone": true
   },
   {
+    "name": "private-cloud",
+    "friendly_name": "Private Cloud",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "program-management-portal",
     "friendly_name": "Program Management Portal",
     "category": "Gateway",
@@ -763,11 +1127,32 @@
     "duotone": false
   },
   {
+    "name": "redirect",
+    "friendly_name": "Redirect",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "reference-architecture",
     "friendly_name": "Reference Architecture",
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "report-data",
+    "friendly_name": "Report Data",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "robot",
+    "friendly_name": "Robot",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "roles",
@@ -819,9 +1204,23 @@
     "duotone": true
   },
   {
+    "name": "service-management",
+    "friendly_name": "Service Management",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "services",
     "friendly_name": "Services",
     "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "services-catalog",
+    "friendly_name": "Services Catalog",
+    "category": "Gateway",
     "aliases": [],
     "duotone": true
   },
@@ -854,18 +1253,11 @@
     "duotone": true
   },
   {
-    "name": "subscription",
-    "friendly_name": "Subscription",
+    "name": "source-code",
+    "friendly_name": "Source Code",
     "category": "Functional",
     "aliases": [],
-    "duotone": true
-  },
-  {
-    "name": "support",
-    "friendly_name": "Support",
-    "category": "Functional",
-    "aliases": [],
-    "duotone": true
+    "duotone": false
   },
   {
     "name": "square-filled",
@@ -875,6 +1267,41 @@
     "duotone": false
   },
   {
+    "name": "subscription",
+    "friendly_name": "Subscription",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "substract",
+    "friendly_name": "Substract",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "substract-filled",
+    "friendly_name": "Substract Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "substract-simple",
+    "friendly_name": "Substract Simple",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "support",
+    "friendly_name": "Support",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "tags",
     "friendly_name": "Tags",
     "category": "Functional",
@@ -882,11 +1309,46 @@
     "duotone": true
   },
   {
+    "name": "task",
+    "friendly_name": "Task",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "task-tools",
+    "friendly_name": "Task Tools",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "team",
+    "friendly_name": "Team",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "template",
     "friendly_name": "Template",
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "thumbs-down",
+    "friendly_name": "Thumbs Down",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "thumbs-up",
+    "friendly_name": "Thumbs Up",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "ticket",
@@ -901,6 +1363,20 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "tool",
+    "friendly_name": "Tool",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "tool-kit",
+    "friendly_name": "Tool Kit",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "touch",
@@ -924,8 +1400,22 @@
     "duotone": true
   },
   {
+    "name": "unlock",
+    "friendly_name": "Unlock",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "update",
     "friendly_name": "Update",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "upload",
+    "friendly_name": "Upload",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -945,6 +1435,13 @@
     "duotone": true
   },
   {
+    "name": "user-settings",
+    "friendly_name": "User Settings",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "video-tutorial",
     "friendly_name": "Video Tutorial",
     "category": "Functional",
@@ -952,8 +1449,22 @@
     "duotone": true
   },
   {
+    "name": "virtual-machine",
+    "friendly_name": "Virtual Machine",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "warning",
     "friendly_name": "Warning",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "warning-filled",
+    "friendly_name": "Warning Filled",
     "category": "Functional",
     "aliases": [],
     "duotone": false

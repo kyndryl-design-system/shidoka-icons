@@ -16,7 +16,8 @@
     "dev": "npm run storybook",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "npx husky"
+    "prepare": "npx husky",
+    "manifest": "cd src/manifest; sh icons.sh"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
