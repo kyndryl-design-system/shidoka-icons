@@ -1,5 +1,12 @@
 [
   {
+    "name": "AIOps",
+    "friendly_name": "AIOps",
+    "category": "Gateway",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "ID",
     "friendly_name": "ID",
     "category": "Functional",
@@ -30,6 +37,13 @@
   {
     "name": "add-filled",
     "friendly_name": "Add Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "add-simple",
+    "friendly_name": "Add Simple",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -338,6 +352,13 @@
   {
     "name": "close-filled",
     "friendly_name": "Close Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "close-simple",
+    "friendly_name": "Close Simple",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -805,6 +826,13 @@
     "duotone": false
   },
   {
+    "name": "information-filled",
+    "friendly_name": "Information Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "integrated-AIOps",
     "friendly_name": "Integrated AIOps",
     "category": "Gateway",
@@ -1190,6 +1218,13 @@
     "duotone": true
   },
   {
+    "name": "services-catalog",
+    "friendly_name": "Services Catalog",
+    "category": "Gateway",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "settings",
     "friendly_name": "Settings",
     "category": "Functional",
@@ -1253,6 +1288,13 @@
     "duotone": false
   },
   {
+    "name": "substract-simple",
+    "friendly_name": "Substract Simple",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "support",
     "friendly_name": "Support",
     "category": "Functional",
@@ -1276,6 +1318,13 @@
   {
     "name": "task-tools",
     "friendly_name": "Task Tools",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "team",
+    "friendly_name": "Team",
     "category": "Functional",
     "aliases": [],
     "duotone": false
