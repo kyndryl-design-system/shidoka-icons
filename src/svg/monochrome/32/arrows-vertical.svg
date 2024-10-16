@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32">
-  <path fill="#3D3C3C" fill-rule="evenodd" d="M11 2a1 1 0 0 1 .707.293l6 6a1 1 0 0 1-1.414 1.414L11 4.414 5.707 9.707a1 1 0 0 1-1.414-1.414l6-6A1 1 0 0 1 11 2Z" clip-rule="evenodd"/>
-  <path fill="#3D3C3C" fill-rule="evenodd" d="M11 2a1 1 0 0 1 1 1v15a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1Zm10 28a1 1 0 0 1-.707-.293l-6-6a1 1 0 0 1 1.414-1.414L21 27.586l5.293-5.293a1 1 0 0 1 1.414 1.414l-6 6A1 1 0 0 1 21 30Z" clip-rule="evenodd"/>
-  <path fill="#3D3C3C" fill-rule="evenodd" d="M21 30a1 1 0 0 1-1-1V14a1 1 0 1 1 2 0v15a1 1 0 0 1-1 1Z" clip-rule="evenodd"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 32 32">
+  <path fill-rule="evenodd" d="M11 2a1 1 0 0 1 .707.293l6 6a1 1 0 0 1-1.414 1.414L11 4.414 5.707 9.707a1 1 0 0 1-1.414-1.414l6-6A1 1 0 0 1 11 2Z" clip-rule="evenodd"/>
+  <path fill-rule="evenodd" d="M11 2a1 1 0 0 1 1 1v15a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1Zm10 28a1 1 0 0 1-.707-.293l-6-6a1 1 0 0 1 1.414-1.414L21 27.586l5.293-5.293a1 1 0 0 1 1.414 1.414l-6 6A1 1 0 0 1 21 30Z" clip-rule="evenodd"/>
+  <path fill-rule="evenodd" d="M21 30a1 1 0 0 1-1-1V14a1 1 0 1 1 2 0v15a1 1 0 0 1-1 1Z" clip-rule="evenodd"/>
 </svg>

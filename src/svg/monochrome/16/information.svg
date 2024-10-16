@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
   <g clip-path="url(#a)">
-    <path fill-rule="evenodd" d="M8 6.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5Z" clip-rule="evenodd"/>
-    <path d="M8.5 5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
-    <path fill-rule="evenodd" d="M8 1.967a6.033 6.033 0 1 0 0 12.066A6.033 6.033 0 0 0 8 1.967ZM.967 8a7.033 7.033 0 1 1 14.066 0A7.033 7.033 0 0 1 .967 8Z" clip-rule="evenodd"/>
+    <path fill-rule="evenodd" d="M1.967 8a6.033 6.033 0 1 1 12.066 0A6.033 6.033 0 0 1 1.967 8ZM8 .967a7.033 7.033 0 1 0 0 14.066A7.033 7.033 0 0 0 8 .967ZM8.5 5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM8 6.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V7a.5.5 0 0 1 .5-.5Z" clip-rule="evenodd"/>
   </g>
   <defs>
     <clipPath id="a">
