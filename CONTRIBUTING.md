@@ -16,8 +16,9 @@ npm run build
 ## Guidelines
 
 1. Commits
-   1. Commit messages MUST use [Conventional Commit format](https://www.conventionalcommits.org).
-   1. [Certain commit types](https://semantic-release.gitbook.io/semantic-release/#commit-message-format) like `fix:` (patch), `feat:` (minor), and `perf:` (major) or `BREAKING CHANGE:` (in the commit body or footer, major), will automatically trigger a release to publish a new package and update the semantic version.
+   1. Commit messages MUST use [Conventional Commit format](https://semantic-release.gitbook.io/semantic-release#commit-message-format).
+   1. [Certain commit prefixes](https://semantic-release.gitbook.io/semantic-release/#commit-message-format) like `fix:` (patch) or `feat:` (minor) will automatically trigger a release to publish a new package and update the semantic version.
+      1. `BREAKING CHANGE:` in the commit message footer will trigger a major version update.
    1. [Conventional Commits Cheat Sheet](https://gist.github.com/Zekfad/f51cb06ac76e2457f11c80ed705c95a3)
    1. Git hooks are installed to enforce commit message formatting with commitlint, and code formatting with Prettier.
 1. Branching
@@ -34,11 +35,13 @@ npm run build
 1. Releases
    1. Releases will trigger automatically when the right commit messages are pushed to `main`, `beta`, or `next`.
    1. All testing must be done on the PR level before merging, since the release will happen automatically after merge.
-1. Adding Icons
-   1. Export icons from Figma using the SVG Export plugin.
-      1. There are presets for Monochrome and Duotone.
-   1. Add the new icon definitions to `manifest/icons.json`.
-   1. Examine your icon in Storybook to make sure it works properly.
+
+## Adding Icons
+
+1.  Export icons from Figma using the SVG Export plugin.
+    1. There are presets for `Monochrome` and `Duotone`.
+1.  Add the new icon definitions to `manifest/icons.json`.
+1.  Examine your icon in Storybook to make sure it works properly.
 
 ## Third-Party Docs Reference
 
