@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.3.0...v1.4.0) (2024-10-16)
+
+
+### Features
+
+* new update to AIOps for monochrome and duotone ([#5](https://github.com/kyndryl-design-system/shidoka-icons/issues/5)) ([ee1e5de](https://github.com/kyndryl-design-system/shidoka-icons/commit/ee1e5de7275edbc18f23e8c7e4902028cdf3b590))
+
 # [1.3.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.2.0...v1.3.0) (2024-10-14)
 
 
