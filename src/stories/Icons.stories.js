@@ -44,6 +44,7 @@ export const Library = {
     searchTerm: '',
     size: 32,
     duotone: true,
+    color: 'currentColor',
   },
   render: (args) => {
     let currentCategory;
@@ -85,6 +86,10 @@ export const Library = {
       updateArgs({ duotone: e.detail.checked });
     };
 
+    const handleColor = (e) => {
+      updateArgs({ color: e.target.value });
+    };
+
     const copyCode = (icon) => {
       const code =
         icon.duotone && args.duotone
@@ -95,6 +100,18 @@ export const Library = {
     };
 
     return html`
+      <style>
+        label.kd-type--ui-02 {
+          display: flex;
+          font-weight: 500;
+          margin-bottom: 8px;
+        }
+
+        .icons {
+          color: ${args.color};
+        }
+      </style>
+
       <div class="filters">
         <kyn-text-input
           placeholder="Search"
@@ -131,6 +148,15 @@ export const Library = {
         >
           Duotone
         </kyn-toggle-button>
+
+        <span>
+          <label class="kd-type--ui-02">Color</label>
+          <input
+            type="color"
+            value=${args.color}
+            @change=${(e) => handleColor(e)}
+          />
+        </span>
       </div>
 
       <div class="icons">
