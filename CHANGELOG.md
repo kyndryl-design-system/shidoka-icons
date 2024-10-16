@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.4.0...v1.4.1) (2024-10-16)
+
+
+### Bug Fixes
+
+* re-export all icons using correct presets ([#6](https://github.com/kyndryl-design-system/shidoka-icons/issues/6)) ([044fe21](https://github.com/kyndryl-design-system/shidoka-icons/commit/044fe2198196787a193d9bd7a596ab68af88ddc2))
+
 # [1.4.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.3.0...v1.4.0) (2024-10-16)
 
 
