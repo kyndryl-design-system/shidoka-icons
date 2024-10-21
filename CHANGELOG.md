@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.4.1...v1.5.0) (2024-10-21)
+
+
+### Features
+
+* added send icon ([#7](https://github.com/kyndryl-design-system/shidoka-icons/issues/7)) ([2f84afc](https://github.com/kyndryl-design-system/shidoka-icons/commit/2f84afc606820fd629b11cadf2097c2aa3893a8b))
+
 ## [1.4.1](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.4.0...v1.4.1) (2024-10-16)
 
 
