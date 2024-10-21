@@ -1204,6 +1204,13 @@
     "duotone": true
   },
   {
+    "name": "send",
+    "friendly_name": "Send",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "service-management",
     "friendly_name": "Service Management",
     "category": "Functional",
