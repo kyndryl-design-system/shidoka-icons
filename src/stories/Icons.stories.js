@@ -7,8 +7,6 @@ import '@kyndryl-design-system/shidoka-applications/components/reusable/dropdown
 import '@kyndryl-design-system/shidoka-applications/components/reusable/toggleButton';
 import Icons from '../manifest/icons.json';
 
-import amMono from '../svg/monochrome/32/access-management.svg';
-import amDuo from '../svg/duotone/access-management.svg';
 import copy from '../svg/monochrome/16/copy.svg';
 import search from '../svg/monochrome/24/search.svg';
 
@@ -27,23 +25,35 @@ const sortIcons = (icons) => {
 };
 
 export default {
-  title: 'Icons',
-};
-
-export const Library = {
+  title: 'Icon Library',
   parameters: {
-    controls: {
-      disable: true,
-    },
     actions: {
       disable: true,
     },
   },
+  argTypes: {
+    icons: {
+      table: {
+        disable: true,
+      },
+    },
+    searchTerm: {
+      table: {
+        disable: true,
+      },
+    },
+    size: {
+      options: [16, 20, 24, 32],
+      control: { type: 'select' },
+    },
+  },
+};
+
+export const Monochrome = {
   args: {
     icons: sortIcons(Icons),
     searchTerm: '',
     size: 32,
-    duotone: true,
     color: 'currentColor',
   },
   render: (args) => {
@@ -78,42 +88,24 @@ export const Library = {
       });
     };
 
-    const handleSize = (e) => {
-      updateArgs({ size: Number(e.detail.value) });
-    };
-
-    const handleDuotone = (e) => {
-      updateArgs({ duotone: e.detail.checked });
-    };
-
-    const handleColor = (e) => {
-      updateArgs({ color: e.target.value });
-    };
-
     const copyCode = (icon) => {
-      const code =
-        icon.duotone && args.duotone
-          ? `import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/${icon.name}.svg'`
-          : `import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/${args.size}/${icon.name}.svg'`;
+      const code = `import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/${args.size}/${icon.name}.svg'`;
 
       navigator.clipboard.writeText(code);
     };
 
     return html`
       <style>
-        label.kd-type--ui-02 {
-          display: flex;
-          font-weight: 500;
-          margin-bottom: 8px;
-        }
-
-        .icons {
+        .icons .svg {
           color: ${args.color};
         }
       </style>
 
       <div class="filters">
+        <div class="kd-type--headline-05">Monochrome</div>
+
         <kyn-text-input
+          hideLabel
           placeholder="Search"
           caption=${args.icons.length + ' Icons'}
           .value=${searchTerm}
@@ -122,41 +114,6 @@ export const Library = {
           Search
           <span slot="icon" class="search-icon"> ${unsafeSVG(search)} </span>
         </kyn-text-input>
-
-        <kyn-dropdown @on-change=${(e) => handleSize(e)}>
-          <span slot="label">Size</span>
-          <kyn-dropdown-option value="16" ?selected=${size === 16}>
-            16
-          </kyn-dropdown-option>
-          <kyn-dropdown-option value="20" ?selected=${size === 20}>
-            20
-          </kyn-dropdown-option>
-          <kyn-dropdown-option value="24" ?selected=${size === 24}>
-            24
-          </kyn-dropdown-option>
-          <kyn-dropdown-option value="32" ?selected=${size === 32}>
-            32
-          </kyn-dropdown-option>
-        </kyn-dropdown>
-
-        <kyn-toggle-button
-          class="duotone-toggle"
-          checked
-          checkedtext="Visible"
-          uncheckedtext="Hidden"
-          @on-change=${(e) => handleDuotone(e)}
-        >
-          Duotone
-        </kyn-toggle-button>
-
-        <span>
-          <label class="kd-type--ui-02">Color</label>
-          <input
-            type="color"
-            value=${args.color}
-            @change=${(e) => handleColor(e)}
-          />
-        </span>
       </div>
 
       <div class="icons">
@@ -184,11 +141,9 @@ export const Library = {
                 </div>
 
                 <div class="svg">
-                  ${icon.duotone && args.duotone
-                    ? unsafeSVG(require(`../svg/duotone/${icon.name}.svg`))
-                    : unsafeSVG(
-                        require(`../svg/monochrome/${size}/${icon.name}.svg`)
-                      )}
+                  ${unsafeSVG(
+                    require(`../svg/monochrome/${size}/${icon.name}.svg`)
+                  )}
                 </div>
 
                 <div class="icon-path kd-type--ui-03">
@@ -211,40 +166,132 @@ export const Library = {
   },
 };
 
-export const Monochrome = {
-  args: {
-    fill: 'currentColor',
-  },
-  render: (args) => {
-    return html`
-      <style>
-        svg {
-          fill: ${args.fill};
-        }
-      </style>
-
-      ${unsafeSVG(amMono)}
-    `;
-  },
-};
-
 export const Duotone = {
+  argTypes: {
+    size: {
+      table: {
+        disable: true,
+      },
+    },
+  },
   args: {
-    primaryFill: '#29707A',
-    secondaryFill: '#5FBEAC',
+    icons: sortIcons(Icons.filter((icon) => icon.duotone)),
+    searchTerm: '',
+    primaryColor: '#29707A',
+    secondaryColor: '#5FBEAC',
   },
   render: (args) => {
+    let currentCategory;
+    const [{ searchTerm }, updateArgs] = useArgs();
+
+    const handleSearch = (e) => {
+      updateArgs({ searchTerm: e.detail.value });
+
+      const filteredIcons = Icons.filter((icon) => {
+        let returnVal = false;
+
+        if (!icon.duotone) {
+          return false;
+        }
+
+        if (
+          icon.friendly_name
+            .toLowerCase()
+            .includes(e.detail.value.toLowerCase())
+        ) {
+          returnVal = true;
+        } else {
+          icon.aliases.forEach((alias) => {
+            if (alias.toLowerCase().includes(e.detail.value.toLowerCase())) {
+              returnVal = true;
+            }
+          });
+        }
+
+        return returnVal;
+      });
+
+      updateArgs({
+        icons: sortIcons(filteredIcons),
+      });
+    };
+
+    const copyCode = (icon) => {
+      const code = `import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/${icon.name}.svg'`;
+
+      navigator.clipboard.writeText(code);
+    };
+
     return html`
       <style>
-        svg .primary {
-          fill: ${args.primaryFill};
+        .icons svg .primary {
+          fill: ${args.primaryColor};
         }
-        svg .secondary {
-          fill: ${args.secondaryFill};
+
+        .icons svg .secondary {
+          fill: ${args.secondaryColor};
         }
       </style>
 
-      ${unsafeSVG(amDuo)}
+      <div class="filters">
+        <div class="kd-type--headline-05">Duotone</div>
+
+        <kyn-text-input
+          hideLabel
+          placeholder="Search"
+          caption=${args.icons.length + ' Icons'}
+          .value=${searchTerm}
+          @on-input=${(e) => handleSearch(e)}
+        >
+          Search
+          <span slot="icon" class="search-icon"> ${unsafeSVG(search)} </span>
+        </kyn-text-input>
+      </div>
+
+      <div class="icons">
+        ${args.icons.map((icon) => {
+          let renderCategory = false;
+
+          if (currentCategory !== icon.category) {
+            currentCategory = icon.category;
+            renderCategory = true;
+          }
+
+          return html`
+            ${renderCategory
+              ? html`
+                  <div class="category-name kd-type--headline-08">
+                    ${icon.category}
+                  </div>
+                `
+              : null}
+
+            <kd-card>
+              <div class="icon">
+                <div class="icon-name kd-type--ui-04">
+                  ${icon.friendly_name}
+                </div>
+
+                <div class="svg">
+                  ${unsafeSVG(require(`../svg/duotone/${icon.name}.svg`))}
+                </div>
+
+                <div class="icon-path kd-type--ui-03">
+                  ${icon.name}
+
+                  <button
+                    class="copy-code"
+                    title="Copy import path"
+                    @click=${() => copyCode(icon)}
+                  >
+                    ${unsafeSVG(copy)}
+                  </button>
+                </div>
+              </div>
+            </kd-card>
+          `;
+        })}
+      </div>
     `;
   },
 };
