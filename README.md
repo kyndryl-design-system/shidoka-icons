@@ -34,6 +34,8 @@ Angular loaders:
 
 ### Import an Icon
 
+_Example only, refer to loader documentation._
+
 ```js
 // monochrome. 4 sizes available: 16, 20, 24, 32
 import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/32/<icon-name>.svg';
@@ -44,7 +46,7 @@ import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/<icon-nam
 
 ### Render the Icon
 
-This will depend on your framework and the loader you've set up, but generally you'll just reference the import directly in your template, ex:
+_Example for Lit, refer to loader/framework documentation._
 
 ```html
 <div>${iconName}</div>
