@@ -7,6 +7,13 @@
     "duotone": true
   },
   {
+    "name": "API",
+    "friendly_name": "API",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "ID",
     "friendly_name": "ID",
     "category": "Functional",
@@ -19,6 +26,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "accordion-view",
+    "friendly_name": "Accordion View",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "account",
@@ -224,6 +238,48 @@
     "duotone": false
   },
   {
+    "name": "caret-down-to-bottom",
+    "friendly_name": "Caret Down To Bottom",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "caret-down",
+    "friendly_name": "Caret Down",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "caret-left",
+    "friendly_name": "Caret Left",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "caret-right",
+    "friendly_name": "Caret Right",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "caret-up-to-top",
+    "friendly_name": "Caret Up To Top",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "caret-up",
+    "friendly_name": "Caret Up",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "cart",
     "friendly_name": "Cart",
     "category": "Functional",
@@ -236,6 +292,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "catalog-settings",
+    "friendly_name": "Catalog Settings",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "certificate-check",
@@ -261,6 +324,13 @@
   {
     "name": "chat-bot",
     "friendly_name": "Chat Bot",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "check",
+    "friendly_name": "Check",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -324,6 +394,13 @@
   {
     "name": "chevron-up",
     "friendly_name": "Chevron Up",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "circle-dashed",
+    "friendly_name": "Circle Dashed",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -413,6 +490,20 @@
     "duotone": true
   },
   {
+    "name": "component",
+    "friendly_name": "Component",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "computer",
+    "friendly_name": "Computer",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "concept",
     "friendly_name": "Concept",
     "category": "Functional",
@@ -490,8 +581,22 @@
     "duotone": false
   },
   {
+    "name": "currency",
+    "friendly_name": "Currency",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "cursor",
     "friendly_name": "Cursor",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "custom-catalog",
+    "friendly_name": "Custom Catalog",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -730,6 +835,20 @@
   {
     "name": "gateway-security",
     "friendly_name": "Gateway Security",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "gender-female",
+    "friendly_name": "Gender Female",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "gender-male",
+    "friendly_name": "Gender male",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -980,6 +1099,13 @@
     "duotone": false
   },
   {
+    "name": "no-overview",
+    "friendly_name": "No Overview",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "notification",
     "friendly_name": "Notification",
     "category": "Functional",
@@ -1024,6 +1150,13 @@
   {
     "name": "overflow",
     "friendly_name": "Overflow",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "overflow-horizontal",
+    "friendly_name": "Overflow Horizontal",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1099,6 +1232,13 @@
     "duotone": false
   },
   {
+    "name": "private-solutions",
+    "friendly_name": "Private Solutions",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "program-management-portal",
     "friendly_name": "Program Management Portal",
     "category": "Gateway",
@@ -1139,6 +1279,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "refresh",
+    "friendly_name": "Refresh",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "report-data",
@@ -1260,6 +1407,13 @@
     "duotone": true
   },
   {
+    "name": "shrink",
+    "friendly_name": "Shrink",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "source-code",
     "friendly_name": "Source Code",
     "category": "Functional",
@@ -1307,6 +1461,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "table-view",
+    "friendly_name": "Table View",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "tags",
