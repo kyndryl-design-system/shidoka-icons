@@ -1,10 +1,12 @@
 /** @type { import('@storybook/web-components-webpack5').StorybookConfig } */
 const config = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
+
   addons: [
     '@storybook/addon-webpack5-compiler-swc',
     '@storybook/addon-links',
     '@storybook/addon-essentials',
+    '@storybook/addon-themes',
     {
       name: '@storybook/addon-styling',
       options: {
@@ -50,14 +52,20 @@ const config = {
         },
       },
     },
+    '@storybook/addon-mdx-gfm'
   ],
+
   framework: {
     name: '@storybook/web-components-webpack5',
     options: {},
   },
+
   core: {
     disableTelemetry: true,
   },
+
   staticDirs: ['./static', '../src/svg/'],
+
+  docs: {}
 };
 export default config;
