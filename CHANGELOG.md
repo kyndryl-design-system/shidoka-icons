@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.5.0...v1.6.0) (2024-11-08)
+
+
+### Features
+
+* 1994077 - new shidoka icons ([#8](https://github.com/kyndryl-design-system/shidoka-icons/issues/8)) ([ae97522](https://github.com/kyndryl-design-system/shidoka-icons/commit/ae97522edcfb1df4bd0cad9e440c5eb5fbfd7af5))
+
 # [1.5.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.4.1...v1.5.0) (2024-10-21)
 
 
