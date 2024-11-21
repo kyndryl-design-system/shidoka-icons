@@ -177,8 +177,8 @@ export const Duotone = {
   args: {
     icons: sortIcons(Icons.filter((icon) => icon.duotone)),
     searchTerm: '',
-    primaryColor: '#29707A',
-    secondaryColor: '#5FBEAC',
+    primaryColor: 'var(--kd-color-text-icon-tertiary)',
+    secondaryColor: 'var(--kd-color-text-icon-accent)',
   },
   render: (args) => {
     let currentCategory;
