@@ -1260,6 +1260,13 @@
     "duotone": true
   },
   {
+    "name": "recommend-filled",
+    "friendly_name": "Recommend Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "recommend",
     "friendly_name": "Recommend",
     "category": "Functional",
