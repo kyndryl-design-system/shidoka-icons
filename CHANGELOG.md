@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.6.0...v1.7.0) (2024-11-26)
+
+
+### Features
+
+* new icon recommend-filled ([#11](https://github.com/kyndryl-design-system/shidoka-icons/issues/11)) ([e22f3c4](https://github.com/kyndryl-design-system/shidoka-icons/commit/e22f3c42cb2bd4b0655308c8d7c43ce66622e6d4))
+
 # [1.6.0](https://github.com/kyndryl-design-system/shidoka-icons/compare/v1.5.0...v1.6.0) (2024-11-08)
 
 
