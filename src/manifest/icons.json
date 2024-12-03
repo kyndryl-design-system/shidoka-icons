@@ -770,6 +770,20 @@
     "duotone": true
   },
   {
+    "name": "error-filled",
+    "friendly_name": "Error Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "error",
+    "friendly_name": "Error",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "expand",
     "friendly_name": "Expand",
     "category": "Functional",
