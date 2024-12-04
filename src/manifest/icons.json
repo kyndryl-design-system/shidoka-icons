@@ -301,6 +301,13 @@
     "duotone": false
   },
   {
+    "name": "catalog",
+    "friendly_name": "Catalog",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "certificate-check",
     "friendly_name": "Certificate Check",
     "category": "Functional",
@@ -644,6 +651,13 @@
     "duotone": false
   },
   {
+    "name": "developer-console",
+    "friendly_name": "Developer Console",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "devops-intelligence",
     "friendly_name": "Devops Intelligence",
     "category": "Services",
@@ -744,6 +758,13 @@
   {
     "name": "draggable",
     "friendly_name": "Draggable",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "earth",
+    "friendly_name": "Earth",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1381,6 +1402,13 @@
   {
     "name": "service-management",
     "friendly_name": "Service Management",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "service-provider",
+    "friendly_name": "Service Provider",
     "category": "Functional",
     "aliases": [],
     "duotone": false
