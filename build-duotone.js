@@ -12,9 +12,9 @@ function run() {
     const directory = `./dist/svg/duotone/${size}`;
 
     fs.readdir(directory, (err, files) => {
-      // if (err) {
-      //   return console.log(err);
-      // }
+      if (err) {
+        console.log(err);
+      }
 
       // loop all svg files
       files.forEach((filename) => {
@@ -23,9 +23,9 @@ function run() {
           `${directory}/${filename}`,
           { encoding: 'utf-8' },
           function (err, data) {
-            // if (err) {
-            //   return console.log(err);
-            // }
+            if (err) {
+              console.log(err);
+            }
 
             let newContents = data;
 
@@ -42,12 +42,12 @@ function run() {
             // write new file
             fs.writeFile(
               `${directory}/${filename}`,
-              newContents
-              // function (err) {
-              //   if (err) {
-              //     return console.log(err);
-              //   }
-              // }
+              newContents,
+              function (err) {
+                if (err) {
+                  console.log(err);
+                }
+              }
             );
           }
         );
