@@ -19,6 +19,9 @@
     "prepare": "npx husky",
     "manifest": "cd src/manifest; sh icons.sh"
   },
+  "peerDependencies": {
+    "@kyndryl-design-system/shidoka-foundation": "^2.0.0-next.26"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
