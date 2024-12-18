@@ -11,7 +11,8 @@
   },
   "scripts": {
     "gulp": "gulp",
-    "build": "npm run gulp",
+    "build:duotone": "node build-duotone.js",
+    "build": "npm run gulp && npm run build:duotone",
     "help": "svgo --help",
     "dev": "npm run storybook",
     "storybook": "storybook dev -p 6006",
