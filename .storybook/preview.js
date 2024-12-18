@@ -13,7 +13,7 @@ const preview = {
     options: {
       storySort: {
         method: 'alphabetical',
-        order: ['Welcome'],
+        order: ['Welcome', 'Migration Guide'],
       },
     },
     backgrounds: { disable: true },
@@ -32,7 +32,7 @@ const preview = {
     }),
   ],
 
-  tags: ['autodocs']
+  tags: ['autodocs'],
 };
 
 export default preview;
