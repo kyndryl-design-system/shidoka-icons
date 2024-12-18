@@ -2,10 +2,10 @@ const fs = require('fs');
 
 function run() {
   const directory = './dist/svg/duotone';
-  const defaultPrimaryColor = '#29707A';
-  const defaultSecondaryColor = '#5FBEAC';
-  const primaryToken = '--kd-color-text-icon-tertiary';
-  const secondaryToken = '--kd-color-text-icon-accent';
+  const defaultPrimaryColor = '#3D3C3C';
+  const defaultSecondaryColor = '#FF462D';
+  const primaryToken = '--kd-color-icon-duotone-primary';
+  const secondaryToken = '--kd-color-icon-duotone-secondary';
 
   // get all duotone icon svg files
   fs.readdir('./src/svg/duotone', (err, files) => {
