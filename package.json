@@ -47,6 +47,7 @@
     "sass": "^1.77.8",
     "storybook": "^8.4.7",
     "storybook-preset-inline-svg": "^1.0.1",
-    "svg-inline-loader": "^0.8.2"
+    "svg-inline-loader": "^0.8.2",
+    "swc-loader": "^0.2.6"
   }
 }
