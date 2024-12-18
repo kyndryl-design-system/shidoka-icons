@@ -22,8 +22,8 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@kyndryl-design-system/shidoka-applications": "^2.0.0-next.27",
-    "@kyndryl-design-system/shidoka-foundation": "^2.0.0-next.23",
+    "@kyndryl-design-system/shidoka-applications": "^2.0.0-next.34",
+    "@kyndryl-design-system/shidoka-foundation": "^2.0.0-next.26",
     "@storybook/addon-essentials": "^8.4.7",
     "@storybook/addon-links": "^8.4.7",
     "@storybook/addon-mdx-gfm": "^8.4.7",
