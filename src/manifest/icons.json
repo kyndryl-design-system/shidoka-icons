@@ -238,6 +238,13 @@
     "duotone": false
   },
   {
+    "name": "caret-double",
+    "friendly_name": "Caret Double",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "caret-down-to-bottom",
     "friendly_name": "Caret Down To Bottom",
     "category": "Functional",
@@ -1458,6 +1465,20 @@
   {
     "name": "shrink",
     "friendly_name": "Shrink",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "side-drawer-in",
+    "friendly_name": "Side Drawer In",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "side-drawer-out",
+    "friendly_name": "Side Drawer Out",
     "category": "Functional",
     "aliases": [],
     "duotone": false
