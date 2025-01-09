@@ -1,4 +1,4 @@
-# Run command to update manifest file(icons.sh) : npm run manifest
+# Run command to update manifest file(icons.json) : npm run manifest
 
 # Note :  After running the script, you may need to make some manual adjustments to the output file based on UX specifications for certain icons
 #   Adjust 'name' field for the icons with uppercase letters in the filename.
