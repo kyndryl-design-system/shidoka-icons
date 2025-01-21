@@ -427,6 +427,13 @@
     "duotone": false
   },
   {
+    "name": "circle-selected",
+    "friendly_name": "Circle Selected",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "circle-stroke",
     "friendly_name": "Circle Stroke",
     "category": "Functional",
@@ -1416,6 +1423,13 @@
   {
     "name": "send",
     "friendly_name": "Send",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "service-ID",
+    "friendly_name": "Service ID",
     "category": "Functional",
     "aliases": [],
     "duotone": false
