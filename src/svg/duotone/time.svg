@@ -1,6 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48">
-  <g fill-rule="evenodd" class="time" clip-rule="evenodd">
-    <path fill="#29707A" d="M4 24C4 12.95 12.95 4 24 4s20 8.95 20 20-8.95 20-20 20S4 35.05 4 24ZM24 6C14.055 6 6 14.055 6 24s8.055 18 18 18 18-8.055 18-18S33.945 6 24 6Z" class="primary"/>
-    <path fill="#5FBEAC" d="M24 10a1 1 0 0 1 1 1v12h9a1 1 0 1 1 0 2H24a1 1 0 0 1-1-1V11a1 1 0 0 1 1-1Z" class="secondary"/>
+  <g class="Size=S">
+    <g fill-rule="evenodd" class="Icon" clip-rule="evenodd">
+      <path fill="#3D3C3C" d="M4 24C4 12.95 12.95 4 24 4s20 8.95 20 20-8.95 20-20 20S4 35.05 4 24ZM24 6C14.055 6 6 14.055 6 24s8.055 18 18 18 18-8.055 18-18S33.945 6 24 6Z" class="primary"/>
+      <path fill="#FF462D" d="M25 12a1 1 0 1 0-2 0v11.982a.997.997 0 0 0 .457.858l5.988 3.992a1 1 0 0 0 1.11-1.664L25 23.465V12Z" class="secondary"/>
+    </g>
   </g>
 </svg>
