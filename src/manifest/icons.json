@@ -245,15 +245,15 @@
     "duotone": false
   },
   {
-    "name": "caret-down-to-bottom",
-    "friendly_name": "Caret Down To Bottom",
+    "name": "caret-down",
+    "friendly_name": "Caret Down",
     "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
-    "name": "caret-down",
-    "friendly_name": "Caret Down",
+    "name": "caret-down-to-bottom",
+    "friendly_name": "Caret Down To Bottom",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -273,13 +273,6 @@
     "duotone": false
   },
   {
-    "name": "caret-up-to-top",
-    "friendly_name": "Caret Up To Top",
-    "category": "Functional",
-    "aliases": [],
-    "duotone": false
-  },
-  {
     "name": "caret-up",
     "friendly_name": "Caret Up",
     "category": "Functional",
@@ -287,8 +280,22 @@
     "duotone": false
   },
   {
+    "name": "caret-up-to-top",
+    "friendly_name": "Caret Up To Top",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "cart",
     "friendly_name": "Cart",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "catalog",
+    "friendly_name": "Catalog",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -303,13 +310,6 @@
   {
     "name": "catalog-settings",
     "friendly_name": "Catalog Settings",
-    "category": "Functional",
-    "aliases": [],
-    "duotone": false
-  },
-  {
-    "name": "catalog",
-    "friendly_name": "Catalog",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -422,6 +422,13 @@
   {
     "name": "circle-filled",
     "friendly_name": "Circle Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "circle-selected",
+    "friendly_name": "Circle Selected",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -798,15 +805,15 @@
     "duotone": true
   },
   {
-    "name": "error-filled",
-    "friendly_name": "Error Filled",
+    "name": "error",
+    "friendly_name": "Error",
     "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
-    "name": "error",
-    "friendly_name": "Error",
+    "name": "error-filled",
+    "friendly_name": "Error Filled",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1092,6 +1099,13 @@
     "duotone": true
   },
   {
+    "name": "megaphone",
+    "friendly_name": "Megaphone",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "money",
     "friendly_name": "Money",
     "category": "Functional",
@@ -1132,6 +1146,13 @@
     "category": "Services",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "news",
+    "friendly_name": "News",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "no-access",
@@ -1302,15 +1323,15 @@
     "duotone": true
   },
   {
-    "name": "recommend-filled",
-    "friendly_name": "Recommend Filled",
+    "name": "recommend",
+    "friendly_name": "Recommend",
     "category": "Functional",
     "aliases": [],
     "duotone": false
   },
   {
-    "name": "recommend",
-    "friendly_name": "Recommend",
+    "name": "recommend-filled",
+    "friendly_name": "Recommend Filled",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1402,6 +1423,13 @@
   {
     "name": "send",
     "friendly_name": "Send",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "service-ID",
+    "friendly_name": "Service ID",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1601,6 +1629,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "time-extended",
+    "friendly_name": "Time Extended",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "tool",
