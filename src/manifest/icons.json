@@ -1631,6 +1631,13 @@
     "duotone": true
   },
   {
+    "name": "time-extended",
+    "friendly_name": "Time Extended",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "tool",
     "friendly_name": "Tool",
     "category": "Functional",
