@@ -9,7 +9,7 @@ Read the [Contributing Guide](CONTRIBUTING.md) here.
 ### Install
 
 ```bash
-npm install -S @kyndryl-design-system/shidoka-icons @kyndryl-design-system/shidoka-foundation
+npm install -S @kyndryl-design-system/shidoka-icons
 ```
 
 ### Set up an SVG Inline Loader

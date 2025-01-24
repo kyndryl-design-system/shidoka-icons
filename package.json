@@ -20,7 +20,7 @@
     "prepare": "npx husky",
     "manifest": "cd src/manifest; sh icons.sh"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@kyndryl-design-system/shidoka-foundation": "^2.0.0-next.41"
   },
   "devDependencies": {
