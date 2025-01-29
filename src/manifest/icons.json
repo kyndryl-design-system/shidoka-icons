@@ -595,6 +595,20 @@
     "duotone": true
   },
   {
+    "name": "critical",
+    "friendly_name": "Critical",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "critical-filled",
+    "friendly_name": "Critical Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "cube",
     "friendly_name": "Cube",
     "category": "Functional",
