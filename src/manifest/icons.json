@@ -826,8 +826,22 @@
     "duotone": false
   },
   {
+    "name": "error-2",
+    "friendly_name": "Error 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "error-filled",
     "friendly_name": "Error Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "error-filled-2",
+    "friendly_name": "Error Filled 2",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1008,8 +1022,22 @@
     "duotone": false
   },
   {
+    "name": "information-2",
+    "friendly_name": "Information 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "information-filled",
     "friendly_name": "Information Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "information-filled-2",
+    "friendly_name": "Information Filled 2",
     "category": "Functional",
     "aliases": [],
     "duotone": false
