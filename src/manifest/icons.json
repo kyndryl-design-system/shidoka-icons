@@ -1351,6 +1351,13 @@
     "duotone": true
   },
   {
+    "name": "provisioning-catalog",
+    "friendly_name": "Provisioning Catalog",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "question",
     "friendly_name": "Question",
     "category": "Functional",
