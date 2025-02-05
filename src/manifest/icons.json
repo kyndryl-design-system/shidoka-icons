@@ -1505,6 +1505,13 @@
     "duotone": true
   },
   {
+    "name": "services-administration",
+    "friendly_name": "Services Administration",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "services-catalog",
     "friendly_name": "Services Catalog",
     "category": "Gateway",
