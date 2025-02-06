@@ -735,6 +735,13 @@
     "duotone": false
   },
   {
+    "name": "document-close",
+    "friendly_name": "Document Close",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-delete",
     "friendly_name": "Document Delete",
     "category": "Functional",
@@ -742,8 +749,50 @@
     "duotone": false
   },
   {
+    "name": "document-download",
+    "friendly_name": "Document Download",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-edit",
+    "friendly_name": "Document Edit",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-image",
+    "friendly_name": "Document Image",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-no-access",
+    "friendly_name": "Document No Access",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-protected",
     "friendly_name": "Document Protected",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-search",
+    "friendly_name": "Document Search",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-share",
+    "friendly_name": "Document Share",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -763,8 +812,22 @@
     "duotone": false
   },
   {
+    "name": "document-upload",
+    "friendly_name": "Document Upload",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-view",
     "friendly_name": "Document View",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-warning",
+    "friendly_name": "Document Warning",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -905,6 +968,118 @@
   {
     "name": "folder",
     "friendly_name": "Folder",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-add",
+    "friendly_name": "Folder Add",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-attachment",
+    "friendly_name": "Folder Attachment",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-close",
+    "friendly_name": "Folder Close",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-copy",
+    "friendly_name": "Folder Copy",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-delete",
+    "friendly_name": "Folder Delete",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-download",
+    "friendly_name": "Folder Download",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-edit",
+    "friendly_name": "Folder Edit",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-image",
+    "friendly_name": "Folder Image",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-no-access",
+    "friendly_name": "Folder No Access",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-protected",
+    "friendly_name": "Folder Protected",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-search",
+    "friendly_name": "Folder Search",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-share",
+    "friendly_name": "Folder Share",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-task",
+    "friendly_name": "Folder Task",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-unprotected",
+    "friendly_name": "Folder Unprotected",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-upload",
+    "friendly_name": "Folder Upload",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folder-warning",
+    "friendly_name": "Folder Warning",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1503,6 +1678,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "services-administration",
+    "friendly_name": "Services Administration",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "services-catalog",
