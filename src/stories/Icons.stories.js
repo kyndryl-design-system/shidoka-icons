@@ -1,7 +1,7 @@
 import { html } from 'lit';
 import { useArgs } from '@storybook/preview-api';
 import { unsafeSVG } from 'lit-html/directives/unsafe-svg.js';
-import '@kyndryl-design-system/shidoka-foundation/components/card';
+import '@kyndryl-design-system/shidoka-applications/components/reusable/card';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/textInput';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/dropdown';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/toggleButton';
