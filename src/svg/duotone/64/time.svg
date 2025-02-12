@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+  <g class="Size=M">
+    <g fill-rule="evenodd" class="Icon" clip-rule="evenodd">
+      <path fill="#3D3C3C" d="M4 32C4 16.53 16.53 4 32 4s28 12.53 28 28-12.53 28-28 28S4 47.47 4 32ZM32 6C17.635 6 6 17.635 6 32s11.635 26 26 26 26-11.635 26-26S46.365 6 32 6Z" class="primary"/>
+      <path fill="#FF462D" d="M33 14a1 1 0 1 0-2 0v17.982a.996.996 0 0 0 .457.858l8.988 5.992a1 1 0 0 0 1.11-1.664L33 31.465V14Z" class="secondary"/>
+    </g>
+  </g>
+</svg>

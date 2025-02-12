@@ -333,7 +333,7 @@
     "friendly_name": "Chat",
     "category": "Functional",
     "aliases": [],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "chat-bot",
@@ -1138,7 +1138,7 @@
     "friendly_name": "Growth Crop",
     "category": "Functional",
     "aliases": [],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "hamburger-menu",

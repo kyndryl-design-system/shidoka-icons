@@ -169,16 +169,16 @@ export const Monochrome = {
 export const Duotone = {
   argTypes: {
     size: {
-      table: {
-        disable: true,
-      },
+      options: [48, 64, 96],
+      control: { type: 'select' },
     },
   },
   args: {
+    size: 48,
     icons: sortIcons(Icons.filter((icon) => icon.duotone)),
     searchTerm: '',
-    primaryColor: '#29707A',
-    secondaryColor: '#5FBEAC',
+    primaryColor: 'var(--kd-color-icon-duotone-primary)',
+    secondaryColor: 'var(--kd-color-icon-duotone-secondary)',
   },
   render: (args) => {
     let currentCategory;
@@ -217,7 +217,7 @@ export const Duotone = {
     };
 
     const copyCode = (icon) => {
-      const code = `import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/${icon.name}.svg'`;
+      const code = `import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/${args.size}/${icon.name}.svg'`;
 
       navigator.clipboard.writeText(code);
     };
@@ -273,7 +273,9 @@ export const Duotone = {
                 </div>
 
                 <div class="svg">
-                  ${unsafeSVG(require(`../svg/duotone/${icon.name}.svg`))}
+                  ${unsafeSVG(
+                    require(`../svg/duotone/${args.size}/${icon.name}.svg`)
+                  )}
                 </div>
 
                 <div class="icon-path kd-type--ui-03">

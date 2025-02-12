@@ -3,7 +3,6 @@ const config = {
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
 
   addons: [
-    '@storybook/addon-webpack5-compiler-swc',
     '@storybook/addon-links',
     '@storybook/addon-essentials',
     '@storybook/addon-themes',
@@ -52,7 +51,8 @@ const config = {
         },
       },
     },
-    '@storybook/addon-mdx-gfm'
+    '@storybook/addon-mdx-gfm',
+    '@storybook/addon-webpack5-compiler-babel',
   ],
 
   framework: {
@@ -66,6 +66,6 @@ const config = {
 
   staticDirs: ['./static', '../src/svg/'],
 
-  docs: {}
+  docs: {},
 };
 export default config;

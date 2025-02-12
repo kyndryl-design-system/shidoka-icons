@@ -38,10 +38,10 @@ _Example only, refer to loader documentation._
 
 ```js
 // monochrome. 4 sizes available: 16, 20, 24, 32
-import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/32/<icon-name>.svg';
+import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/<size>/<icon-name>.svg';
 
-// duotone. one size available (48)
-import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/<icon-name>.svg';
+// duotone. one size available (48, 64, 96)
+import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/<size>/<icon-name>.svg';
 ```
 
 ### Render the Icon
