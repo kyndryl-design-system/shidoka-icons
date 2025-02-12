@@ -343,6 +343,13 @@
     "duotone": false
   },
   {
+    "name": "chat-history",
+    "friendly_name": "Chat History",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "check",
     "friendly_name": "Check",
     "category": "Functional",
