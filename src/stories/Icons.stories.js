@@ -134,7 +134,7 @@ export const Monochrome = {
                 `
               : null}
 
-            <kd-card>
+            <kyn-card>
               <div class="icon">
                 <div class="icon-name kd-type--ui-04">
                   ${icon.friendly_name}
@@ -158,7 +158,7 @@ export const Monochrome = {
                   </button>
                 </div>
               </div>
-            </kd-card>
+            </kyn-card>
           `;
         })}
       </div>
@@ -266,7 +266,7 @@ export const Duotone = {
                 `
               : null}
 
-            <kd-card>
+            <kyn-card>
               <div class="icon">
                 <div class="icon-name kd-type--ui-04">
                   ${icon.friendly_name}
@@ -290,7 +290,7 @@ export const Duotone = {
                   </button>
                 </div>
               </div>
-            </kd-card>
+            </kyn-card>
           `;
         })}
       </div>

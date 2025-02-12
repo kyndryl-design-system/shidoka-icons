@@ -13,7 +13,7 @@
   gap: 16px;
 }
 
-kd-card {
+kyn-card {
   width: 180px;
   height: 180px;
 }
@@ -43,7 +43,7 @@ kd-card {
   display: flex;
   gap: 8px;
 
-  kd-card:hover & {
+  kyn-card:hover & {
     opacity: 1;
   }
 }
