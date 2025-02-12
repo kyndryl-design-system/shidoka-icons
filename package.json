@@ -21,7 +21,7 @@
     "manifest": "cd src/manifest; sh icons.sh"
   },
   "dependencies": {
-    "@kyndryl-design-system/shidoka-foundation": "^2.0.0-next.43"
+    "@kyndryl-design-system/shidoka-foundation": "^2.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.26.0",
