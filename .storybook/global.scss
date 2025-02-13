@@ -67,8 +67,8 @@ kd-card {
   gap: 16px;
   position: sticky;
   top: 0;
-  background: var(--kd-color-page-bg);
-  outline: 1px solid var(--kd-color-page-bg);
+  background: var(--kd-color-background-ui-default);
+  outline: 1px solid var(--kd-color-background-ui-default);
   z-index: 1;
   padding: 8px 0;
 }
