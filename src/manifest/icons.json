@@ -1141,6 +1141,13 @@
     "duotone": true
   },
   {
+    "name": "gtm-product",
+    "friendly_name": "Gtm Product",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "hamburger-menu",
     "friendly_name": "Hamburger Menu",
     "category": "Functional",
@@ -1848,8 +1855,22 @@
     "duotone": false
   },
   {
+    "name": "thumbs-down-filled",
+    "friendly_name": "Thumbs Down Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "thumbs-up",
     "friendly_name": "Thumbs Up",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "thumbs-up-filled",
+    "friendly_name": "Thumbs Up Filled",
     "category": "Functional",
     "aliases": [],
     "duotone": false
