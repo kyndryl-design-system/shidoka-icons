@@ -1,5 +1,7 @@
 # Shidoka Icons
 
+[![Release](https://github.com/kyndryl-design-system/shidoka-icons/actions/workflows/release.yml/badge.svg)](https://github.com/kyndryl-design-system/shidoka-icons/actions/workflows/release.yml)
+
 ## Contributing
 
 Read the [Contributing Guide](CONTRIBUTING.md) here.
