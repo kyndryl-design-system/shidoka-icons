@@ -12,6 +12,10 @@ Read the [Contributing Guide](CONTRIBUTING.md) here.
 npm install -S @kyndryl-design-system/shidoka-icons
 ```
 
+### Set a color scheme
+
+More info on color schemes in the [Foundation Storybook](https://shidoka-foundation.netlify.app/?path=/docs/foundation-colors--docs#setting-a-theme).
+
 ### Set up an SVG Inline Loader
 
 Below is a list of links to some loaders that should work for most projects:
