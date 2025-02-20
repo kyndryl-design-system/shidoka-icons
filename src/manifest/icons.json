@@ -1813,6 +1813,20 @@
     "duotone": false
   },
   {
+    "name": "tag-definitions",
+    "friendly_name": "Tag Definitions",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "tag-repository",
+    "friendly_name": "Tag Repository",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "tags",
     "friendly_name": "Tags",
     "category": "Functional",
