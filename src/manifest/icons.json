@@ -189,6 +189,55 @@
     "duotone": false
   },
   {
+    "name": "box",
+    "friendly_name": "Box",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "box-add",
+    "friendly_name": "Box Add",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "box-delete",
+    "friendly_name": "Box Delete",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "box-empty",
+    "friendly_name": "Box Empty",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "box-search",
+    "friendly_name": "Box Search",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "box-stacked",
+    "friendly_name": "Box Stacked",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "box-task",
+    "friendly_name": "Box Task",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "branch",
     "friendly_name": "Branch",
     "category": "Functional",
@@ -1426,6 +1475,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "operations-catalog",
+    "friendly_name": "Operations Catalog",
+    "category": "Gateway",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "operations-record",
