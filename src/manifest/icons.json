@@ -42,6 +42,13 @@
     "duotone": true
   },
   {
+    "name": "accounts",
+    "friendly_name": "Accounts",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "add",
     "friendly_name": "Add",
     "category": "Functional",
@@ -247,6 +254,13 @@
   {
     "name": "bug",
     "friendly_name": "Bug",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "business-consulting",
+    "friendly_name": "Business Consulting",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -604,6 +618,13 @@
   {
     "name": "consultation",
     "friendly_name": "Consultation",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "content-builder",
+    "friendly_name": "Content Builder",
     "category": "Functional",
     "aliases": [],
     "duotone": false
