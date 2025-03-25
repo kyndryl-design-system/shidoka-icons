@@ -70,6 +70,27 @@
     "duotone": false
   },
   {
+    "name": "ai-external",
+    "friendly_name": "Ai External",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "ai-internal",
+    "friendly_name": "Ai Internal",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "ai-seasonality",
+    "friendly_name": "Ai Seasonality",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "analytics",
     "friendly_name": "Analytics",
     "category": "Functional",
@@ -235,7 +256,7 @@
     "friendly_name": "Box Stacked",
     "category": "Functional",
     "aliases": [],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "box-task",
@@ -602,6 +623,13 @@
     "duotone": false
   },
   {
+    "name": "conditional-insights",
+    "friendly_name": "Conditional Insights",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "connect",
     "friendly_name": "Connect",
     "category": "Functional",
@@ -826,6 +854,20 @@
     "duotone": false
   },
   {
+    "name": "document-doc",
+    "friendly_name": "Document Doc",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-docx",
+    "friendly_name": "Document Docx",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-download",
     "friendly_name": "Document Download",
     "category": "Functional",
@@ -847,8 +889,43 @@
     "duotone": false
   },
   {
+    "name": "document-jpg",
+    "friendly_name": "Document Jpg",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-no-access",
     "friendly_name": "Document No Access",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-pdf",
+    "friendly_name": "Document Pdf",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-png",
+    "friendly_name": "Document Png",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-ppt",
+    "friendly_name": "Document Ppt",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-pptx",
+    "friendly_name": "Document Pptx",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -905,6 +982,20 @@
   {
     "name": "document-warning",
     "friendly_name": "Document Warning",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-xls",
+    "friendly_name": "Document Xls",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-xlsx",
+    "friendly_name": "Document Xlsx",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1157,6 +1248,13 @@
   {
     "name": "folder-warning",
     "friendly_name": "Folder Warning",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "folders",
+    "friendly_name": "Folders",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1453,7 +1551,7 @@
     "friendly_name": "News",
     "category": "Functional",
     "aliases": [],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "no-access",
@@ -2105,5 +2203,12 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "yaml-generator",
+    "friendly_name": "Yaml Generator",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   }
 ]
