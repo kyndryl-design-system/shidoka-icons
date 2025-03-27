@@ -19,4 +19,14 @@ const copyPackagejson = () => {
   return gulp.src('package.json').pipe(gulp.dest('dist'));
 };
 
-exports.default = gulp.series(clear, copy, copyReadme, copyPackagejson);
+const copyLicense = () => {
+  return gulp.src('LICENSE').pipe(gulp.dest('dist'));
+};
+
+exports.default = gulp.series(
+  clear,
+  copy,
+  copyReadme,
+  copyPackagejson,
+  copyLicense
+);

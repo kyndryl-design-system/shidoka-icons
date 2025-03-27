@@ -2,6 +2,7 @@
   "name": "@kyndryl-design-system/shidoka-icons",
   "version": "0.0.0-semantic-release",
   "description": "Shidoka Icons",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/kyndryl-design-system/shidoka-icons.git"
