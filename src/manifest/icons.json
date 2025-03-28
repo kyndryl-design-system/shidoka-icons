@@ -1827,6 +1827,13 @@
     "duotone": false
   },
   {
+    "name": "region-selector",
+    "friendly_name": "Region Selector",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "report-data",
     "friendly_name": "Report Data",
     "category": "Functional",
