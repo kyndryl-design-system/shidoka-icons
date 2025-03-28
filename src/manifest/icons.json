@@ -322,6 +322,13 @@
     "duotone": false
   },
   {
+    "name": "capture",
+    "friendly_name": "Capture",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "caret-double",
     "friendly_name": "Caret Double",
     "category": "Functional",
@@ -714,6 +721,13 @@
     "duotone": false
   },
   {
+    "name": "crop",
+    "friendly_name": "Crop",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "cube",
     "friendly_name": "Cube",
     "category": "Functional",
@@ -723,6 +737,13 @@
   {
     "name": "currency",
     "friendly_name": "Currency",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "current-view",
+    "friendly_name": "Current View",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1048,6 +1069,13 @@
     "category": "Gateway",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "erase",
+    "friendly_name": "Erase",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "error",
@@ -1449,6 +1477,13 @@
     "duotone": true
   },
   {
+    "name": "line",
+    "friendly_name": "Line",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "list",
     "friendly_name": "List",
     "category": "Functional",
@@ -1638,6 +1673,13 @@
     "duotone": true
   },
   {
+    "name": "pen",
+    "friendly_name": "Pen",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "personalization-policies",
     "friendly_name": "Personalization Policies",
     "category": "Functional",
@@ -1757,6 +1799,13 @@
     "duotone": false
   },
   {
+    "name": "redo",
+    "friendly_name": "Redo",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "reference-architecture",
     "friendly_name": "Reference Architecture",
     "category": "Functional",
@@ -1766,6 +1815,20 @@
   {
     "name": "refresh",
     "friendly_name": "Refresh",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "region",
+    "friendly_name": "Region",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "region-selector",
+    "friendly_name": "Region Selector",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1939,6 +2002,13 @@
     "duotone": false
   },
   {
+    "name": "square",
+    "friendly_name": "Square",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "square-filled",
     "friendly_name": "Square Filled",
     "category": "Functional",
@@ -2037,6 +2107,13 @@
     "duotone": true
   },
   {
+    "name": "text",
+    "friendly_name": "Text",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "thumbs-down",
     "friendly_name": "Thumbs Down",
     "category": "Functional",
@@ -2119,6 +2196,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "undo",
+    "friendly_name": "Undo",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "unlock",
@@ -2207,6 +2291,20 @@
   {
     "name": "yaml-generator",
     "friendly_name": "Yaml Generator",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "zoom-in",
+    "friendly_name": "Zoom In",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "zoom-out",
+    "friendly_name": "Zoom Out",
     "category": "Functional",
     "aliases": [],
     "duotone": false
