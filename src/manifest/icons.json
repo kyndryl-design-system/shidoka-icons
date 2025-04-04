@@ -70,6 +70,13 @@
     "duotone": false
   },
   {
+    "name": "administration",
+    "friendly_name": "Administration",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "ai-external",
     "friendly_name": "Ai External",
     "category": "Functional",
@@ -665,6 +672,48 @@
     "duotone": false
   },
   {
+    "name": "control-pause",
+    "friendly_name": "Control Pause",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "control-pause-filled",
+    "friendly_name": "Control Pause Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "control-play",
+    "friendly_name": "Control Play",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "control-play-filled",
+    "friendly_name": "Control Play Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "control-stop",
+    "friendly_name": "Control Stop",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "control-stop-filled",
+    "friendly_name": "Control Stop Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "control-tower",
     "friendly_name": "Control Tower",
     "category": "Functional",
@@ -779,6 +828,20 @@
   {
     "name": "data-check",
     "friendly_name": "Data Check",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "data-filter",
+    "friendly_name": "Data Filter",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "data-search",
+    "friendly_name": "Data Search",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1358,6 +1421,20 @@
     "duotone": true
   },
   {
+    "name": "high",
+    "friendly_name": "High",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "high-filled",
+    "friendly_name": "High Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "history",
     "friendly_name": "History",
     "category": "Functional",
@@ -1507,6 +1584,20 @@
   {
     "name": "log-out",
     "friendly_name": "Log Out",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "low",
+    "friendly_name": "Low",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "low-filled",
+    "friendly_name": "Low Filled",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2011,6 +2102,20 @@
   {
     "name": "square-filled",
     "friendly_name": "Square Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "squiggle",
+    "friendly_name": "Squiggle",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "squiggle-thick",
+    "friendly_name": "Squiggle Thick",
     "category": "Functional",
     "aliases": [],
     "duotone": false
