@@ -1743,6 +1743,13 @@
     "duotone": true
   },
   {
+    "name": "organizational-structure",
+    "friendly_name": "Organizational Structure",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "overflow",
     "friendly_name": "Overflow",
     "category": "Functional",
