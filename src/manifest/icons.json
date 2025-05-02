@@ -868,6 +868,13 @@
     "duotone": false
   },
   {
+    "name": "deployment",
+    "friendly_name": "Deployment",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "developer-console",
     "friendly_name": "Developer Console",
     "category": "Functional",
@@ -1806,6 +1813,13 @@
     "duotone": true
   },
   {
+    "name": "planning",
+    "friendly_name": "Planning",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "platform",
     "friendly_name": "Platform",
     "category": "Functional",
@@ -1941,6 +1955,13 @@
   {
     "name": "robot",
     "friendly_name": "Robot",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "rocket",
+    "friendly_name": "Rocket",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2217,6 +2238,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "testing",
+    "friendly_name": "Testing",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "text",
