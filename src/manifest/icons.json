@@ -1485,7 +1485,7 @@
   },
   {
     "name": "inactive",
-    "friendly_name": "In Active",
+    "friendly_name": "InActive",
     "category": "Functional",
     "aliases": [],
     "duotone": false
