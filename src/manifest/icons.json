@@ -1386,6 +1386,13 @@
     "duotone": false
   },
   {
+    "name": "globe-2",
+    "friendly_name": "Globe 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "go-to-market",
     "friendly_name": "Go To Market",
     "category": "Gateway",
@@ -1472,6 +1479,13 @@
   {
     "name": "id-management",
     "friendly_name": "Id Management",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "inactive",
+    "friendly_name": "InActive",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2382,6 +2396,13 @@
   {
     "name": "user-settings",
     "friendly_name": "User Settings",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "verification-in-progress",
+    "friendly_name": "Verification In Progress",
     "category": "Functional",
     "aliases": [],
     "duotone": false
