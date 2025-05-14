@@ -2205,8 +2205,8 @@
     "duotone": true
   },
   {
-    "name": "system-environment",
-    "friendly_name": "System Environment",
+    "name": "system-enviroment",
+    "friendly_name": "System Enviroment",
     "category": "Functional",
     "aliases": [],
     "duotone": true
