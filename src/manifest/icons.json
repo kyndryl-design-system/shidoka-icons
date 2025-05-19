@@ -2135,6 +2135,13 @@
     "duotone": false
   },
   {
+    "name": "split",
+    "friendly_name": "Split",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "square",
     "friendly_name": "Square",
     "category": "Functional",
@@ -2193,6 +2200,13 @@
   {
     "name": "support",
     "friendly_name": "Support",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "system-enviroment",
+    "friendly_name": "System Enviroment",
     "category": "Functional",
     "aliases": [],
     "duotone": true
