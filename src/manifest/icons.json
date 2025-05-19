@@ -952,8 +952,22 @@
     "duotone": false
   },
   {
+    "name": "document-doc-2",
+    "friendly_name": "Document Doc 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-docx",
     "friendly_name": "Document Docx",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-docx-2",
+    "friendly_name": "Document Docx 2",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -987,6 +1001,13 @@
     "duotone": false
   },
   {
+    "name": "document-jpg-2",
+    "friendly_name": "Document Jpg 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-no-access",
     "friendly_name": "Document No Access",
     "category": "Functional",
@@ -1001,8 +1022,22 @@
     "duotone": false
   },
   {
+    "name": "document-pdf-2",
+    "friendly_name": "Document Pdf 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-png",
     "friendly_name": "Document Png",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-png-2",
+    "friendly_name": "Document Png 2",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1015,8 +1050,22 @@
     "duotone": false
   },
   {
+    "name": "document-ppt-2",
+    "friendly_name": "Document Ppt 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-pptx",
     "friendly_name": "Document Pptx",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-pptx-2",
+    "friendly_name": "Document Pptx 2",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1085,8 +1134,22 @@
     "duotone": false
   },
   {
+    "name": "document-xls-2",
+    "friendly_name": "Document Xls 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-xlsx",
     "friendly_name": "Document Xlsx",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-xlsx-2",
+    "friendly_name": "Document Xlsx 2",
     "category": "Functional",
     "aliases": [],
     "duotone": false
