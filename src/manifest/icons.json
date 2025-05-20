@@ -2272,7 +2272,7 @@
     "friendly_name": "System Enviroment",
     "category": "Functional",
     "aliases": [],
-    "duotone": true
+    "duotone": false
   },
   {
     "name": "table-view",
