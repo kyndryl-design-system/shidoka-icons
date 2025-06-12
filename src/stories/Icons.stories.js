@@ -1,10 +1,11 @@
 import { html } from 'lit';
-import { useArgs } from 'storybook/preview-api';
+import { useArgs, useEffect } from 'storybook/preview-api';
 import { unsafeSVG } from 'lit-html/directives/unsafe-svg.js';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/card';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/textInput';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/dropdown';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/toggleButton';
+import '@kyndryl-design-system/shidoka-applications/components/reusable/loaders';
 import Icons from '../manifest/icons.json';
 
 import copy from '../svg/monochrome/16/copy.svg?raw';
@@ -46,23 +47,34 @@ export default {
       options: [16, 20, 24, 32],
       control: { type: 'select' },
     },
+    svgs: {
+      table: {
+        disable: true,
+      },
+    },
+    loaded: {
+      table: {
+        disable: true,
+      },
+      control: false,
+    },
   },
 };
 
-async function getIconFiles(type = 'monochrome', size = 32) {
+async function getIconFiles(size = 32, type = 'monochrome') {
   const svgs = {};
   const icons = Icons.filter((icon) =>
     type === 'duotone' ? icon.duotone : true
   );
 
-  await Promise.all(
+  return await Promise.all(
     icons.map(async (icon) => {
       const svg = await import(`../svg/${type}/${size}/${icon.name}.svg?raw`);
       svgs[icon.name] = svg.default;
     })
-  );
-
-  return svgs;
+  ).then(() => {
+    return svgs;
+  });
 }
 
 export const Monochrome = {
@@ -71,15 +83,20 @@ export const Monochrome = {
     searchTerm: '',
     size: 32,
     color: 'currentColor',
+    svgs: {},
+    loaded: false,
   },
-  loaders: [
-    async () => ({
-      svgs: await getIconFiles(),
-    }),
-  ],
-  render: (args, { loaded: { svgs } }) => {
+  render: (args) => {
     let currentCategory;
-    const [{ searchTerm, size }, updateArgs] = useArgs();
+    const [{ searchTerm, size, svgs }, updateArgs] = useArgs();
+
+    useEffect(() => {
+      updateArgs({ loaded: false });
+
+      getIconFiles(size, 'monochrome').then((result) => {
+        updateArgs({ svgs: result, loaded: true });
+      });
+    }, [size]);
 
     const handleSearch = (e) => {
       updateArgs({ searchTerm: e.detail.value });
@@ -119,11 +136,6 @@ export const Monochrome = {
       <style>
         .icons .svg {
           color: ${args.color};
-        }
-
-        .icons.monochrome .svg svg {
-          width: ${args.size}px;
-          height: ${args.size}px;
         }
       </style>
 
@@ -166,7 +178,16 @@ export const Monochrome = {
                   ${icon.friendly_name}
                 </div>
 
-                <div class="svg">${unsafeSVG(svgs[icon.name])}</div>
+                <div class="svg">
+                  ${args.loaded
+                    ? unsafeSVG(svgs[icon.name])
+                    : html`
+                        <kyn-skeleton
+                          width="${args.size}px"
+                          height="${args.size}px"
+                        ></kyn-skeleton>
+                      `}
+                </div>
 
                 <div class="icon-path kd-type--ui-03">
                   ${icon.name}
@@ -201,15 +222,20 @@ export const Duotone = {
     searchTerm: '',
     primaryColor: 'var(--kd-color-icon-duotone-primary)',
     secondaryColor: 'var(--kd-color-icon-duotone-secondary)',
+    svgs: {},
+    loaded: false,
   },
-  loaders: [
-    async () => ({
-      svgs: await getIconFiles('duotone', 48),
-    }),
-  ],
-  render: (args, { loaded: { svgs } }) => {
+  render: (args) => {
     let currentCategory;
-    const [{ searchTerm }, updateArgs] = useArgs();
+    const [{ searchTerm, size, svgs }, updateArgs] = useArgs();
+
+    useEffect(() => {
+      updateArgs({ loaded: false });
+
+      getIconFiles(size, 'duotone').then((result) => {
+        updateArgs({ svgs: result, loaded: true });
+      });
+    }, [size]);
 
     const handleSearch = (e) => {
       updateArgs({ searchTerm: e.detail.value });
@@ -251,11 +277,6 @@ export const Duotone = {
 
     return html`
       <style>
-        .icons.duotone .svg svg {
-          width: ${args.size}px;
-          height: ${args.size}px;
-        }
-
         .icons svg .primary {
           fill: ${args.primaryColor};
         }
@@ -304,7 +325,16 @@ export const Duotone = {
                   ${icon.friendly_name}
                 </div>
 
-                <div class="svg">${unsafeSVG(svgs[icon.name])}</div>
+                <div class="svg">
+                  ${args.loaded
+                    ? unsafeSVG(svgs[icon.name])
+                    : html`
+                        <kyn-skeleton
+                          width="${args.size}px"
+                          height="${args.size}px"
+                        ></kyn-skeleton>
+                      `}
+                </div>
 
                 <div class="icon-path kd-type--ui-03">
                   ${icon.name}
