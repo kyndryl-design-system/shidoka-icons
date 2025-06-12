@@ -1,7 +1,7 @@
 import './global.scss?global';
 import { withThemeByDataAttribute } from '@storybook/addon-themes';
 
-/** @type { import('@storybook/web-components').Preview } */
+/** @type { import('@storybook/web-components-vite').Preview } */
 const preview = {
   parameters: {
     controls: {
