@@ -140,6 +140,13 @@
     "duotone": true
   },
   {
+    "name": "approval-request",
+    "friendly_name": "Approval Request",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "arrow-down",
     "friendly_name": "Arrow Down",
     "category": "Functional",
@@ -574,6 +581,13 @@
     "duotone": false
   },
   {
+    "name": "cluster",
+    "friendly_name": "Cluster",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "cloud-download",
     "friendly_name": "Cloud Download",
     "category": "Functional",
@@ -688,6 +702,20 @@
   {
     "name": "control-play",
     "friendly_name": "Control Play",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "control-resume",
+    "friendly_name": "Control Resume",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "control-resume-filled",
+    "friendly_name": "Control Resume Filled",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1463,6 +1491,13 @@
     "duotone": true
   },
   {
+    "name": "grid",
+    "friendly_name": "Grid",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "group",
     "friendly_name": "Group",
     "category": "Functional",
@@ -1953,6 +1988,13 @@
     "duotone": false
   },
   {
+    "name": "publish",
+    "friendly_name": "Publish",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "question",
     "friendly_name": "Question",
     "category": "Functional",
@@ -2198,8 +2240,8 @@
     "duotone": false
   },
   {
-    "name": "split",
-    "friendly_name": "Split",
+    "name": "reorder",
+    "friendly_name": "Reorder",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2443,6 +2485,13 @@
     "duotone": false
   },
   {
+    "name": "unpublish",
+    "friendly_name": "UnPublish",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "update",
     "friendly_name": "Update",
     "category": "Functional",
@@ -2513,6 +2562,13 @@
     "duotone": false
   },
   {
+    "name": "widget-builder",
+    "friendly_name": "Widget Builder",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "workbench",
     "friendly_name": "Workbench",
     "category": "Functional",
@@ -2525,6 +2581,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "workload",
+    "friendly_name": "Workload",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "yaml-generator",
@@ -2543,6 +2606,13 @@
   {
     "name": "zoom-out",
     "friendly_name": "Zoom Out",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "zoom-reset",
+    "friendly_name": "Zoom Reset",
     "category": "Functional",
     "aliases": [],
     "duotone": false
