@@ -12,7 +12,7 @@ import copy from '../svg/monochrome/16/copy.svg?raw';
 import search from '../svg/monochrome/24/search.svg?raw';
 
 const sortIcons = (icons) => {
-  // sort by name
+  // sort by name 
   const sortedIcons = icons.sort(function (a, b) {
     return a.name.localeCompare(b.name);
   });
