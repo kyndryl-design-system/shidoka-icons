@@ -147,8 +147,22 @@
     "duotone": false
   },
   {
+    "name": "arrow-down-thick",
+    "friendly_name": "Arrow Down Thick",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "arrow-down",
     "friendly_name": "Arrow Down",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "arrow-left-thick",
+    "friendly_name": "Arrow Left Thick",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -161,8 +175,22 @@
     "duotone": false
   },
   {
+    "name": "arrow-right-thick",
+    "friendly_name": "Arrow Right Thick",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "arrow-right",
     "friendly_name": "Arrow Right",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "arrow-up-thick",
+    "friendly_name": "Arrow Up Thick",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -175,8 +203,22 @@
     "duotone": false
   },
   {
+    "name": "arrow-up-left-thick",
+    "friendly_name": "Arrow Up Left Thick",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "arrow-up-left",
     "friendly_name": "Arrow Up Left",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "arrow-up-right-thick",
+    "friendly_name": "Arrow Up Right Thick",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1673,6 +1715,13 @@
     "duotone": true
   },
   {
+    "name": "line-thick",
+    "friendly_name": "Line Thick",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "line",
     "friendly_name": "Line",
     "category": "Functional",
@@ -1906,6 +1955,13 @@
   {
     "name": "piggy-bank",
     "friendly_name": "Piggy Bank",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "pin-filled",
+    "friendly_name": "Pin Filled",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2375,6 +2431,13 @@
   {
     "name": "testing",
     "friendly_name": "Testing",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "text-small",
+    "friendly_name": "Text Small",
     "category": "Functional",
     "aliases": [],
     "duotone": false
