@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" fill="none" viewBox="0 0 96 96">
+  <g class="Size=L">
+    <g class="Icon">
+      <path fill="#3D3C3C" d="M86 48c0-20.987-17.013-38-38-38S10 27.013 10 48s17.013 38 38 38 38-17.013 38-38Zm2 0c0 22.091-17.909 40-40 40S8 70.091 8 48 25.909 8 48 8s40 17.909 40 40Z" class="primary"/>
+      <path fill="#FF462D" d="M48 8c22.091 0 40 17.909 40 40a1 1 0 0 1-1 1H49a2 2 0 0 1-2-2V9a1 1 0 0 1 1-1Zm1 39h36.986C85.465 26.808 69.192 10.534 49 10.013V47Z" class="secondary"/>
+    </g>
+  </g>
+</svg>
