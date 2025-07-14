@@ -1,6 +1,7 @@
 import { html } from 'lit';
 import { useArgs, useEffect } from 'storybook/preview-api';
 import { unsafeSVG } from 'lit-html/directives/unsafe-svg.js';
+import copyToClipboard from 'copy-to-clipboard';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/card';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/textInput';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/dropdown';
@@ -128,8 +129,7 @@ export const Monochrome = {
 
     const copyCode = (icon) => {
       const code = `import iconName from '@kyndryl-design-system/shidoka-icons/svg/monochrome/${args.size}/${icon.name}.svg'`;
-
-      navigator.clipboard.writeText(code);
+      copyToClipboard(code);
     };
 
     return html`
@@ -271,8 +271,7 @@ export const Duotone = {
 
     const copyCode = (icon) => {
       const code = `import iconName from '@kyndryl-design-system/shidoka-icons/svg/duotone/${args.size}/${icon.name}.svg'`;
-
-      navigator.clipboard.writeText(code);
+      copyToClipboard(code);
     };
 
     return html`
