@@ -7,6 +7,13 @@
     "duotone": true
   },
   {
+    "name": "AIOps-docs",
+    "friendly_name": "AIOps Docs",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "API",
     "friendly_name": "API",
     "category": "Functional",
@@ -47,6 +54,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": false
+  },
+  {
+    "name": "actionable-insights",
+    "friendly_name": "Actionable Insights",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
   },
   {
     "name": "add",
@@ -469,11 +483,102 @@
     "duotone": false
   },
   {
+    "name": "chart-area",
+    "friendly_name": "Chart Area",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-bar-horizontal",
+    "friendly_name": "Chart Bar Horizontal",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-bar-vertical",
+    "friendly_name": "Chart Bar Vertical",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-box-horizontal",
+    "friendly_name": "Chart Box Horizontal",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-box-vertical",
+    "friendly_name": "Chart Box Vertical",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-combo",
+    "friendly_name": "Chart Combo",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-curve",
+    "friendly_name": "Chart Curve",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-donut",
+    "friendly_name": "Chart Donut",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-line",
+    "friendly_name": "Chart Line",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-meter",
+    "friendly_name": "Chart Meter",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "chart-pie",
     "friendly_name": "Chart Pie",
     "category": "Functional",
     "aliases": [],
-    "duotone": false
+    "duotone": true
+  },
+  {
+    "name": "chart-tree-map",
+    "friendly_name": "Chart Tree Map",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-violin-horizontal",
+    "friendly_name": "Chart Violin Horizontal",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-violin-vertical",
+    "friendly_name": "Chart Violin Vertical",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
   },
   {
     "name": "chat",
@@ -712,6 +817,14 @@
     "category": "Gateway",
     "aliases": [],
     "duotone": true
+  },
+
+  {
+    "name": "consultation-2",
+    "friendly_name": "Consultation 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "consultation",
@@ -1267,6 +1380,20 @@
     "duotone": false
   },
   {
+    "name": "education",
+    "friendly_name": "Education",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "enterprise-catalog",
+    "friendly_name": "Enterprise Catalog",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "enterprise-marketplace",
     "friendly_name": "Enterprise Marketplace",
     "category": "Gateway",
@@ -1506,7 +1633,14 @@
   },
   {
     "name": "gender-male",
-    "friendly_name": "Gender male",
+    "friendly_name": "Gender Male",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "github-docs",
+    "friendly_name": "Github Docs",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1673,6 +1807,13 @@
     "duotone": true
   },
   {
+    "name": "intranet",
+    "friendly_name": "Intranet",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "key",
     "friendly_name": "Key",
     "category": "Functional",
@@ -1719,7 +1860,7 @@
     "friendly_name": "Line Thick",
     "category": "Functional",
     "aliases": [],
-    "duotone": true
+    "duotone": false
   },
   {
     "name": "line",
@@ -2123,6 +2264,13 @@
   {
     "name": "report-data",
     "friendly_name": "Report Data",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "repository",
+    "friendly_name": "Repository",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2532,6 +2680,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "training",
+    "friendly_name": "Training",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "undo",
