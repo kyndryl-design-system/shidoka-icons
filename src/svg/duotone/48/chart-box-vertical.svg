@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48">
+  <g class="Size=S">
+    <g class="Icon">
+      <path fill="#3D3C3C" d="M35 42a1 1 0 1 1 0-2h2v-3h-4a1 1 0 0 1-1-1V12a1 1 0 0 1 1-1h4V8h-2a1 1 0 1 1 0-2h6a1 1 0 1 1 0 2h-2v3h4a1 1 0 0 1 1 1v24a1 1 0 0 1-1 1h-4v3h2a1 1 0 1 1 0 2h-6ZM24 16a1 1 0 0 1-1-1V8h-2a1 1 0 1 1 0-2h6a1 1 0 1 1 0 2h-2v7a1 1 0 0 1-1 1ZM7 42a1 1 0 1 1 0-2h2v-6H5a1 1 0 0 1-1-1V15a1 1 0 0 1 1-1h4V8H7a1 1 0 0 1 0-2h6a1 1 0 1 1 0 2h-2v6h4a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1h-4v6h2a1 1 0 1 1 0 2H7Zm35-29h-8v22h8V13Zm-28 3H6v16h8V16Zm7 26a1 1 0 1 1 0-2h2V29a1 1 0 1 1 2 0v11h2a1 1 0 1 1 0 2h-6Z" class="primary"/>
+      <path fill="#FF462D" d="M29 14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H19a1 1 0 0 1-1-1V15a1 1 0 0 1 1-1h10Zm-9 14h8V16h-8v12Z" class="secondary"/>
+    </g>
+  </g>
+</svg>

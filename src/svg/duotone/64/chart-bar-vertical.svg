@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+  <g class="Size=M">
+    <g class="Icon">
+      <path fill="#FF462D" d="M55 7a1 1 0 0 1 1 1v48a1 1 0 0 1-1 1H44a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h11ZM45 55h9V9h-9v46Z" class="secondary"/>
+      <path fill="#3D3C3C" d="M37 18a1 1 0 0 1 1 1v36h20a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2h2V27a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v28h5V19a1 1 0 0 1 1-1h10ZM10 55h9V28h-9v27Zm18 0h8V20h-8v35Z" class="primary"/>
+    </g>
+  </g>
+</svg>
