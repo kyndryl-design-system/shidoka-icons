@@ -21,6 +21,13 @@
     "duotone": false
   },
   {
+    "name": "application-centric-infrastructure",
+    "friendly_name": "Application Centric Infrastructure",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "ID",
     "friendly_name": "ID",
     "category": "Functional",
@@ -1814,6 +1821,13 @@
     "duotone": false
   },
   {
+    "name": "IT-infrastructure",
+    "friendly_name": "IT Infrastructure",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "key",
     "friendly_name": "Key",
     "category": "Functional",
@@ -1931,6 +1945,20 @@
     "category": "Gateway",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "medium-filled",
+    "friendly_name": "Medium Filled",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "medium",
+    "friendly_name": "Medium",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "megaphone",
@@ -2652,6 +2680,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": false
+  },
+  {
+    "name": "topology",
+    "friendly_name": "Topology",
+    "category": "Gateway",
+    "aliases": [],
+    "duotone": true
   },
   {
     "name": "tool-kit",
