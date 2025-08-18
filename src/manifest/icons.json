@@ -524,6 +524,13 @@
     "aliases": [],
     "duotone": true
   },
+   {
+    "name": "chart-bubble",
+    "friendly_name": "Chart Bubble",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
   {
     "name": "chart-combo",
     "friendly_name": "Chart Combo",
@@ -546,6 +553,27 @@
     "duotone": true
   },
   {
+    "name": "chart-grouped-bar-horizontal",
+    "friendly_name": "Chart Grouped Bar Horizontal",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-grouped-bar-vertical",
+    "friendly_name": "Chart Grouped Bar Vertical",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-histogram",
+    "friendly_name": "Chart Histogram",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "chart-line",
     "friendly_name": "Chart Line",
     "category": "Functional",
@@ -562,6 +590,41 @@
   {
     "name": "chart-pie",
     "friendly_name": "Chart Pie",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-scatter",
+    "friendly_name": "Chart Scatter",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-sorted-bar-horizontal",
+    "friendly_name": "Chart Sorted Bar Horizontal",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-sorted-bar-vertical",
+    "friendly_name": "Chart Sorted Bar Vertical",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-stacked-bar-horizontal",
+    "friendly_name": "Chart Stacked Bar Horizontal",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
+    "name": "chart-stacked-bar-vertical",
+    "friendly_name": "Chart Stacked Bar Vertical",
     "category": "Functional",
     "aliases": [],
     "duotone": true
@@ -1646,6 +1709,13 @@
     "duotone": false
   },
   {
+    "name": "generative-ai",
+    "friendly_name": "Generative AI",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "github-docs",
     "friendly_name": "Github Docs",
     "category": "Functional",
@@ -1821,6 +1891,13 @@
     "duotone": false
   },
   {
+    "name": "inventory",
+    "friendly_name": "Inventory",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "IT-infrastructure",
     "friendly_name": "IT Infrastructure",
     "category": "Functional",
@@ -1833,6 +1910,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "know-your-customer",
+    "friendly_name": "Know Your Customer",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "key-add",
@@ -1907,6 +1991,13 @@
   {
     "name": "log-out",
     "friendly_name": "Log Out",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "logging",
+    "friendly_name": "Logging",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2516,6 +2607,13 @@
   {
     "name": "substract",
     "friendly_name": "Substract",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "sunrise-insights",
+    "friendly_name": "Sunrise Insights",
     "category": "Functional",
     "aliases": [],
     "duotone": false

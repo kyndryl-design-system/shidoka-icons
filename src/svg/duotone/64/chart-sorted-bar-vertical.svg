@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+  <g class="chart-sorted-bar-vertical">
+    <g class="Icon">
+      <path fill="#FF462D" d="M55.002 7a1 1 0 0 1 1 1v48a1 1 0 0 1-1 1h-11a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h11Zm-10 48h9V9h-9v46Z" class="secondary"/>
+      <path fill="#3D3C3C" d="M5.001 56a1 1 0 0 1 1-1h2V27a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v28h5V19a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v36h20a1 1 0 0 1 0 2h-52a1 1 0 0 1-1-1Zm31-1V20h-8v35h8Zm-17 0V28h-9v27h9Z" class="primary"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+  <g class="chart-histogram">
+    <g class="Icon">
+      <path fill="#FF462D" d="M41 7a1 1 0 0 1 1 1v48a1 1 0 0 1-1 1h-9a1 1 0 0 1-1-1V8l.005-.102A1 1 0 0 1 32 7.001h9Zm-8 48h7V9h-7v46Z" class="secondary"/>
+      <path fill="#3D3C3C" d="M31 23h-7v32h26V39h-8v-2h9a1 1 0 0 1 1 1v17h6a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2h6V38a1 1 0 0 1 1-1h9V22a1 1 0 0 1 1-1h8v2ZM14 55h8V39h-8v16Z" class="primary"/>
+    </g>
+  </g>
+</svg>
