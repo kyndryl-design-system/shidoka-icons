@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="49" fill="none" viewBox="0 0 48 49">
+  <g class="chart-bubble">
+    <g class="Icon">
+      <path fill="#FF462D" d="M33.002 29.663a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-1-26a9 9 0 1 1 0 18 9 9 0 0 1 0-18Zm0 2a7 7 0 1 0 0 14 7 7 0 0 0 0-14Z" class="secondary"/>
+      <path fill="#3D3C3C" d="M5.001 5.663a1 1 0 0 1 1 1v35h36a1 1 0 0 1 0 2h-37a1 1 0 0 1-1-1v-36a1 1 0 0 1 1-1Zm12.5 18a7.5 7.5 0 1 1 0 15 7.5 7.5 0 0 1 0-15Zm0 2a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11Zm-3.5-14a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm0 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z" class="primary"/>
+    </g>
+  </g>
+</svg>

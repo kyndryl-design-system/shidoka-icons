@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+  <g class="chart-scatter">
+    <g class="Icon">
+      <path fill="#3D3C3C" d="M7.001 6a1 1 0 0 1 1 1v48h49a1 1 0 1 1 0 2h-50a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1Zm37 33a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-8-17a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-18-7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" class="primary"/>
+      <path fill="#FF462D" d="M19.001 41a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm31-32a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z" class="secondary"/>
+    </g>
+  </g>
+</svg>
