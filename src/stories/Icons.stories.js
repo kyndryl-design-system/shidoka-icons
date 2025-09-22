@@ -154,12 +154,16 @@ export const Monochrome = {
             .includes(e.detail.value.toLowerCase())
         ) {
           returnVal = true;
-        } else {
-          icon.aliases.forEach((alias) => {
-            if (alias.toLowerCase().includes(e.detail.value.toLowerCase())) {
+        } else if (icon.aliases?.length) {
+          for (let i = 0; i < icon.aliases.length; i++) {
+            if (
+              icon.aliases[i]
+                .toLowerCase()
+                .includes(e.detail.value.toLowerCase())
+            ) {
               returnVal = true;
             }
-          });
+          }
         }
 
         return returnVal;
@@ -300,12 +304,16 @@ export const Duotone = {
             .includes(e.detail.value.toLowerCase())
         ) {
           returnVal = true;
-        } else {
-          icon.aliases.forEach((alias) => {
-            if (alias.toLowerCase().includes(e.detail.value.toLowerCase())) {
+        } else if (icon.aliases?.length) {
+          for (let i = 0; i < icon.aliases.length; i++) {
+            if (
+              icon.aliases[i]
+                .toLowerCase()
+                .includes(e.detail.value.toLowerCase())
+            ) {
               returnVal = true;
             }
-          });
+          }
         }
 
         return returnVal;
