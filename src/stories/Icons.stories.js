@@ -12,20 +12,6 @@ import Icons from '../manifest/icons.json';
 import copy from '../svg/monochrome/16/copy.svg?raw';
 import search from '../svg/monochrome/24/search.svg?raw';
 
-const sortIcons = (icons) => {
-  // sort by name 
-  const sortedIcons = icons.sort(function (a, b) {
-    return a.name.localeCompare(b.name);
-  });
-
-  // sort by category
-  sortedIcons.sort(function (a, b) {
-    return a.category.localeCompare(b.category);
-  });
-
-  return sortedIcons;
-};
-
 export default {
   title: 'Icon Library',
   parameters: {
@@ -60,6 +46,21 @@ export default {
       control: false,
     },
   },
+  decorators: [
+    (story) =>
+      html`
+        <style>
+          kyn-card {
+            visibility: hidden;
+
+            &.visible {
+              visibility: visible;
+            }
+          }
+        </style>
+        ${story()}
+      `,
+  ],
 };
 
 async function getIconFiles(size = 32, type = 'monochrome') {
@@ -78,6 +79,44 @@ async function getIconFiles(size = 32, type = 'monochrome') {
   });
 }
 
+const observer = new IntersectionObserver(
+  (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        // in viewport
+        entry.target.classList.add('visible');
+      } else {
+        // out of viewport
+        entry.target.classList.remove('visible');
+      }
+    });
+  },
+  {
+    threshold: 0,
+  }
+);
+
+const startObserving = () => {
+  observer.disconnect();
+  document.querySelectorAll('kyn-card').forEach((element) => {
+    observer.observe(element);
+  });
+  console.log(document.querySelectorAll('kyn-card'));
+};
+
+const sortIcons = (icons) => {
+  // sort by name
+  const sortedIcons = icons.sort(function (a, b) {
+    return a.name.localeCompare(b.name);
+  });
+
+  // sort by category
+  sortedIcons.sort(function (a, b) {
+    return a.category.localeCompare(b.category);
+  });
+
+  return sortedIcons;
+};
 export const Monochrome = {
   args: {
     icons: sortIcons(Icons),
@@ -98,6 +137,10 @@ export const Monochrome = {
         updateArgs({ svgs: result, loaded: true });
       });
     }, [size]);
+
+    useEffect(() => {
+      startObserving();
+    }, [args.icons]);
 
     const handleSearch = (e) => {
       updateArgs({ searchTerm: e.detail.value });
@@ -236,6 +279,10 @@ export const Duotone = {
         updateArgs({ svgs: result, loaded: true });
       });
     }, [size]);
+
+    useEffect(() => {
+      startObserving();
+    }, [args.icons]);
 
     const handleSearch = (e) => {
       updateArgs({ searchTerm: e.detail.value });
