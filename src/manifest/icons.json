@@ -1646,6 +1646,13 @@
     "duotone": false
   },
   {
+    "name": "filter-active",
+    "friendly_name": "Filter Active",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "filter",
     "friendly_name": "Filter",
     "category": "Functional",
