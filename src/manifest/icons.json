@@ -28,6 +28,13 @@
     "duotone": false
   },
   {
+    "name": "application-integration",
+    "friendly_name": "Application Integration",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "ID",
     "friendly_name": "ID",
     "category": "Functional",
@@ -44,6 +51,20 @@
   {
     "name": "accordion-view",
     "friendly_name": "Accordion View",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "account-2",
+    "friendly_name": "Account 2",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "account-enablement",
+    "friendly_name": "Account Enablement",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -93,6 +114,13 @@
   {
     "name": "administration",
     "friendly_name": "Administration",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "advanced-search",
+    "friendly_name": "Advanced Search",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -777,6 +805,20 @@
     "duotone": false
   },
   {
+    "name": "cloud-aws",
+    "friendly_name": "Cloud AWS",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "cloud-azure",
+    "friendly_name": "Cloud Azure",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "close-filled",
     "friendly_name": "Close Filled",
     "category": "Functional",
@@ -810,6 +852,20 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "cloud-gcp",
+    "friendly_name": "Cloud GCP",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "cloud-ibm",
+    "friendly_name": "Cloud IBM",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "cloud-security",
@@ -875,6 +931,13 @@
     "duotone": true
   },
   {
+    "name": "configuration-build",
+    "friendly_name": "Configuration Build",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "connect",
     "friendly_name": "Connect",
     "category": "Functional",
@@ -899,6 +962,13 @@
   {
     "name": "consultation",
     "friendly_name": "Consultation",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "containers",
+    "friendly_name": "Containers",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1079,6 +1149,13 @@
     "duotone": true
   },
   {
+    "name": "data-center",
+    "friendly_name": "Data Center",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "data-check",
     "friendly_name": "Data Check",
     "category": "Functional",
@@ -1095,6 +1172,13 @@
   {
     "name": "data-search",
     "friendly_name": "Data Search",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "database-2",
+    "friendly_name": "Database 2",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1123,6 +1207,13 @@
   {
     "name": "deployment",
     "friendly_name": "Deployment",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "desktop-virtualization",
+    "friendly_name": "Desktop Virtualization",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1179,6 +1270,13 @@
   {
     "name": "document-blank",
     "friendly_name": "Document Blank",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "document-chart",
+    "friendly_name": "Document Chart",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -1345,6 +1443,13 @@
     "duotone": false
   },
   {
+    "name": "document-storage",
+    "friendly_name": "Document Storage",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "document-task",
     "friendly_name": "Document Task",
     "category": "Functional",
@@ -1457,6 +1562,13 @@
     "duotone": false
   },
   {
+    "name": "end-date",
+    "friendly_name": "End Date",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "enterprise-catalog",
     "friendly_name": "Enterprise Catalog",
     "category": "Functional",
@@ -1518,6 +1630,27 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "extension",
+    "friendly_name": "Extension",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "feedback",
+    "friendly_name": "Feedback",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "filter-active",
+    "friendly_name": "Filter Active",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "filter",
@@ -1891,6 +2024,34 @@
     "duotone": false
   },
   {
+    "name": "inventory-360",
+    "friendly_name": "Inventory 360",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "inventory-overview",
+    "friendly_name": "Inventory Overview",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "inventory-performance",
+    "friendly_name": "Inventory Performance",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "inventory-service",
+    "friendly_name": "Inventory Service",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "inventory",
     "friendly_name": "Inventory",
     "category": "Functional",
@@ -2024,6 +2185,13 @@
     "duotone": true
   },
   {
+    "name": "management",
+    "friendly_name": "Management",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "map",
     "friendly_name": "Map",
     "category": "Functional",
@@ -2059,6 +2227,20 @@
     "duotone": false
   },
   {
+    "name": "message-queue",
+    "friendly_name": "Message Queue",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "middleware",
+    "friendly_name": "Middleware",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "money",
     "friendly_name": "Money",
     "category": "Functional",
@@ -2068,6 +2250,13 @@
   {
     "name": "monitoring",
     "friendly_name": "Monitoring",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "namespace",
+    "friendly_name": "Namespace",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2094,6 +2283,13 @@
     "duotone": true
   },
   {
+    "name": "networking",
+    "friendly_name": "Networking",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "network-&-edge",
     "friendly_name": "Network & Edge",
     "category": "Services",
@@ -2115,8 +2311,29 @@
     "duotone": false
   },
   {
+    "name": "no-connection",
+    "friendly_name": "No Connection",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "no-data",
+    "friendly_name": "No Data",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "no-overview",
     "friendly_name": "No Overview",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "no-wifi",
+    "friendly_name": "No WiFi",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2159,6 +2376,13 @@
   {
     "name": "operations-record",
     "friendly_name": "Operations Record",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "optimization",
+    "friendly_name": "Optimization",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2255,6 +2479,13 @@
     "duotone": true
   },
   {
+    "name": "pod",
+    "friendly_name": "Pod",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "police",
     "friendly_name": "Police",
     "category": "Functional",
@@ -2290,6 +2521,13 @@
     "duotone": false
   },
   {
+    "name": "program-end",
+    "friendly_name": "Program End",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "program-management-portal",
     "friendly_name": "Program Management Portal",
     "category": "Gateway",
@@ -2306,6 +2544,13 @@
   {
     "name": "publish",
     "friendly_name": "Publish",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "question-off-topic",
+    "friendly_name": "Question Off Topic",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2556,6 +2801,13 @@
     "duotone": false
   },
   {
+    "name": "simple-notification-service",
+    "friendly_name": "Simple Notification Service",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "source-code",
     "friendly_name": "Source Code",
     "category": "Functional",
@@ -2724,6 +2976,13 @@
     "duotone": false
   },
   {
+    "name": "threatcon",
+    "friendly_name": "ThreatCon",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "thumbs-down",
     "friendly_name": "Thumbs Down",
     "category": "Functional",
@@ -2768,6 +3027,13 @@
   {
     "name": "time-extended",
     "friendly_name": "Time Extended",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
+    "name": "time-out",
+    "friendly_name": "Time Out",
     "category": "Functional",
     "aliases": [],
     "duotone": false
@@ -2890,6 +3156,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+   {
+    "name": "virtual-machine-insights",
+    "friendly_name": "Virtual Machine Insights",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "virtual-machine",
