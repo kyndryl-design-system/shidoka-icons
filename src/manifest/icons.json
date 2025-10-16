@@ -2549,6 +2549,13 @@
     "duotone": false
   },
   {
+    "name": "question-active",
+    "friendly_name": "Question Active",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "question-off-topic",
     "friendly_name": "Question Off Topic",
     "category": "Functional",
@@ -2953,6 +2960,13 @@
     "category": "Functional",
     "aliases": [],
     "duotone": true
+  },
+  {
+    "name": "temporary",
+    "friendly_name": "Temporary",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": false
   },
   {
     "name": "testing",
