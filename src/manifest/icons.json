@@ -5110,7 +5110,7 @@
     "name": "question-active",
     "friendly_name": "Question Active",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["help-active", "info-active", "query-active", "assistance", "support", "inquiry", "faq"],
     "duotone": false
   },
   {
@@ -5948,7 +5948,7 @@
     "name": "temporary",
     "friendly_name": "Temporary",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["draft", "pending", "temporary-status", "temp", "in-progress", "duration", "expiring"],
     "duotone": false
   },
   {
