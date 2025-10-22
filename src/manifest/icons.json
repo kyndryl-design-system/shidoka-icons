@@ -3,665 +3,1531 @@
     "name": "AIOps",
     "friendly_name": "AIOps",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": ["aiops", "ai-ops", "ai operations", "operations ai", "ops-ai"],
     "duotone": true
   },
   {
     "name": "AIOps-docs",
     "friendly_name": "AIOps Docs",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "aiops",
+      "aiops-docs",
+      "documentation",
+      "guide",
+      "manual",
+      "knowledge",
+      "devops"
+    ],
     "duotone": false
   },
   {
     "name": "API",
     "friendly_name": "API",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "api",
+      "integration",
+      "endpoint",
+      "connector",
+      "developer",
+      "interface",
+      "data"
+    ],
     "duotone": false
   },
   {
     "name": "application-centric-infrastructure",
     "friendly_name": "Application Centric Infrastructure",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "application",
+      "infrastructure",
+      "platform",
+      "architecture",
+      "deployment",
+      "cloud"
+    ],
     "duotone": false
   },
   {
     "name": "application-integration",
     "friendly_name": "Application Integration",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "application",
+      "integration",
+      "connectivity",
+      "middleware",
+      "workflow",
+      "data"
+    ],
     "duotone": false
   },
   {
     "name": "ID",
     "friendly_name": "ID",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "id",
+      "identity",
+      "identifier",
+      "user",
+      "account",
+      "credential"
+    ],
     "duotone": true
   },
   {
     "name": "access-management",
     "friendly_name": "Access Management",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "access",
+      "management",
+      "iam",
+      "identity",
+      "authorization",
+      "authentication",
+      "permissions",
+      "roles"
+    ],
     "duotone": true
   },
   {
     "name": "accordion-view",
     "friendly_name": "Accordion View",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "accordion-view",
+      "accordion",
+      "collapsible",
+      "expand-collapse",
+      "disclosure",
+      "sections",
+      "toggle",
+      "show-hide",
+      "grouped-content",
+      "foldout",
+      "expander"
+    ],
     "duotone": false
   },
   {
     "name": "account-2",
     "friendly_name": "Account 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "account",
+      "user-account",
+      "profile",
+      "user",
+      "identity",
+      "login",
+      "credentials",
+      "my-account",
+      "account-settings",
+      "profile-settings",
+      "manage-account",
+      "account-details",
+      "account-preferences",
+      "account-info"
+    ],
     "duotone": false
   },
   {
     "name": "account-enablement",
     "friendly_name": "Account Enablement",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "account",
+      "account-enablement",
+      "enablement",
+      "onboarding",
+      "activation",
+      "adoption",
+      "readiness",
+      "getting-started",
+      "setup",
+      "guidance",
+      "support",
+      "assistance",
+      "account-help"
+    ],
     "duotone": false
   },
   {
     "name": "account",
     "friendly_name": "Account",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "account",
+      "user-account",
+      "profile",
+      "user",
+      "identity",
+      "login",
+      "credentials",
+      "my-account",
+      "account-settings",
+      "profile-settings",
+      "manage-account",
+      "account-details",
+      "account-preferences",
+      "account-info"
+    ],
     "duotone": true
   },
   {
     "name": "accounts",
     "friendly_name": "Accounts",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "account",
+      "accounts",
+      "user-account",
+      "profile",
+      "user",
+      "identity",
+      "login",
+      "credentials",
+      "my-account",
+      "account-settings",
+      "profile-settings",
+      "manage-account",
+      "account-details",
+      "account-preferences",
+      "account-info"
+    ],
     "duotone": false
   },
   {
     "name": "actionable-insights",
     "friendly_name": "Actionable Insights",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "insights",
+      "analytics",
+      "ai",
+      "monitoring",
+      "intelligence",
+      "reporting",
+      "data",
+      "observability"
+    ],
     "duotone": true
   },
   {
     "name": "add",
     "friendly_name": "Add",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "add",
+      "create",
+      "new",
+      "plus",
+      "insert",
+      "append",
+      "include",
+      "attach",
+      "add-item",
+      "add-record",
+      "add-user",
+      "add-service"
+    ],
     "duotone": false
   },
   {
     "name": "add-filled",
     "friendly_name": "Add Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "add",
+      "create",
+      "new",
+      "plus",
+      "insert",
+      "append",
+      "include",
+      "attach",
+      "add-item",
+      "add-record",
+      "add-user",
+      "add-service"
+    ],
     "duotone": false
   },
   {
     "name": "add-simple",
     "friendly_name": "Add Simple",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "add",
+      "create",
+      "new",
+      "plus",
+      "insert",
+      "append",
+      "include",
+      "attach",
+      "add-item",
+      "add-record",
+      "add-user",
+      "add-service"
+    ],
     "duotone": false
   },
   {
     "name": "administration",
     "friendly_name": "Administration",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "administration",
+      "admin",
+      "governance",
+      "management",
+      "configuration",
+      "operations",
+      "control",
+      "settings",
+      "permissions",
+      "access-control",
+      "monitoring",
+      "service-admin",
+      "system-admin"
+    ],
     "duotone": false
   },
   {
     "name": "advanced-search",
     "friendly_name": "Advanced Search",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "advanced-search",
+      "search",
+      "advanced",
+      "filter",
+      "filters",
+      "advanced-filters",
+      "field-search",
+      "metadata-search",
+      "find"
+    ],
     "duotone": false
   },
   {
     "name": "ai-external",
     "friendly_name": "Ai External",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "ai",
+      "external",
+      "integration",
+      "connection",
+      "api",
+      "model",
+      "gateway"
+    ],
     "duotone": false
   },
   {
     "name": "ai-internal",
     "friendly_name": "Ai Internal",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["ai", "internal", "model", "private", "system", "intelligence"],
     "duotone": false
   },
   {
     "name": "ai-seasonality",
     "friendly_name": "Ai Seasonality",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "ai",
+      "seasonality",
+      "time",
+      "prediction",
+      "forecasting",
+      "insights"
+    ],
     "duotone": false
   },
   {
     "name": "analytics",
     "friendly_name": "Analytics",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "analytics",
+      "analysis",
+      "insights",
+      "metrics",
+      "reporting",
+      "dashboards",
+      "business-intelligence",
+      "graph",
+      "data",
+      "visualization",
+      "kpis",
+      "performance",
+      "trends",
+      "forecasting",
+      "monitoring",
+      "observability"
+    ],
     "duotone": true
   },
   {
     "name": "anomaly",
     "friendly_name": "Anomaly",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "anomaly",
+      "outlier",
+      "irregularity",
+      "deviation",
+      "spike",
+      "pattern-anomaly",
+      "issue",
+      "alert",
+      "signal",
+      "unexpected",
+      "detect",
+      "investigate",
+      "root-cause",
+      "rca",
+      "aiops"
+    ],
     "duotone": true
   },
   {
     "name": "aperture",
     "friendly_name": "Aperture",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "aperture",
+      "lens",
+      "camera",
+      "shutter",
+      "iris",
+      "diaphragm",
+      "opening",
+      "exposure",
+      "focus",
+      "capture",
+      "snapshot",
+      "photo",
+      "blades",
+      "optics"
+    ],
     "duotone": false
   },
   {
     "name": "applications",
     "friendly_name": "Applications",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "applications",
+      "apps",
+      "application",
+      "software",
+      "business-apps",
+      "enterprise-applications",
+      "app-portfolio",
+      "app-services",
+      "app-suite",
+      "platform-apps"
+    ],
     "duotone": false
   },
   {
     "name": "applications-data-&-Ai",
     "friendly_name": "Applications Data & AI",
     "category": "Services",
-    "aliases": [],
+    "aliases": [
+      "applications-data-&-ai",
+      "applications",
+      "apps",
+      "data",
+      "ai",
+      "machine-learning",
+      "ml",
+      "intelligence",
+      "data-services",
+      "ai-services",
+      "app-services",
+      "platform",
+      "solutions",
+      "workloads",
+      "enterprise-applications",
+      "business-apps"
+    ],
     "duotone": true
   },
   {
     "name": "approval-policy",
     "friendly_name": "Approval Policy",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "approval",
+      "policy",
+      "governance",
+      "rules",
+      "workflow",
+      "compliance"
+    ],
     "duotone": true
   },
   {
     "name": "approval-request",
     "friendly_name": "Approval Request",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "approval-request",
+      "approve",
+      "request-approval",
+      "submit-for-approval",
+      "submit-approval",
+      "review",
+      "sign-off",
+      "authorize",
+      "governance",
+      "compliance"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-down-thick",
     "friendly_name": "Arrow Down Thick",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-down",
+      "down",
+      "navigate-down",
+      "move-down",
+      "collapse",
+      "decrease",
+      "descending",
+      "sort-desc",
+      "drop",
+      "lower"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-down",
     "friendly_name": "Arrow Down",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-down",
+      "down",
+      "navigate-down",
+      "move-down",
+      "collapse",
+      "decrease",
+      "descending",
+      "sort-desc",
+      "drop",
+      "lower"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-left-thick",
     "friendly_name": "Arrow Left Thick",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-left",
+      "left",
+      "navigate-left",
+      "move-left",
+      "back",
+      "previous",
+      "go-back",
+      "rewind"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-left",
     "friendly_name": "Arrow Left",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-left",
+      "left",
+      "navigate-left",
+      "move-left",
+      "back",
+      "previous",
+      "go-back",
+      "rewind"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-right-thick",
     "friendly_name": "Arrow Right Thick",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-right",
+      "right",
+      "navigate-right",
+      "move-right",
+      "forward",
+      "next",
+      "continue",
+      "advance"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-right",
     "friendly_name": "Arrow Right",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-right",
+      "right",
+      "navigate-right",
+      "move-right",
+      "forward",
+      "next",
+      "continue",
+      "advance"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-up-thick",
     "friendly_name": "Arrow Up Thick",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-up",
+      "up",
+      "navigate-up",
+      "move-up",
+      "expand",
+      "increase",
+      "ascending",
+      "sort-asc",
+      "raise",
+      "elevate"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-up",
     "friendly_name": "Arrow Up",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-up",
+      "up",
+      "navigate-up",
+      "move-up",
+      "expand",
+      "increase",
+      "ascending",
+      "sort-asc",
+      "raise",
+      "elevate"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-up-left-thick",
     "friendly_name": "Arrow Up Left Thick",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-up-left",
+      "upleft",
+      "northwest",
+      "nw",
+      "diagonal-up-left",
+      "return",
+      "corner-up-left"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-up-left",
     "friendly_name": "Arrow Up Left",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-up-left",
+      "upleft",
+      "northwest",
+      "nw",
+      "diagonal-up-left",
+      "return",
+      "corner-up-left"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-up-right-thick",
     "friendly_name": "Arrow Up Right Thick",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-up-right",
+      "upright",
+      "northeast",
+      "ne",
+      "open-in-new",
+      "external",
+      "diagonal-up-right",
+      "launch"
+    ],
     "duotone": false
   },
   {
     "name": "arrow-up-right",
     "friendly_name": "Arrow Up Right",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrow-up-right",
+      "upright",
+      "northeast",
+      "ne",
+      "open-in-new",
+      "external",
+      "diagonal-up-right",
+      "launch"
+    ],
     "duotone": false
   },
   {
     "name": "arrows-vertical",
     "friendly_name": "Arrows Vertical",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "arrows-vertical",
+      "up-down",
+      "vertical",
+      "bi-directional",
+      "swap-vertical",
+      "move-vertical",
+      "scroll-vertical"
+    ],
     "duotone": false
   },
   {
     "name": "assets",
     "friendly_name": "Assets",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["assets", "asset", "resources", "items", "asset-management"],
     "duotone": true
   },
   {
     "name": "attachment",
     "friendly_name": "Attachment",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "attachment",
+      "file-attachment",
+      "attach",
+      "paperclip",
+      "clip",
+      "file",
+      "files",
+      "add-attachment",
+      "attach-file",
+      "attach-document",
+      "upload",
+      "add-file",
+      "link"
+    ],
     "duotone": false
   },
   {
     "name": "billing",
     "friendly_name": "Billing",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "billing",
+      "invoice",
+      "payment",
+      "finance",
+      "cost",
+      "accounting"
+    ],
     "duotone": false
   },
   {
     "name": "book",
     "friendly_name": "Book",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "book",
+      "documentation",
+      "docs",
+      "guide",
+      "manual",
+      "knowledge",
+      "reference",
+      "readme",
+      "library",
+      "help",
+      "learn",
+      "tutorial"
+    ],
     "duotone": false
   },
   {
     "name": "bookmark",
     "friendly_name": "Bookmark",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "bookmark",
+      "save",
+      "save-for-later",
+      "favorite",
+      "mark",
+      "flag",
+      "reading-list",
+      "quick-access",
+      "pin",
+      "shortcut"
+    ],
     "duotone": false
   },
   {
     "name": "box",
     "friendly_name": "Box",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "box",
+      "package",
+      "parcel",
+      "container",
+      "asset",
+      "inventory",
+      "item",
+      "crate",
+      "goods",
+      "packaged-item"
+    ],
     "duotone": false
   },
   {
     "name": "box-add",
     "friendly_name": "Box Add",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "box-add",
+      "add-box",
+      "add-package",
+      "add-item",
+      "create",
+      "new",
+      "inventory-add",
+      "stock-in",
+      "receive"
+    ],
     "duotone": false
   },
   {
     "name": "box-delete",
     "friendly_name": "Box Delete",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "box-delete",
+      "remove-box",
+      "delete-package",
+      "delete-item",
+      "remove",
+      "discard",
+      "inventory-remove",
+      "stock-out"
+    ],
     "duotone": false
   },
   {
     "name": "box-empty",
     "friendly_name": "Box Empty",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "box-empty",
+      "empty",
+      "empty-state",
+      "no-items",
+      "no-content",
+      "clear",
+      "vacant",
+      "zero-inventory"
+    ],
     "duotone": false
   },
   {
     "name": "box-search",
     "friendly_name": "Box Search",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "box-search",
+      "search-box",
+      "search-package",
+      "search-inventory",
+      "find-item",
+      "lookup",
+      "query"
+    ],
     "duotone": false
   },
   {
     "name": "box-stacked",
     "friendly_name": "Box Stacked",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "box-stacked",
+      "stacked-boxes",
+      "inventory",
+      "stock",
+      "warehouse",
+      "bulk",
+      "pallet",
+      "packages",
+      "storage"
+    ],
     "duotone": true
   },
   {
     "name": "box-task",
     "friendly_name": "Box Task",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "box-task",
+      "package-task",
+      "inventory-task",
+      "order-task",
+      "dispatch",
+      "assign-item"
+    ],
     "duotone": false
   },
   {
     "name": "branch",
     "friendly_name": "Branch",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "branch",
+      "git-branch",
+      "version-control",
+      "vcs",
+      "source-control",
+      "code-branch",
+      "feature-branch",
+      "release-branch",
+      "merge",
+      "split",
+      "tree",
+      "switch-branch"
+    ],
     "duotone": false
   },
   {
     "name": "bug",
     "friendly_name": "Bug",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "bug",
+      "issue",
+      "defect",
+      "error",
+      "problem",
+      "fault",
+      "bug-report",
+      "debug",
+      "anomaly",
+      "bug-tracking"
+    ],
     "duotone": false
   },
   {
     "name": "business-consulting",
     "friendly_name": "Business Consulting",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["business", "consulting", "strategy", "advisory", "services"],
     "duotone": false
   },
   {
     "name": "calendar",
     "friendly_name": "Calendar",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "calendar",
+      "schedule",
+      "events",
+      "date",
+      "appointments",
+      "meetings",
+      "planner",
+      "agenda",
+      "booking",
+      "timeline"
+    ],
     "duotone": true
   },
   {
     "name": "calendar-add",
     "friendly_name": "Calendar Add",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "calendar-add",
+      "add-event",
+      "new-event",
+      "create-event",
+      "schedule",
+      "book",
+      "add-meeting",
+      "add-appointment",
+      "add-to-calendar"
+    ],
     "duotone": false
   },
   {
     "name": "calendar-delete",
     "friendly_name": "Calendar Delete",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "calendar-delete",
+      "delete-event",
+      "remove-event",
+      "cancel-event",
+      "unschedule",
+      "clear-calendar",
+      "delete-meeting",
+      "delete-appointment"
+    ],
     "duotone": false
   },
   {
     "name": "calendar-settings",
     "friendly_name": "Calendar Settings",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "calendar-settings",
+      "settings",
+      "date-preferences",
+      "date-configuration",
+      "edit-timezone",
+      "working-hours",
+      "availability"
+    ],
     "duotone": false
   },
   {
     "name": "camera",
     "friendly_name": "Camera",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "camera",
+      "photo",
+      "picture",
+      "image",
+      "media",
+      "capture",
+      "snapshot",
+      "record"
+    ],
     "duotone": false
   },
   {
     "name": "capture",
     "friendly_name": "Capture",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "capture",
+      "screenshot",
+      "snapshot",
+      "record",
+      "screen-capture",
+      "screen-grab",
+      "take-photo",
+      "take-picture"
+    ],
     "duotone": false
   },
   {
     "name": "caret-double",
     "friendly_name": "Caret Double",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "caret-double",
+      "double-caret",
+      "chevrons",
+      "expand-collapse",
+      "jump",
+      "fast-scroll",
+      "navigate"
+    ],
     "duotone": false
   },
   {
     "name": "caret-down",
     "friendly_name": "Caret Down",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "caret-down",
+      "chevron-down",
+      "expand",
+      "open",
+      "dropdown",
+      "more",
+      "navigate-down"
+    ],
     "duotone": false
   },
   {
     "name": "caret-down-to-bottom",
     "friendly_name": "Caret Down To Bottom",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "caret-down-to-bottom",
+      "jump-to-bottom",
+      "scroll-to-bottom",
+      "end",
+      "last",
+      "page-end"
+    ],
     "duotone": false
   },
   {
     "name": "caret-left",
     "friendly_name": "Caret Left",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "caret-left",
+      "chevron-left",
+      "back",
+      "previous",
+      "navigate-left"
+    ],
     "duotone": false
   },
   {
     "name": "caret-right",
     "friendly_name": "Caret Right",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "caret-right",
+      "chevron-right",
+      "forward",
+      "next",
+      "navigate-right"
+    ],
     "duotone": false
   },
   {
     "name": "caret-up",
     "friendly_name": "Caret Up",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "caret-up",
+      "chevron-up",
+      "collapse",
+      "close",
+      "less",
+      "navigate-up"
+    ],
     "duotone": false
   },
   {
     "name": "caret-up-to-top",
     "friendly_name": "Caret Up To Top",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "caret-up-to-top",
+      "jump-to-top",
+      "scroll-to-top",
+      "first",
+      "page-top"
+    ],
     "duotone": false
   },
   {
     "name": "cart",
     "friendly_name": "Cart",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "cart",
+      "shopping-cart",
+      "basket",
+      "buy",
+      "purchase",
+      "orders",
+      "checkout",
+      "add-to-cart",
+      "request-cart"
+    ],
     "duotone": false
   },
   {
     "name": "catalog",
     "friendly_name": "Catalog",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Gateway",
+    "aliases": ["catalog", "offerings", "marketplace", "services", "directory"],
     "duotone": false
   },
   {
     "name": "catalog-management",
     "friendly_name": "Catalog Management",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["catalog", "management", "catalog-edit", "publish", "organize"],
     "duotone": true
   },
   {
     "name": "catalog-settings",
     "friendly_name": "Catalog Settings",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["catalog", "settings", "configuration", "preferences"],
     "duotone": false
   },
   {
     "name": "certificate-check",
     "friendly_name": "Certificate Check",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "certificate-check",
+      "certificate",
+      "verify",
+      "validation",
+      "trust",
+      "security",
+      "compliance",
+      "credential",
+      "signature",
+      "signed"
+    ],
     "duotone": false
   },
   {
     "name": "chart-area",
     "friendly_name": "Chart Area",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-area",
+      "area-chart",
+      "area",
+      "trend",
+      "filled-area",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-bar-horizontal",
     "friendly_name": "Chart Bar Horizontal",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-bar-horizontal",
+      "horizontal-bar",
+      "bar-chart-horizontal",
+      "bar",
+      "rank",
+      "compare",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-bar-vertical",
     "friendly_name": "Chart Bar Vertical",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-bar-vertical",
+      "vertical-bar",
+      "bar-chart-vertical",
+      "column",
+      "rank",
+      "compare",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-box-horizontal",
     "friendly_name": "Chart Box Horizontal",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-box-horizontal",
+      "horizontal-box-plot",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-box-vertical",
     "friendly_name": "Chart Box Vertical",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-box-vertical",
+      "vertical-box-plot",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
-   {
+  {
     "name": "chart-bubble",
     "friendly_name": "Chart Bubble",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-bubble",
+      "bubble-chart",
+      "bubble",
+      "scatter-bubble",
+      "size-encoding",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-combo",
     "friendly_name": "Chart Combo",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-combo",
+      "combo-chart",
+      "mixed-chart",
+      "dual-axis",
+      "bar-line",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-curve",
     "friendly_name": "Chart Curve",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-curve",
+      "spline",
+      "curved-line",
+      "trend",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-donut",
     "friendly_name": "Chart Donut",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-donut",
+      "donut-chart",
+      "doughnut",
+      "ring-chart",
+      "part-to-whole",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-grouped-bar-horizontal",
     "friendly_name": "Chart Grouped Bar Horizontal",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-grouped-bar-horizontal",
+      "grouped-bars-horizontal",
+      "clustered-bar-horizontal",
+      "comparison",
+      "categories",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-grouped-bar-vertical",
     "friendly_name": "Chart Grouped Bar Vertical",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-grouped-bar-vertical",
+      "grouped-bars-vertical",
+      "clustered-bar-vertical",
+      "comparison",
+      "categories",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-histogram",
     "friendly_name": "Chart Histogram",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-histogram",
+      "histogram",
+      "bins",
+      "distribution",
+      "frequency",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-line",
     "friendly_name": "Chart Line",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-line",
+      "line-chart",
+      "line",
+      "trend",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-meter",
     "friendly_name": "Chart Meter",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-meter",
+      "meter",
+      "gauge",
+      "dial",
+      "speedometer",
+      "kpi",
+      "target",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-pie",
     "friendly_name": "Chart Pie",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-pie",
+      "pie-chart",
+      "pie",
+      "part-to-whole",
+      "share",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-scatter",
     "friendly_name": "Chart Scatter",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-scatter",
+      "scatterplot",
+      "scatter",
+      "correlation",
+      "distribution",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-sorted-bar-horizontal",
     "friendly_name": "Chart Sorted Bar Horizontal",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-sorted-bar-horizontal",
+      "sorted-bar-horizontal",
+      "ranked-bar-horizontal",
+      "descending",
+      "ascending",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-sorted-bar-vertical",
     "friendly_name": "Chart Sorted Bar Vertical",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-sorted-bar-vertical",
+      "sorted-bar-vertical",
+      "ranked-bar-vertical",
+      "descending",
+      "ascending",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-stacked-bar-horizontal",
     "friendly_name": "Chart Stacked Bar Horizontal",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-stacked-bar-horizontal",
+      "stacked-bar-horizontal",
+      "stacked-bars",
+      "composition",
+      "part-to-whole",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-stacked-bar-vertical",
     "friendly_name": "Chart Stacked Bar Vertical",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-stacked-bar-vertical",
+      "stacked-bar-vertical",
+      "stacked-columns",
+      "composition",
+      "part-to-whole",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chart-tree-map",
     "friendly_name": "Chart Tree Map",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-tree-map",
+      "treemap",
+      "tree-map",
+      "hierarchy",
+      "part-to-whole",
+      "tiles",
+      "squarify",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
@@ -675,379 +1541,756 @@
     "name": "chart-violin-vertical",
     "friendly_name": "Chart Violin Vertical",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chart-violin-horizontal",
+      "horizontal-violin",
+      "violin-plot-horizontal",
+      "distribution",
+      "density",
+      "visualization",
+      "analytics",
+      "data"
+    ],
     "duotone": true
   },
   {
     "name": "chat",
     "friendly_name": "Chat",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chat",
+      "message",
+      "messaging",
+      "conversation",
+      "talk",
+      "im",
+      "dm",
+      "comments",
+      "thread",
+      "live-chat",
+      "support-chat"
+    ],
     "duotone": true
   },
   {
     "name": "chat-bot",
     "friendly_name": "Chat Bot",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chat-bot",
+      "bot",
+      "assistant",
+      "virtual-assistant",
+      "ai-bot",
+      "automation",
+      "conversational-ai",
+      "agent",
+      "chatbot"
+    ],
     "duotone": false
   },
   {
     "name": "chat-history",
     "friendly_name": "Chat History",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chat-history",
+      "history",
+      "transcript",
+      "logs",
+      "past-messages",
+      "conversation-history",
+      "archive",
+      "message-history"
+    ],
     "duotone": false
   },
   {
     "name": "check",
     "friendly_name": "Check",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "check",
+      "confirm",
+      "ok",
+      "accept",
+      "approve",
+      "verify",
+      "validate",
+      "tick",
+      "complete",
+      "done"
+    ],
     "duotone": false
   },
   {
     "name": "checkbox",
     "friendly_name": "Checkbox",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "checkbox",
+      "check-box",
+      "box",
+      "option",
+      "select",
+      "toggle",
+      "boolean",
+      "unselected",
+      "unchecked"
+    ],
     "duotone": false
   },
   {
     "name": "checkbox-filled",
     "friendly_name": "Checkbox Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "checkbox-filled",
+      "checked-box",
+      "selected-box",
+      "filled-checkbox",
+      "selected",
+      "checked",
+      "on",
+      "true"
+    ],
     "duotone": false
   },
   {
     "name": "checkbox-selected",
     "friendly_name": "Checkbox Selected",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "checkbox-selected",
+      "checked-box",
+      "selected",
+      "checked",
+      "on",
+      "true",
+      "chosen"
+    ],
     "duotone": false
   },
   {
     "name": "checkmark",
     "friendly_name": "Checkmark",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "checkmark",
+      "check",
+      "tick",
+      "ok",
+      "confirm",
+      "approve",
+      "validate",
+      "complete",
+      "done"
+    ],
     "duotone": false
   },
   {
     "name": "checkmark-filled",
     "friendly_name": "Checkmark Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "checkmark-filled",
+      "filled-check",
+      "tick-filled",
+      "ok-filled",
+      "confirm",
+      "approve",
+      "validated",
+      "completed"
+    ],
     "duotone": false
   },
   {
     "name": "chevron-down",
     "friendly_name": "Chevron Down",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chevron-down",
+      "expand",
+      "open",
+      "dropdown",
+      "more",
+      "navigate-down",
+      "collapse-down"
+    ],
     "duotone": false
   },
   {
     "name": "chevron-left",
     "friendly_name": "Chevron Left",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chevron-left",
+      "back",
+      "previous",
+      "navigate-left",
+      "go-back",
+      "slide-left"
+    ],
     "duotone": false
   },
   {
     "name": "chevron-right",
     "friendly_name": "Chevron Right",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chevron-right",
+      "forward",
+      "next",
+      "navigate-right",
+      "continue",
+      "slide-right"
+    ],
     "duotone": false
   },
   {
     "name": "chevron-up",
     "friendly_name": "Chevron Up",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "chevron-up",
+      "collapse",
+      "close",
+      "navigate-up",
+      "less",
+      "collapse-up"
+    ],
     "duotone": false
   },
   {
     "name": "circle-dashed",
     "friendly_name": "Circle Dashed",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "circle-dashed",
+      "dashed-circle",
+      "pending",
+      "in-progress",
+      "loading",
+      "placeholder",
+      "status-pending"
+    ],
     "duotone": false
   },
   {
     "name": "circle-filled",
     "friendly_name": "Circle Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "circle-filled",
+      "dot",
+      "solid-circle",
+      "status",
+      "indicator",
+      "bullet"
+    ],
     "duotone": false
   },
   {
     "name": "circle-selected",
     "friendly_name": "Circle Selected",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "circle-selected",
+      "selected",
+      "radio-selected",
+      "active",
+      "chosen",
+      "current"
+    ],
     "duotone": false
   },
   {
     "name": "circle-stroke",
     "friendly_name": "Circle Stroke",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "circle-stroke",
+      "hollow-circle",
+      "outline-circle",
+      "status-idle",
+      "inactive",
+      "unselected"
+    ],
     "duotone": false
   },
   {
     "name": "close",
     "friendly_name": "Close",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["close", "x", "dismiss", "cancel", "clear", "exit", "remove"],
     "duotone": false
   },
   {
     "name": "cloud-aws",
     "friendly_name": "Cloud AWS",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["aws", "amazon", "cloud", "infrastructure", "platform"],
     "duotone": false
   },
   {
     "name": "cloud-azure",
     "friendly_name": "Cloud Azure",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["azure", "microsoft", "cloud", "infrastructure", "platform"],
     "duotone": false
   },
   {
     "name": "close-filled",
     "friendly_name": "Close Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "close-filled",
+      "x-filled",
+      "dismiss-filled",
+      "cancel-filled",
+      "clear-filled",
+      "exit-filled",
+      "remove-filled"
+    ],
     "duotone": false
   },
   {
     "name": "close-simple",
     "friendly_name": "Close Simple",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "close-simple",
+      "x",
+      "dismiss",
+      "cancel",
+      "clear",
+      "exit",
+      "remove",
+      "minimal-close",
+      "simple-x"
+    ],
     "duotone": false
   },
   {
     "name": "cloud",
     "friendly_name": "Cloud",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "cloud",
+      "infrastructure",
+      "platform",
+      "compute",
+      "environment"
+    ],
     "duotone": false
   },
   {
     "name": "cluster",
     "friendly_name": "Cluster",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["cluster", "compute", "infrastructure", "kubernetes", "nodes"],
     "duotone": false
   },
   {
     "name": "cloud-download",
     "friendly_name": "Cloud Download",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["cloud", "download", "transfer", "file", "data"],
     "duotone": true
   },
   {
     "name": "cloud-gcp",
     "friendly_name": "Cloud GCP",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["gcp", "google", "cloud", "infrastructure", "platform"],
     "duotone": false
   },
   {
     "name": "cloud-ibm",
     "friendly_name": "Cloud IBM",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["ibm", "cloud", "infrastructure", "platform"],
     "duotone": false
   },
   {
     "name": "cloud-security",
     "friendly_name": "Cloud Security",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["cloud", "security", "protection", "compliance", "resiliency"],
     "duotone": false
   },
   {
     "name": "cloud-services",
     "friendly_name": "Cloud Services",
     "category": "Services",
-    "aliases": [],
+    "aliases": [
+      "cloud-services",
+      "cloud",
+      "cloud-platform",
+      "infrastructure",
+      "iaas",
+      "paas",
+      "storage",
+      "networking",
+      "virtualization",
+      "hybrid-cloud",
+      "multi-cloud",
+      "public-cloud",
+      "private-cloud",
+      "platform",
+      "environment",
+      "modernization"
+    ],
     "duotone": true
   },
   {
     "name": "cloud-upload",
     "friendly_name": "Cloud Upload",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["cloud", "upload", "transfer", "file", "data"],
     "duotone": true
   },
   {
     "name": "code",
     "friendly_name": "Code",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "code",
+      "source",
+      "source-code",
+      "programming",
+      "script",
+      "snippet",
+      "file",
+      "dev",
+      "development",
+      "engineering",
+      "repository",
+      "version-control",
+      "commit",
+      "function",
+      "code-editor"
+    ],
     "duotone": false
   },
   {
     "name": "collab-drive",
     "friendly_name": "Collab Drive",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "collab-drive",
+      "collaboration-drive",
+      "shared-drive",
+      "team-drive",
+      "files",
+      "documents",
+      "shared-files",
+      "storage",
+      "cloud-storage",
+      "drive",
+      "workspace",
+      "collaboration",
+      "sharing",
+      "sync",
+      "portal"
+    ],
     "duotone": true
   },
   {
     "name": "component",
     "friendly_name": "Component",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "component",
+      "ui-component",
+      "module",
+      "element",
+      "widget",
+      "block",
+      "part",
+      "building-block",
+      "library",
+      "component-library",
+      "design-system",
+      "pattern"
+    ],
     "duotone": false
   },
   {
     "name": "computer",
     "friendly_name": "Computer",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "computer",
+      "desktop",
+      "pc",
+      "workstation",
+      "device",
+      "endpoint",
+      "machine",
+      "system",
+      "terminal"
+    ],
     "duotone": false
   },
   {
     "name": "concept",
     "friendly_name": "Concept",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "concept",
+      "idea",
+      "pattern",
+      "blueprint",
+      "model",
+      "theory",
+      "notion",
+      "concept-doc",
+      "concept-brief",
+      "conceptual-design",
+      "guide",
+      "reference"
+    ],
     "duotone": false
   },
   {
     "name": "conditional-insights",
     "friendly_name": "Conditional Insights",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "conditional",
+      "insights",
+      "analytics",
+      "ai",
+      "rules",
+      "automation"
+    ],
     "duotone": true
   },
   {
     "name": "configuration-build",
     "friendly_name": "Configuration Build",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["configuration", "build", "setup", "customize", "settings"],
     "duotone": false
   },
   {
     "name": "connect",
     "friendly_name": "Connect",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "connect",
+      "connection",
+      "link",
+      "join",
+      "pair",
+      "associate",
+      "bind",
+      "integrate",
+      "connect-to",
+      "connect-account",
+      "establish-connection",
+      "bridge",
+      "attach",
+      "sync"
+    ],
     "duotone": false
   },
   {
     "name": "console",
     "friendly_name": "Console",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "console",
+      "admin-console",
+      "dev-console",
+      "management-console",
+      "portal",
+      "tools",
+      "dashboard",
+      "environment",
+      "operations",
+      "monitoring"
+    ],
     "duotone": true
   },
 
   {
     "name": "consultation-2",
     "friendly_name": "Consultation 2",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["consultation", "advisory", "expert", "guidance", "support"],
     "duotone": false
   },
   {
     "name": "consultation",
     "friendly_name": "Consultation",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["consultation", "advisory", "expert", "guidance", "support"],
     "duotone": false
   },
   {
     "name": "containers",
     "friendly_name": "Containers",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "containers",
+      "docker",
+      "kubernetes",
+      "deployment",
+      "infrastructure"
+    ],
     "duotone": false
   },
   {
     "name": "content-builder",
     "friendly_name": "Content Builder",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["content", "builder", "creation", "editor", "tool"],
     "duotone": false
   },
   {
     "name": "control-pause",
     "friendly_name": "Control Pause",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "control-pause",
+      "pause",
+      "pause-control",
+      "media-pause",
+      "player-pause",
+      "halt",
+      "hold"
+    ],
     "duotone": false
   },
   {
     "name": "control-pause-filled",
     "friendly_name": "Control Pause Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "control-pause-filled",
+      "pause-filled",
+      "media-pause-filled",
+      "player-pause-filled",
+      "halt-filled",
+      "hold-filled"
+    ],
     "duotone": false
   },
   {
     "name": "control-play",
     "friendly_name": "Control Play",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "control-play",
+      "play",
+      "start",
+      "media-play",
+      "player-play",
+      "resume",
+      "begin"
+    ],
     "duotone": false
   },
   {
     "name": "control-resume",
     "friendly_name": "Control Resume",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "control-resume",
+      "resume",
+      "continue",
+      "unpause",
+      "media-resume",
+      "player-resume",
+      "restart"
+    ],
     "duotone": false
   },
   {
     "name": "control-resume-filled",
     "friendly_name": "Control Resume Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "control-resume-filled",
+      "resume-filled",
+      "continue-filled",
+      "unpause-filled",
+      "media-resume-filled",
+      "player-resume-filled",
+      "restart-filled"
+    ],
     "duotone": false
   },
   {
     "name": "control-play-filled",
     "friendly_name": "Control Play Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "control-play-filled",
+      "play-filled",
+      "start-filled",
+      "media-play-filled",
+      "player-play-filled",
+      "resume-filled",
+      "begin-filled"
+    ],
     "duotone": false
   },
   {
     "name": "control-stop",
     "friendly_name": "Control Stop",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "control-stop",
+      "stop",
+      "end",
+      "media-stop",
+      "player-stop",
+      "terminate",
+      "halt"
+    ],
     "duotone": false
   },
   {
     "name": "control-stop-filled",
     "friendly_name": "Control Stop Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "control-stop-filled",
+      "stop-filled",
+      "end-filled",
+      "media-stop-filled",
+      "player-stop-filled",
+      "terminate-filled",
+      "halt-filled"
+    ],
     "duotone": false
   },
   {
     "name": "control-tower",
     "friendly_name": "Control Tower",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["control", "tower", "oversight", "monitoring", "governance"],
     "duotone": true
   },
   {
     "name": "copy",
     "friendly_name": "Copy",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "copy",
+      "duplicate",
+      "clone",
+      "make-copy",
+      "copy-to-clipboard",
+      "clipboard",
+      "replicate",
+      "duplicate-item",
+      "copy-item",
+      "copy-text"
+    ],
     "duotone": false
   },
   {
@@ -1061,1491 +2304,2806 @@
     "name": "core-services",
     "friendly_name": "Core Services",
     "category": "Services",
-    "aliases": [],
+    "aliases": [
+      "core-enterprise-&-zCloud",
+      "core-enterprise-and-zcloud",
+      "core-enterprise",
+      "zcloud",
+      "enterprise-core",
+      "enterprise-platform",
+      "core-services",
+      "datacenter",
+      "on-prem",
+      "hybrid-cloud",
+      "infrastructure",
+      "systems",
+      "compute",
+      "storage",
+      "network",
+      "virtualization",
+      "modernization",
+      "legacy-modernization",
+      "enterprise-it"
+    ],
     "duotone": true
   },
   {
     "name": "cost",
     "friendly_name": "Cost",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["cost", "spend", "finance", "budgeting"],
     "duotone": true
   },
   {
     "name": "cost-&-asset-management",
     "friendly_name": "Cost & Asset Management",
     "category": "Services",
-    "aliases": [],
+    "aliases": ["cost", "asset", "management", "finance", "optimization"],
     "duotone": true
   },
   {
     "name": "critical",
     "friendly_name": "Critical",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "critical",
+      "error",
+      "high-severity",
+      "severe",
+      "alert",
+      "danger",
+      "priority-high",
+      "status-critical",
+      "urgent",
+      "failure"
+    ],
     "duotone": false
   },
   {
     "name": "critical-filled",
     "friendly_name": "Critical Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "critical-filled",
+      "error-filled",
+      "high-severity-filled",
+      "alert-filled",
+      "danger-filled",
+      "priority-high-filled",
+      "status-critical-filled"
+    ],
     "duotone": false
   },
   {
     "name": "crop",
     "friendly_name": "Crop",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "crop",
+      "trim",
+      "cut",
+      "resize",
+      "frame",
+      "image-crop",
+      "adjust",
+      "bounds",
+      "selection"
+    ],
     "duotone": false
   },
   {
     "name": "cube",
     "friendly_name": "Cube",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "cube",
+      "3d",
+      "object",
+      "module",
+      "block",
+      "component",
+      "unit",
+      "package",
+      "artifact"
+    ],
     "duotone": false
   },
   {
     "name": "currency",
     "friendly_name": "Currency",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "currency",
+      "money",
+      "fx",
+      "exchange-rate",
+      "currency-code",
+      "symbol",
+      "usd",
+      "eur",
+      "gbp",
+      "jpy",
+      "monetary",
+      "financial"
+    ],
     "duotone": false
   },
   {
     "name": "current-view",
     "friendly_name": "Current View",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "current-view",
+      "active-view",
+      "this-view",
+      "present",
+      "now",
+      "focus",
+      "visible",
+      "on-screen",
+      "selected-view"
+    ],
     "duotone": false
   },
   {
     "name": "cursor",
     "friendly_name": "Cursor",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "cursor",
+      "pointer",
+      "mouse",
+      "select",
+      "selection",
+      "click",
+      "hover",
+      "arrow",
+      "caret"
+    ],
     "duotone": false
   },
   {
     "name": "custom-catalog",
     "friendly_name": "Custom Catalog",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["custom", "catalog", "services", "personalization", "builder"],
     "duotone": false
   },
   {
     "name": "customer-engagement",
     "friendly_name": "Customer Engagement",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "customer-engagement",
+      "engagement",
+      "customers",
+      "crm",
+      "communications",
+      "outreach",
+      "loyalty",
+      "feedback",
+      "touchpoints",
+      "portal",
+      "hub"
+    ],
     "duotone": true
   },
   {
     "name": "dashboard",
     "friendly_name": "Dashboard",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "dashboard",
+      "analytics",
+      "monitoring",
+      "overview",
+      "metrics",
+      "insights"
+    ],
     "duotone": true
   },
   {
     "name": "data-center",
     "friendly_name": "Data Center",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "data-center",
+      "infrastructure",
+      "compute",
+      "storage",
+      "facility"
+    ],
     "duotone": false
   },
   {
     "name": "data-check",
     "friendly_name": "Data Check",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["data", "check", "validation", "verify", "integrity", "audit"],
     "duotone": false
   },
   {
     "name": "data-filter",
     "friendly_name": "Data Filter",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["data", "filter", "refine", "query", "sort"],
     "duotone": false
   },
   {
     "name": "data-search",
     "friendly_name": "Data Search",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["data", "search", "find", "lookup", "query"],
     "duotone": false
   },
   {
     "name": "database-2",
     "friendly_name": "Database 2",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["database", "data", "storage", "sql", "platform"],
     "duotone": false
   },
   {
     "name": "database",
     "friendly_name": "Database",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["database", "data", "storage", "sql", "platform"],
     "duotone": true
   },
   {
     "name": "delete",
     "friendly_name": "Delete",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "delete",
+      "remove",
+      "trash",
+      "discard",
+      "erase",
+      "clear",
+      "del",
+      "remove-item",
+      "delete-item",
+      "delete-record",
+      "delete-file",
+      "remove-file",
+      "delete-user",
+      "remove-user"
+    ],
     "duotone": false
   },
   {
     "name": "delivery",
     "friendly_name": "Delivery",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["delivery", "service", "operations", "fulfillment"],
     "duotone": false
   },
   {
     "name": "deployment",
     "friendly_name": "Deployment",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["deployment", "release", "rollout", "automation"],
     "duotone": false
   },
   {
     "name": "desktop-virtualization",
     "friendly_name": "Desktop Virtualization",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["desktop", "virtualization", "remote", "workspace"],
     "duotone": false
   },
   {
     "name": "developer-console",
     "friendly_name": "Developer Console",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "developer",
+      "console",
+      "devtools",
+      "api",
+      "debug",
+      "environment"
+    ],
     "duotone": false
   },
   {
     "name": "devops-intelligence",
     "friendly_name": "Devops Intelligence",
     "category": "Services",
-    "aliases": [],
+    "aliases": [
+      "devops-intelligence",
+      "devops",
+      "monitoring",
+      "automation",
+      "auto-remediation",
+      "performance",
+      "release-management",
+      "continuous-integration",
+      "continuous-delivery",
+      "operations-analytics",
+      "platform-engineering"
+    ],
     "duotone": true
   },
   {
     "name": "digital-workplace",
     "friendly_name": "Digital Workplace",
     "category": "Services",
-    "aliases": [],
+    "aliases": [
+      "digital-workplace",
+      "workplace",
+      "digital-work",
+      "employee-experience",
+      "productivity",
+      "intranet",
+      "portal",
+      "tools",
+      "workspace"
+    ],
     "duotone": true
   },
   {
     "name": "discount",
     "friendly_name": "Discount",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "discount",
+      "promotion",
+      "promo",
+      "coupon",
+      "voucher",
+      "offer",
+      "sale",
+      "deal",
+      "special-offer",
+      "savings",
+      "markdown",
+      "rebate",
+      "price-cut",
+      "percent-off",
+      "%off"
+    ],
     "duotone": true
   },
   {
     "name": "document",
     "friendly_name": "Document",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document",
+      "doc",
+      "file",
+      "paper",
+      "page",
+      "text-file",
+      "content",
+      "record"
+    ],
     "duotone": true
   },
   {
     "name": "document-add",
     "friendly_name": "Document Add",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-add",
+      "add-document",
+      "new-document",
+      "create-document",
+      "add-file",
+      "new-file",
+      "create-file"
+    ],
     "duotone": true
   },
   {
     "name": "document-attachment",
     "friendly_name": "Document Attachment",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-attachment",
+      "attach-document",
+      "file-attachment",
+      "attach-file",
+      "paperclip",
+      "attachment",
+      "add-attachment",
+      "link-file"
+    ],
     "duotone": false
   },
   {
     "name": "document-blank",
     "friendly_name": "Document Blank",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-blank",
+      "blank-document",
+      "empty-document",
+      "new-document",
+      "untitled",
+      "template",
+      "starter"
+    ],
     "duotone": false
   },
   {
     "name": "document-chart",
     "friendly_name": "Document Chart",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-chart",
+      "report",
+      "report-document",
+      "document-report",
+      "chart",
+      "analytics",
+      "dashboard",
+      "insights",
+      "data"
+    ],
     "duotone": false
   },
   {
     "name": "document-close",
     "friendly_name": "Document Close",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-close",
+      "close-document",
+      "close-file",
+      "dismiss-document",
+      "exit-document",
+      "close"
+    ],
     "duotone": false
   },
   {
     "name": "document-delete",
     "friendly_name": "Document Delete",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-delete",
+      "delete-document",
+      "remove-document",
+      "delete-file",
+      "remove-file",
+      "trash",
+      "discard"
+    ],
     "duotone": false
   },
   {
     "name": "document-doc",
     "friendly_name": "Document Doc",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "doc", "word", "file"],
     "duotone": false
   },
   {
     "name": "document-doc-2",
     "friendly_name": "Document Doc 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "doc", "word", "file"],
     "duotone": false
   },
   {
     "name": "document-docx",
     "friendly_name": "Document Docx",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "doc", "word", "file", "docx"],
     "duotone": false
   },
   {
     "name": "document-docx-2",
     "friendly_name": "Document Docx 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "doc", "word", "file", "docx"],
     "duotone": false
   },
   {
     "name": "document-download",
     "friendly_name": "Document Download",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-download",
+      "download-document",
+      "download-file",
+      "save-file",
+      "get-file",
+      "export",
+      "fetch-document"
+    ],
     "duotone": false
   },
   {
     "name": "document-edit",
     "friendly_name": "Document Edit",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-edit",
+      "edit-document",
+      "edit-file",
+      "modify",
+      "update",
+      "revise",
+      "pencil",
+      "write"
+    ],
     "duotone": false
   },
   {
     "name": "document-image",
     "friendly_name": "Document Image",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-image",
+      "image-document",
+      "image-file",
+      "insert-image",
+      "add-image",
+      "picture",
+      "photo",
+      "media"
+    ],
     "duotone": false
   },
   {
     "name": "document-jpg",
     "friendly_name": "Document Jpg",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "jpg", "image", "photo"],
     "duotone": false
   },
   {
     "name": "document-jpg-2",
     "friendly_name": "Document Jpg 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "jpg", "image", "photo"],
     "duotone": false
   },
   {
     "name": "document-no-access",
     "friendly_name": "Document No Access",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-no-access",
+      "no-access",
+      "restricted",
+      "forbidden",
+      "locked",
+      "access-denied",
+      "permission-denied",
+      "read-blocked",
+      "blocked-file",
+      "protected-document",
+      "unauthorized"
+    ],
     "duotone": false
   },
   {
     "name": "document-pdf",
     "friendly_name": "Document Pdf",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "pdf", "file"],
     "duotone": false
   },
   {
     "name": "document-pdf-2",
     "friendly_name": "Document Pdf 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "pdf", "file"],
     "duotone": false
   },
   {
     "name": "document-png",
     "friendly_name": "Document Png",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "png", "image"],
     "duotone": false
   },
   {
     "name": "document-png-2",
     "friendly_name": "Document Png 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "png", "image"],
     "duotone": false
   },
   {
     "name": "document-ppt",
     "friendly_name": "Document Ppt",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "ppt", "presentation", "slides"],
     "duotone": false
   },
   {
     "name": "document-ppt-2",
     "friendly_name": "Document Ppt 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "ppt", "presentation", "slides"],
     "duotone": false
   },
   {
     "name": "document-pptx",
     "friendly_name": "Document Pptx",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "ppt", "pptx", "presentation", "slides"],
     "duotone": false
   },
   {
     "name": "document-pptx-2",
     "friendly_name": "Document Pptx 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["document", "ppt", "pptx", "presentation", "slides"],
     "duotone": false
   },
   {
     "name": "document-protected",
     "friendly_name": "Document Protected",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-protected",
+      "protected-document",
+      "locked-document",
+      "secure-document",
+      "encrypted",
+      "read-only",
+      "restricted",
+      "protected-file",
+      "lock",
+      "shield"
+    ],
     "duotone": false
   },
   {
     "name": "document-search",
     "friendly_name": "Document Search",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-search",
+      "search-document",
+      "find-document",
+      "lookup-document",
+      "search-file",
+      "find-file",
+      "lookup-file",
+      "query-document",
+      "document-lookup",
+      "document-query"
+    ],
     "duotone": false
   },
   {
     "name": "document-share",
     "friendly_name": "Document Share",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-share",
+      "share-document",
+      "share-file",
+      "send-document",
+      "send-file",
+      "share",
+      "invite",
+      "collaborate",
+      "share-link",
+      "link-sharing",
+      "grant-access",
+      "share-permissions"
+    ],
     "duotone": false
   },
   {
     "name": "document-storage",
     "friendly_name": "Document Storage",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-storage",
+      "storage",
+      "file-storage",
+      "document-repository",
+      "doc-repo",
+      "archive",
+      "library",
+      "content-store",
+      "dms",
+      "content-management",
+      "store",
+      "vault"
+    ],
     "duotone": false
   },
   {
     "name": "document-task",
     "friendly_name": "Document Task",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-task",
+      "task",
+      "to-do",
+      "work-item",
+      "assign",
+      "review-task",
+      "approval-task",
+      "document-action",
+      "workflow",
+      "process"
+    ],
     "duotone": true
   },
   {
     "name": "document-unprotected",
     "friendly_name": "Document Unprotected",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-unprotected",
+      "unlocked-document",
+      "unlocked-file",
+      "unprotect",
+      "remove-protection",
+      "public",
+      "open",
+      "read-write",
+      "unrestricted"
+    ],
     "duotone": false
   },
   {
     "name": "document-upload",
     "friendly_name": "Document Upload",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-upload",
+      "upload-document",
+      "upload-file",
+      "add-file",
+      "send-file",
+      "import",
+      "submit-document",
+      "attach-file"
+    ],
     "duotone": false
   },
   {
     "name": "document-view",
     "friendly_name": "Document View",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-view",
+      "view-document",
+      "preview",
+      "open-document",
+      "read",
+      "viewer",
+      "read-only",
+      "quick-look"
+    ],
     "duotone": false
   },
   {
     "name": "document-warning",
     "friendly_name": "Document Warning",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-warning",
+      "warning",
+      "caution",
+      "issue",
+      "error",
+      "validation-warning",
+      "policy-warning",
+      "risk",
+      "attention"
+    ],
     "duotone": false
   },
   {
     "name": "document-xls",
     "friendly_name": "Document Xls",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-xls",
+      "xls",
+      "excel",
+      "spreadsheet",
+      "workbook",
+      "sheet",
+      "microsoft-excel",
+      "file-xls"
+    ],
     "duotone": false
   },
   {
     "name": "document-xls-2",
     "friendly_name": "Document Xls 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-xls",
+      "xls",
+      "excel",
+      "spreadsheet",
+      "workbook",
+      "sheet",
+      "microsoft-excel",
+      "file-xls"
+    ],
     "duotone": false
   },
   {
     "name": "document-xlsx",
     "friendly_name": "Document Xlsx",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-xlsx",
+      "xlsx",
+      "excel",
+      "spreadsheet",
+      "workbook",
+      "sheet",
+      "microsoft-excel",
+      "file-xlsx"
+    ],
     "duotone": false
   },
   {
     "name": "document-xlsx-2",
     "friendly_name": "Document Xlsx 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "document-xlsx",
+      "xlsx",
+      "excel",
+      "spreadsheet",
+      "workbook",
+      "sheet",
+      "microsoft-excel",
+      "file-xlsx"
+    ],
     "duotone": false
   },
   {
     "name": "double-integer",
     "friendly_name": "Double Integer",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["double", "integer", "number", "datatype", "variable"],
     "duotone": false
   },
   {
     "name": "download",
     "friendly_name": "Download",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "download",
+      "save",
+      "get-file",
+      "fetch",
+      "export",
+      "retrieve",
+      "save-as",
+      "pull",
+      "transfer"
+    ],
     "duotone": false
   },
   {
     "name": "draggable",
     "friendly_name": "Draggable",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "draggable",
+      "drag",
+      "drag-and-drop",
+      "dragdrop",
+      "move",
+      "reorder",
+      "grab",
+      "handle",
+      "drag-handle",
+      "sortable"
+    ],
     "duotone": false
   },
   {
     "name": "earth",
     "friendly_name": "Earth",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "earth",
+      "globe",
+      "world",
+      "global",
+      "public",
+      "internet",
+      "language",
+      "location",
+      "region",
+      "international",
+      "worldwide"
+    ],
     "duotone": false
   },
   {
     "name": "edit",
     "friendly_name": "Edit",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "edit",
+      "pencil",
+      "modify",
+      "update",
+      "change",
+      "revise",
+      "rewrite",
+      "correct",
+      "adjust"
+    ],
     "duotone": false
   },
   {
     "name": "edit-2",
     "friendly_name": "Edit 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "edit",
+      "pencil",
+      "modify",
+      "update",
+      "change",
+      "revise",
+      "rewrite",
+      "correct",
+      "adjust"
+    ],
     "duotone": false
   },
   {
     "name": "education",
     "friendly_name": "Education",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["education", "training", "learning", "enablement"],
     "duotone": false
   },
   {
     "name": "end-date",
     "friendly_name": "End Date",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "end-date",
+      "end",
+      "to-date",
+      "until",
+      "due-date",
+      "deadline",
+      "finish-date",
+      "range-end",
+      "date-end"
+    ],
     "duotone": false
   },
   {
     "name": "enterprise-catalog",
     "friendly_name": "Enterprise Catalog",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Gateway",
+    "aliases": [
+      "enterprise",
+      "catalog",
+      "services",
+      "directory",
+      "marketplace"
+    ],
     "duotone": true
   },
   {
     "name": "enterprise-marketplace",
     "friendly_name": "Enterprise Marketplace",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": ["enterprise", "marketplace", "catalog", "offerings"],
     "duotone": true
   },
   {
     "name": "erase",
     "friendly_name": "Erase",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "erase",
+      "erase-content",
+      "clear",
+      "wipe",
+      "remove",
+      "delete",
+      "reset",
+      "undo-changes"
+    ],
     "duotone": false
   },
   {
     "name": "error",
     "friendly_name": "Error",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "error",
+      "warning",
+      "issue",
+      "problem",
+      "failed",
+      "failure",
+      "invalid",
+      "exception",
+      "bug",
+      "alert",
+      "status-error"
+    ],
     "duotone": false
   },
   {
     "name": "error-2",
     "friendly_name": "Error 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "error",
+      "warning",
+      "issue",
+      "problem",
+      "failed",
+      "failure",
+      "invalid",
+      "exception",
+      "bug",
+      "alert",
+      "status-error"
+    ],
     "duotone": false
   },
   {
     "name": "error-filled",
     "friendly_name": "Error Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "error-filled",
+      "warning-filled",
+      "issue-filled",
+      "problem-filled",
+      "failed-filled",
+      "alert-filled",
+      "status-error-filled"
+    ],
     "duotone": false
   },
   {
     "name": "error-filled-2",
     "friendly_name": "Error Filled 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "error-filled",
+      "warning-filled",
+      "issue-filled",
+      "problem-filled",
+      "failed-filled",
+      "alert-filled",
+      "status-error-filled"
+    ],
     "duotone": false
   },
   {
     "name": "expand",
     "friendly_name": "Expand",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "expand",
+      "open",
+      "enlarge",
+      "maximize",
+      "show-more",
+      "unfold",
+      "expand-panel",
+      "expand-row",
+      "expand-section"
+    ],
     "duotone": false
   },
   {
     "name": "explore",
     "friendly_name": "Explore",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "explore",
+      "discover",
+      "browse",
+      "navigate",
+      "search",
+      "find",
+      "compass",
+      "investigate",
+      "journey",
+      "learn-more"
+    ],
     "duotone": true
   },
   {
     "name": "extension",
     "friendly_name": "Extension",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "extension",
+      "plugin",
+      "integration",
+      "add-on",
+      "connector",
+      "module"
+    ],
     "duotone": false
   },
   {
     "name": "feedback",
     "friendly_name": "Feedback",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "feedback",
+      "send-feedback",
+      "rate",
+      "rating",
+      "review",
+      "comment",
+      "report-issue",
+      "suggestion",
+      "survey",
+      "opinion"
+    ],
     "duotone": false
   },
   {
     "name": "filter-active",
     "friendly_name": "Filter Active",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "filter-active",
+      "active-filters",
+      "filters-on",
+      "filtered",
+      "applied-filters",
+      "refined"
+    ],
     "duotone": false
   },
   {
     "name": "filter",
     "friendly_name": "Filter",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "filter",
+      "refine",
+      "narrow",
+      "funnel",
+      "query",
+      "criteria",
+      "search-filters",
+      "apply-filters"
+    ],
     "duotone": false
   },
   {
     "name": "filter-edit",
     "friendly_name": "Filter Edit",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "filter-edit",
+      "edit-filters",
+      "modify-filters",
+      "adjust-filters",
+      "refine",
+      "criteria",
+      "query-builder"
+    ],
     "duotone": false
   },
   {
     "name": "finance",
     "friendly_name": "Finance",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["finance", "budget", "cost", "billing", "accounting", "spend"],
     "duotone": true
   },
   {
     "name": "flag",
     "friendly_name": "Flag",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "flag",
+      "bookmark",
+      "mark",
+      "pin",
+      "follow-up",
+      "attention",
+      "priority",
+      "report"
+    ],
     "duotone": false
   },
   {
     "name": "flag-filled",
     "friendly_name": "Flag Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "flag-filled",
+      "flag-solid",
+      "marked",
+      "pinned",
+      "follow-up",
+      "attention",
+      "priority"
+    ],
     "duotone": false
   },
   {
     "name": "flow-data",
     "friendly_name": "Flow Data",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "flow-data",
+      "data-flow",
+      "flow",
+      "pipeline",
+      "stream",
+      "integration",
+      "connection",
+      "graph",
+      "diagram",
+      "mapping"
+    ],
     "duotone": false
   },
   {
     "name": "folder",
     "friendly_name": "Folder",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["folder", "directory", "collection", "file-folder", "browse"],
     "duotone": false
   },
   {
     "name": "folder-add",
     "friendly_name": "Folder Add",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["folder-add", "new-folder", "create-folder", "add-folder"],
     "duotone": false
   },
   {
     "name": "folder-attachment",
     "friendly_name": "Folder Attachment",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-attachment",
+      "attach-folder",
+      "folder-attach",
+      "attachment",
+      "paperclip"
+    ],
     "duotone": false
   },
   {
     "name": "folder-close",
     "friendly_name": "Folder Close",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-close",
+      "closed-folder",
+      "close-folder",
+      "collapse-folder"
+    ],
     "duotone": false
   },
   {
     "name": "folder-copy",
     "friendly_name": "Folder Copy",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-copy",
+      "copy-folder",
+      "duplicate-folder",
+      "clone-folder"
+    ],
     "duotone": false
   },
   {
     "name": "folder-delete",
     "friendly_name": "Folder Delete",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-delete",
+      "remove-folder",
+      "delete-folder",
+      "trash-folder"
+    ],
     "duotone": false
   },
   {
     "name": "folder-download",
     "friendly_name": "Folder Download",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-download",
+      "download-folder",
+      "save-folder",
+      "export-folder"
+    ],
     "duotone": false
   },
   {
     "name": "folder-edit",
     "friendly_name": "Folder Edit",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-edit",
+      "edit-folder",
+      "rename-folder",
+      "modify-folder",
+      "manage-folder"
+    ],
     "duotone": false
   },
   {
     "name": "folder-image",
     "friendly_name": "Folder Image",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-image",
+      "image-folder",
+      "photos-folder",
+      "media-folder",
+      "pictures"
+    ],
     "duotone": false
   },
   {
     "name": "folder-no-access",
     "friendly_name": "Folder No Access",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-no-access",
+      "restricted-folder",
+      "forbidden-folder",
+      "access-denied",
+      "locked-folder",
+      "unauthorized"
+    ],
     "duotone": false
   },
   {
     "name": "folder-protected",
     "friendly_name": "Folder Protected",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-protected",
+      "protected-folder",
+      "secured-folder",
+      "locked-folder",
+      "encrypted-folder",
+      "read-only"
+    ],
     "duotone": false
   },
   {
     "name": "folder-search",
     "friendly_name": "Folder Search",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-search",
+      "search-folder",
+      "find-folder",
+      "lookup-folder",
+      "browse-folder"
+    ],
     "duotone": false
   },
   {
     "name": "folder-share",
     "friendly_name": "Folder Share",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-share",
+      "share-folder",
+      "shared-folder",
+      "invite",
+      "collaborate",
+      "share-link"
+    ],
     "duotone": false
   },
   {
     "name": "folder-task",
     "friendly_name": "Folder Task",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-task",
+      "folder-todo",
+      "folder-work-item",
+      "assign",
+      "task"
+    ],
     "duotone": false
   },
   {
     "name": "folder-unprotected",
     "friendly_name": "Folder Unprotected",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-unprotected",
+      "unlocked-folder",
+      "public-folder",
+      "open-access",
+      "read-write"
+    ],
     "duotone": false
   },
   {
     "name": "folder-upload",
     "friendly_name": "Folder Upload",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-upload",
+      "upload-folder",
+      "import-folder",
+      "bulk-upload",
+      "send-folder"
+    ],
     "duotone": false
   },
   {
     "name": "folder-warning",
     "friendly_name": "Folder Warning",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folder-warning",
+      "warning-folder",
+      "issue-folder",
+      "alert-folder",
+      "caution",
+      "risk-folder"
+    ],
     "duotone": false
   },
   {
     "name": "folders",
     "friendly_name": "Folders",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "folders",
+      "multiple-folders",
+      "folder-list",
+      "directories",
+      "library",
+      "folders-view",
+      "all-folders"
+    ],
     "duotone": false
   },
   {
     "name": "gateway-security",
     "friendly_name": "Gateway Security",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["gateway", "security", "access", "protection", "firewall"],
     "duotone": false
   },
   {
     "name": "gender-female",
     "friendly_name": "Gender Female",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "gender-female",
+      "female",
+      "woman",
+      "women",
+      "female-symbol",
+      "venus",
+      "feminine"
+    ],
     "duotone": false
   },
   {
     "name": "gender-male",
     "friendly_name": "Gender Male",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "gender-male",
+      "male",
+      "man",
+      "men",
+      "male-symbol",
+      "mars",
+      "masculine"
+    ],
     "duotone": false
   },
   {
     "name": "generative-ai",
     "friendly_name": "Generative AI",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "ai",
+      "generative",
+      "model",
+      "ml",
+      "automation",
+      "intelligence"
+    ],
     "duotone": false
   },
   {
     "name": "github-docs",
     "friendly_name": "Github Docs",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["github", "docs", "documentation", "repository", "developer"],
     "duotone": false
   },
   {
     "name": "globe",
     "friendly_name": "Globe",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "globe",
+      "world",
+      "global",
+      "internet",
+      "public",
+      "language",
+      "locale",
+      "region",
+      "international",
+      "worldwide",
+      "earth"
+    ],
     "duotone": false
   },
   {
     "name": "globe-2",
     "friendly_name": "Globe 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "globe",
+      "world",
+      "global",
+      "internet",
+      "public",
+      "language",
+      "locale",
+      "region",
+      "international",
+      "worldwide",
+      "earth"
+    ],
     "duotone": false
   },
   {
     "name": "go-to-market",
     "friendly_name": "Go To Market",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "go-to-market",
+      "gtm",
+      "launch",
+      "market",
+      "marketing",
+      "sales",
+      "enablement",
+      "portal",
+      "hub",
+      "campaigns",
+      "offerings"
+    ],
     "duotone": true
   },
   {
     "name": "grid",
     "friendly_name": "Grid",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "grid",
+      "grid-view",
+      "cards",
+      "tiles",
+      "layout",
+      "gallery",
+      "mosaic",
+      "collection",
+      "columns",
+      "matrix"
+    ],
     "duotone": false
   },
   {
     "name": "group",
     "friendly_name": "Group",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "group",
+      "groups",
+      "team",
+      "users",
+      "members",
+      "organization",
+      "cohort",
+      "audience",
+      "cluster",
+      "segment"
+    ],
     "duotone": true
   },
   {
     "name": "growth-crop",
     "friendly_name": "Growth Crop",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "growth-crop",
+      "crop-growth",
+      "focus-growth",
+      "select-growth-area",
+      "zoom-growth",
+      "crop",
+      "growth"
+    ],
     "duotone": true
   },
   {
     "name": "gtm-product",
     "friendly_name": "Gtm Product",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Gateway",
+    "aliases": [
+      "gtm",
+      "product",
+      "go-to-market",
+      "launch",
+      "portal",
+      "enablement"
+    ],
     "duotone": false
   },
   {
     "name": "hamburger-menu",
     "friendly_name": "Hamburger Menu",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "hamburger-menu",
+      "menu",
+      "navigation",
+      "nav",
+      "menu-icon",
+      "three-lines",
+      "menu-button",
+      "open-menu",
+      "side-menu",
+      "drawer",
+      "burger"
+    ],
     "duotone": false
   },
   {
     "name": "health",
     "friendly_name": "Health",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "health",
+      "system-health",
+      "status",
+      "diagnostics",
+      "checkup",
+      "monitoring",
+      "wellness",
+      "heartbeat",
+      "health-check"
+    ],
     "duotone": true
   },
   {
     "name": "high",
     "friendly_name": "High",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "high",
+      "high-priority",
+      "high-severity",
+      "priority-high",
+      "severity-high",
+      "critical",
+      "alert",
+      "urgent",
+      "important"
+    ],
     "duotone": false
   },
   {
     "name": "high-filled",
     "friendly_name": "High Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "high-filled",
+      "high-priority-filled",
+      "high-severity-filled",
+      "priority-high-filled",
+      "severity-high-filled",
+      "critical-filled",
+      "alert-filled"
+    ],
     "duotone": false
   },
   {
     "name": "history",
     "friendly_name": "History",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "history",
+      "recent",
+      "activity",
+      "timeline",
+      "log",
+      "audit",
+      "version-history",
+      "past",
+      "clock",
+      "recents"
+    ],
     "duotone": false
   },
   {
     "name": "home",
     "friendly_name": "Home",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "home",
+      "homepage",
+      "home-page",
+      "house",
+      "start",
+      "start-page",
+      "root",
+      "main",
+      "landing"
+    ],
     "duotone": false
   },
   {
     "name": "hourglass",
     "friendly_name": "Hourglass",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "hourglass",
+      "time",
+      "pending",
+      "waiting",
+      "in-progress",
+      "loading",
+      "timer",
+      "deadline",
+      "duration",
+      "countdown"
+    ],
     "duotone": false
   },
   {
     "name": "ibm-cloud-pal",
     "friendly_name": "IBM Cloud Pal",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["ibm", "cloud", "pal", "prescriptive-architecture", "library"],
     "duotone": false
   },
   {
     "name": "id-management",
     "friendly_name": "Id Management",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["identity", "access", "iam", "governance", "authentication"],
     "duotone": false
   },
   {
     "name": "inactive",
     "friendly_name": "InActive",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "inactive",
+      "idle",
+      "disabled",
+      "off",
+      "paused",
+      "standby",
+      "sleep",
+      "suspended",
+      "unavailable",
+      "status-inactive"
+    ],
     "duotone": false
   },
   {
     "name": "industry",
     "friendly_name": "Industry",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["industry", "sector", "vertical", "solutions", "factory"],
     "duotone": false
   },
   {
     "name": "information",
     "friendly_name": "Information",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "information",
+      "info",
+      "i",
+      "details",
+      "more-info",
+      "about",
+      "learn-more",
+      "help",
+      "hint",
+      "tooltip"
+    ],
     "duotone": false
   },
   {
     "name": "information-2",
     "friendly_name": "Information 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "information",
+      "info",
+      "i",
+      "details",
+      "more-info",
+      "about",
+      "learn-more",
+      "help",
+      "hint",
+      "tooltip"
+    ],
     "duotone": false
   },
   {
     "name": "information-filled",
     "friendly_name": "Information Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "information-filled",
+      "info-filled",
+      "i-filled",
+      "details-filled",
+      "help-filled",
+      "hint-filled"
+    ],
     "duotone": false
   },
   {
     "name": "information-filled-2",
     "friendly_name": "Information Filled 2",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "information-filled",
+      "info-filled",
+      "i-filled",
+      "details-filled",
+      "help-filled",
+      "hint-filled"
+    ],
     "duotone": false
   },
   {
     "name": "integrated-AIOps",
     "friendly_name": "Integrated AIOps",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "integrated-AIOps",
+      "integrated-aiops",
+      "aiops",
+      "aiops-portal",
+      "aiops-suite",
+      "aiops-integration",
+      "operations-ai",
+      "operations-intelligence",
+      "observability-hub",
+      "automation-hub"
+    ],
     "duotone": true
   },
   {
     "name": "intranet",
     "friendly_name": "Intranet",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "intranet",
+      "internal-portal",
+      "employee-portal",
+      "company-portal",
+      "internal-site",
+      "enterprise-portal",
+      "staff-portal",
+      "internal-home",
+      "digital-workplace",
+      "dex"
+    ],
     "duotone": false
   },
   {
     "name": "inventory-360",
     "friendly_name": "Inventory 360",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["inventory", "360", "visibility", "lifecycle", "analytics"],
     "duotone": false
   },
   {
     "name": "inventory-overview",
     "friendly_name": "Inventory Overview",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["inventory", "overview", "dashboard", "summary"],
     "duotone": false
   },
   {
     "name": "inventory-performance",
     "friendly_name": "Inventory Performance",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["inventory", "performance", "metrics", "analytics"],
     "duotone": false
   },
   {
     "name": "inventory-service",
     "friendly_name": "Inventory Service",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["inventory", "service", "api", "management"],
     "duotone": false
   },
   {
     "name": "inventory",
     "friendly_name": "Inventory",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["inventory", "assets", "management", "tracking"],
     "duotone": false
   },
   {
     "name": "IT-infrastructure",
     "friendly_name": "IT Infrastructure",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["it", "infrastructure", "systems", "architecture"],
     "duotone": false
   },
   {
     "name": "key",
     "friendly_name": "Key",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["key", "credential", "access", "identity", "security"],
     "duotone": true
   },
   {
     "name": "know-your-customer",
     "friendly_name": "Know Your Customer",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["kyc", "compliance", "verification", "identity", "risk"],
     "duotone": false
   },
   {
     "name": "key-add",
     "friendly_name": "Key Add",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["key", "add", "create", "token", "access"],
     "duotone": false
   },
   {
     "name": "key-delete",
     "friendly_name": "Key Delete",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["key", "delete", "remove", "revoke"],
     "duotone": false
   },
   {
     "name": "key-security",
     "friendly_name": "Key Security",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["key", "security", "encryption", "protection", "ksm"],
     "duotone": false
   },
   {
     "name": "launch",
     "friendly_name": "Launch",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "launch",
+      "open-in-new",
+      "external",
+      "external-link",
+      "open-new-tab",
+      "start",
+      "run",
+      "execute",
+      "go",
+      "begin"
+    ],
     "duotone": false
   },
   {
     "name": "lightbulb",
     "friendly_name": "Lightbulb",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "lightbulb",
+      "idea",
+      "tip",
+      "insight",
+      "suggestion",
+      "hint",
+      "recommendation",
+      "light",
+      "spark",
+      "bulb"
+    ],
     "duotone": true
   },
   {
     "name": "line-thick",
     "friendly_name": "Line Thick",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "line-thick",
+      "thick-line",
+      "heavy-line",
+      "bold-line",
+      "divider",
+      "separator",
+      "rule",
+      "stroke"
+    ],
     "duotone": false
   },
   {
     "name": "line",
     "friendly_name": "Line",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "line",
+      "thin-line",
+      "divider",
+      "separator",
+      "rule",
+      "stroke",
+      "bar",
+      "line-divider"
+    ],
     "duotone": false
   },
   {
     "name": "list",
     "friendly_name": "List",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "list",
+      "list-view",
+      "bulleted-list",
+      "ordered-list",
+      "items",
+      "menu-list",
+      "rows",
+      "collection",
+      "directory"
+    ],
     "duotone": false
   },
   {
     "name": "location",
     "friendly_name": "Location",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "location",
+      "pin",
+      "map-pin",
+      "marker",
+      "place",
+      "geo",
+      "geolocation",
+      "address",
+      "where",
+      "position"
+    ],
     "duotone": true
   },
   {
     "name": "lock",
     "friendly_name": "Lock",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "lock",
+      "locked",
+      "secure",
+      "security",
+      "padlock",
+      "protected",
+      "restricted",
+      "private",
+      "encrypt",
+      "shield"
+    ],
     "duotone": true
   },
   {
     "name": "log-out",
     "friendly_name": "Log Out",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "log-out",
+      "logout",
+      "sign-out",
+      "signoff",
+      "log off",
+      "end-session",
+      "exit",
+      "leave",
+      "disconnect"
+    ],
     "duotone": false
   },
   {
     "name": "logging",
     "friendly_name": "Logging",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["logging", "logs", "monitoring", "observability", "events"],
     "duotone": false
   },
   {
     "name": "low",
     "friendly_name": "Low",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "low",
+      "low-priority",
+      "low-severity",
+      "priority-low",
+      "severity-low",
+      "minor",
+      "status-low"
+    ],
     "duotone": false
   },
   {
     "name": "low-filled",
     "friendly_name": "Low Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "low-filled",
+      "low-priority-filled",
+      "low-severity-filled",
+      "priority-low-filled",
+      "severity-low-filled",
+      "minor-filled"
+    ],
     "duotone": false
   },
   {
     "name": "mail",
     "friendly_name": "Mail",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "mail",
+      "email",
+      "envelope",
+      "message",
+      "send",
+      "inbox",
+      "reply"
+    ],
     "duotone": true
   },
   {
     "name": "management",
     "friendly_name": "Management",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["management", "governance", "administration", "operations"],
     "duotone": false
   },
   {
     "name": "map",
     "friendly_name": "Map",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "map",
+      "maps",
+      "location",
+      "map-view",
+      "geo",
+      "geolocation",
+      "street-map",
+      "territory",
+      "region",
+      "area"
+    ],
     "duotone": true
   },
   {
     "name": "marketplace",
     "friendly_name": "Marketplace",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "marketplace",
+      "app-store",
+      "store",
+      "catalog",
+      "offerings",
+      "solutions",
+      "services-marketplace",
+      "browse",
+      "discover",
+      "portal"
+    ],
     "duotone": true
   },
   {
     "name": "medium-filled",
     "friendly_name": "Medium Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "medium-filled",
+      "medium-priority-filled",
+      "medium-severity-filled",
+      "priority-medium-filled",
+      "severity-medium-filled",
+      "moderate-filled"
+    ],
     "duotone": false
   },
   {
     "name": "medium",
     "friendly_name": "Medium",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "medium",
+      "medium-priority",
+      "medium-severity",
+      "priority-medium",
+      "severity-medium",
+      "moderate",
+      "status-medium"
+    ],
     "duotone": false
   },
   {
     "name": "megaphone",
     "friendly_name": "Megaphone",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "megaphone",
+      "announce",
+      "announcement",
+      "broadcast",
+      "news",
+      "notice",
+      "shout",
+      "campaign",
+      "communication",
+      "alert"
+    ],
     "duotone": false
   },
   {
     "name": "message-queue",
     "friendly_name": "Message Queue",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["message", "queue", "messaging", "broker", "kafka", "rabbitmq"],
     "duotone": false
   },
   {
     "name": "middleware",
     "friendly_name": "Middleware",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["middleware", "integration", "service-bus", "platform"],
     "duotone": false
   },
   {
     "name": "money",
     "friendly_name": "Money",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "money",
+      "cash",
+      "currency",
+      "payment",
+      "pay",
+      "price",
+      "cost",
+      "amount",
+      "dollars",
+      "budget",
+      "funds",
+      "finance",
+      "wallet"
+    ],
     "duotone": false
   },
   {
     "name": "monitoring",
     "friendly_name": "Monitoring",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["monitoring", "observability", "metrics", "visibility"],
     "duotone": false
   },
   {
     "name": "namespace",
     "friendly_name": "Namespace",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["namespace", "scope", "environment", "configuration"],
     "duotone": false
   },
   {
     "name": "navaid-military-civil",
     "friendly_name": "Navaid Military Civil",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["navaid", "navigation", "military", "civil", "aviation"],
     "duotone": false
   },
   {
     "name": "navaid-ndb",
     "friendly_name": "Navaid NDB",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["ndb", "navigation", "beacon", "aviation"],
     "duotone": false
   },
   {
     "name": "network",
     "friendly_name": "Network",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["network", "connectivity", "infrastructure", "edge"],
     "duotone": true
   },
   {
     "name": "networking",
     "friendly_name": "Networking",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["networking", "connect", "link", "communication", "setup"],
     "duotone": false
   },
   {
     "name": "network-&-edge",
     "friendly_name": "Network & Edge",
     "category": "Services",
-    "aliases": [],
+    "aliases": [
+      "network-&-edge",
+      "network-and-edge",
+      "network",
+      "edge",
+      "connectivity",
+      "sd-wan",
+      "sase",
+      "edge-computing",
+      "networking",
+      "infrastructure",
+      "hybrid-network"
+    ],
     "duotone": true
   },
   {
     "name": "news",
     "friendly_name": "News",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["news", "updates", "announcements", "feed", "communication"],
     "duotone": true
   },
   {
     "name": "no-access",
     "friendly_name": "No Access",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "no-access",
+      "forbidden",
+      "restricted",
+      "locked",
+      "blocked",
+      "unauthorized",
+      "access-denied",
+      "permission-denied",
+      "prohibited"
+    ],
     "duotone": false
   },
   {
     "name": "no-connection",
     "friendly_name": "No Connection",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "no-connection",
+      "disconnected",
+      "offline",
+      "no-signal",
+      "no-network",
+      "lost-connection",
+      "not-connected",
+      "connection-failed"
+    ],
     "duotone": false
   },
   {
     "name": "no-data",
     "friendly_name": "No Data",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "no-data",
+      "empty-state",
+      "no-results",
+      "no-content",
+      "missing-data",
+      "no-records",
+      "nothing-here"
+    ],
     "duotone": false
   },
   {
     "name": "no-overview",
     "friendly_name": "No Overview",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "no-overview",
+      "no-dashboard",
+      "no-summary",
+      "empty-overview",
+      "no-insights",
+      "no-report"
+    ],
     "duotone": false
   },
   {
     "name": "no-wifi",
     "friendly_name": "No WiFi",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "no-wifi",
+      "wifi-off",
+      "no-signal",
+      "no-wireless",
+      "offline",
+      "disconnected",
+      "offline",
+      "no-network",
+      "lost-connection"
+    ],
     "duotone": false
   },
   {
     "name": "notification",
     "friendly_name": "Notification",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "notification",
+      "notify",
+      "alert",
+      "bell",
+      "announcement",
+      "message",
+      "toast",
+      "updates"
+    ],
     "duotone": true
   },
   {
     "name": "notifications-new",
     "friendly_name": "Notifications New",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "notification-new",
+      "new-notification",
+      "unread-notification",
+      "bell-dot",
+      "new-alert",
+      "new-message",
+      "badge-new"
+    ],
     "duotone": false
   },
   {
     "name": "open-developer",
     "friendly_name": "Open Developer",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "open-developer",
+      "developer-portal",
+      "dev-portal",
+      "developer-hub",
+      "developer-center",
+      "api-portal",
+      "docs-portal",
+      "developers",
+      "dev"
+    ],
     "duotone": true
   },
   {
     "name": "operation-policies",
     "friendly_name": "Operation Policies",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["operation", "policies", "governance", "compliance"],
     "duotone": true
   },
   {
     "name": "operations-catalog",
     "friendly_name": "Operations Catalog",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": ["operations", "catalog", "services", "directory"],
     "duotone": false
   },
   {
     "name": "operations-record",
     "friendly_name": "Operations Record",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["operations", "record", "log", "audit", "history"],
     "duotone": false
   },
   {
     "name": "optimization",
     "friendly_name": "Optimization",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["optimization", "efficiency", "performance", "tuning"],
     "duotone": false
   },
   {
     "name": "ordered-services",
     "friendly_name": "Ordered Services",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["ordered", "services", "requests", "history"],
     "duotone": true
   },
   {
     "name": "organizational-structure",
     "friendly_name": "Organizational Structure",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["organization", "structure", "hierarchy", "teams"],
     "duotone": false
   },
   {
     "name": "overflow",
     "friendly_name": "Overflow",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "overflow",
+      "more",
+      "menu",
+      "options",
+      "context-menu",
+      "actions",
+      "ellipsis",
+      "three-dots"
+    ],
     "duotone": false
   },
   {
     "name": "overflow-horizontal",
     "friendly_name": "Overflow Horizontal",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "overflow-horizontal",
+      "more-horizontal",
+      "ellipsis-horizontal",
+      "options",
+      "context-menu",
+      "actions",
+      "three-dots"
+    ],
     "duotone": false
   },
   {
     "name": "overview",
     "friendly_name": "Overview",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["overview", "summary", "view", "eye", "at-a-glance"],
     "duotone": true
   },
   {
     "name": "pen",
     "friendly_name": "Pen",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "pen",
+      "edit",
+      "pencil",
+      "write",
+      "modify",
+      "update",
+      "annotate",
+      "compose"
+    ],
     "duotone": false
   },
   {
     "name": "personalization-policies",
     "friendly_name": "Personalization Policies",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["personalization", "policies", "governance", "rules"],
     "duotone": true
   },
   {
     "name": "piggy-bank",
     "friendly_name": "Piggy Bank",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "piggy-bank",
+      "savings",
+      "save-money",
+      "budget",
+      "cost",
+      "finance",
+      "funds",
+      "reserve"
+    ],
     "duotone": false
   },
   {
     "name": "pin-filled",
     "friendly_name": "Pin Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "pin-filled",
+      "pinned",
+      "bookmark-filled",
+      "save",
+      "mark",
+      "location-pin-filled"
+    ],
     "duotone": false
   },
   {
     "name": "pin",
     "friendly_name": "Pin",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["pin", "bookmark", "save", "mark", "sticky", "location-pin"],
     "duotone": false
   },
   {
     "name": "placeholder",
     "friendly_name": "Placeholder",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "placeholder",
+      "temp",
+      "dummy",
+      "skeleton",
+      "empty-state",
+      "stand-in",
+      "preview"
+    ],
     "duotone": true
   },
   {
     "name": "planning",
     "friendly_name": "Planning",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "planning",
+      "plan",
+      "roadmap",
+      "strategy",
+      "scheduling",
+      "capacity-planning",
+      "forecasting",
+      "program-planning"
+    ],
     "duotone": false
   },
   {
     "name": "platform",
     "friendly_name": "Platform",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "platform",
+      "platform-services",
+      "foundation",
+      "framework",
+      "core",
+      "capabilities",
+      "infrastructure",
+      "ecosystem",
+      "layers"
+    ],
     "duotone": true
   },
   {
     "name": "pod",
     "friendly_name": "Pod",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["pod", "kubernetes", "container", "workload", "deployment"],
     "duotone": false
   },
   {
     "name": "police",
     "friendly_name": "Police",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "police",
+      "law-enforcement",
+      "compliance",
+      "governance",
+      "security",
+      "regulation",
+      "policy",
+      "fraud-prevention",
+      "authority",
+      "protection",
+      "enforcment"
+    ],
     "duotone": true
   },
   {
     "name": "portfolio",
     "friendly_name": "Portfolio",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "portfolio",
+      "service-portfolio",
+      "product-portfolio",
+      "offerings",
+      "projects",
+      "items",
+      "collection",
+      "assets",
+      "work",
+      "cases",
+      "business",
+      "job"
+    ],
     "duotone": true
   },
   {
     "name": "private-catalog",
     "friendly_name": "Private Catalog",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Gateway",
+    "aliases": ["private", "catalog", "offerings", "access", "portal"],
     "duotone": true
   },
   {
     "name": "private-cloud",
     "friendly_name": "Private Cloud",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["private", "cloud", "infrastructure", "virtualization"],
     "duotone": false
   },
   {
     "name": "private-solutions",
     "friendly_name": "Private Solutions",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["private", "solutions", "customized", "offerings"],
     "duotone": false
   },
   {
     "name": "program-end",
     "friendly_name": "Program End",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["program", "end", "completion", "milestone"],
     "duotone": false
   },
   {
     "name": "program-management-portal",
     "friendly_name": "Program Management Portal",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "program-management-portal",
+      "program-portal",
+      "program-hub",
+      "programs",
+      "portfolio-management",
+      "ppm",
+      "projects-portal",
+      "governance-portal",
+      "operations-portal"
+    ],
     "duotone": true
   },
   {
     "name": "provisioning-catalog",
     "friendly_name": "Provisioning Catalog",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Gateway",
+    "aliases": ["provisioning", "catalog", "services", "deployment"],
     "duotone": false
   },
   {
     "name": "publish",
     "friendly_name": "Publish",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "publish",
+      "post",
+      "go-live",
+      "release",
+      "submit",
+      "deploy",
+      "share",
+      "make-public",
+      "push"
+    ],
     "duotone": false
   },
   {
@@ -2559,406 +5117,831 @@
     "name": "question-off-topic",
     "friendly_name": "Question Off Topic",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "question-off-topic",
+      "off-topic",
+      "not-relevant",
+      "irrelevant",
+      "out-of-scope",
+      "flag-off-topic",
+      "triage"
+    ],
     "duotone": false
   },
   {
     "name": "question",
     "friendly_name": "Question",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "question",
+      "help",
+      "inquiry",
+      "ask",
+      "unknown",
+      "clarify",
+      "support",
+      "faq",
+      "info-request"
+    ],
     "duotone": true
   },
   {
     "name": "quotation",
     "friendly_name": "Quotation",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["quotation", "quote", "proposal", "estimate", "pricing"],
     "duotone": true
   },
   {
     "name": "recommend",
     "friendly_name": "Recommend",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "recommend",
+      "like",
+      "endorse",
+      "suggest",
+      "upvote",
+      "thumbs-up",
+      "favorite",
+      "promote",
+      "star"
+    ],
     "duotone": false
   },
   {
     "name": "recommend-filled",
     "friendly_name": "Recommend Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "recommend-filled",
+      "liked",
+      "endorsed",
+      "suggested",
+      "upvoted",
+      "thumbs-up-filled",
+      "favorite-filled",
+      "star-filled"
+    ],
     "duotone": false
   },
   {
     "name": "redirect",
     "friendly_name": "Redirect",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "redirect",
+      "reroute",
+      "navigate",
+      "go-to",
+      "send-to",
+      "jump",
+      "link-redirect"
+    ],
     "duotone": false
   },
   {
     "name": "redo",
     "friendly_name": "Redo",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "redo",
+      "repeat",
+      "do-again",
+      "reapply",
+      "forward-undo",
+      "restore",
+      "re-execute",
+      "again"
+    ],
     "duotone": false
   },
   {
     "name": "reference-architecture",
     "friendly_name": "Reference Architecture",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["reference", "architecture", "blueprint", "documentation"],
     "duotone": true
   },
   {
     "name": "refresh",
     "friendly_name": "Refresh",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "refresh",
+      "reload",
+      "sync",
+      "update",
+      "retry",
+      "reset",
+      "renew",
+      "recalculate",
+      "refresh-page",
+      "refresh-data"
+    ],
     "duotone": false
   },
   {
     "name": "region",
     "friendly_name": "Region",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["region", "area", "location", "zone"],
     "duotone": false
   },
   {
     "name": "region-selector",
     "friendly_name": "Region Selector",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "region-selector",
+      "choose-region",
+      "select-region",
+      "region-picker",
+      "location-selector",
+      "zone-selector"
+    ],
     "duotone": false
   },
   {
     "name": "report-data",
     "friendly_name": "Report Data",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["report", "data", "analytics", "dashboard", "export"],
     "duotone": false
   },
   {
     "name": "repository",
     "friendly_name": "Repository",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["repository", "repo", "storage", "library", "version-control"],
     "duotone": false
   },
   {
     "name": "robot",
     "friendly_name": "Robot",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "robot",
+      "bot",
+      "automation",
+      "automate",
+      "ai-bot",
+      "robotics",
+      "assistant",
+      "autopilot",
+      "auto"
+    ],
     "duotone": false
   },
   {
     "name": "rocket",
     "friendly_name": "Rocket",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "rocket",
+      "launch",
+      "go-live",
+      "deploy",
+      "ship",
+      "start",
+      "blast-off",
+      "release",
+      "fast"
+    ],
     "duotone": false
   },
   {
     "name": "roles",
     "friendly_name": "Roles",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "roles",
+      "rbac",
+      "permissions",
+      "authorization",
+      "iam",
+      "access",
+      "role-management",
+      "entitlements",
+      "access-control",
+      "skills"
+    ],
     "duotone": true
   },
   {
     "name": "rule-test",
     "friendly_name": "Rule Test",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["rule", "test", "validation", "policy", "logic"],
     "duotone": false
   },
   {
     "name": "save",
     "friendly_name": "Save",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "save",
+      "store",
+      "commit",
+      "apply",
+      "persist",
+      "save-changes",
+      "save-file",
+      "disk",
+      "floppy"
+    ],
     "duotone": false
   },
   {
     "name": "scale",
     "friendly_name": "Scale",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "scale",
+      "resize",
+      "zoom",
+      "grow",
+      "shrink",
+      "enlarge",
+      "reduce",
+      "fit",
+      "autoscale",
+      "scale-up",
+      "scale-down"
+    ],
     "duotone": false
   },
   {
     "name": "schedule",
     "friendly_name": "Schedule",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "schedule",
+      "calendar",
+      "plan",
+      "timeline",
+      "agenda",
+      "program",
+      "book",
+      "appointment",
+      "meeting",
+      "time"
+    ],
     "duotone": true
   },
   {
     "name": "search",
     "friendly_name": "Search",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "search",
+      "find",
+      "lookup",
+      "query",
+      "magnifier",
+      "discover",
+      "filter",
+      "explore"
+    ],
     "duotone": false
   },
   {
     "name": "security-&-resiliency",
     "friendly_name": "Security & Resiliency",
     "category": "Services",
-    "aliases": [],
+    "aliases": [
+      "security-&-resiliency",
+      "security-and-resiliency",
+      "security",
+      "resilience",
+      "protection",
+      "governance",
+      "risk",
+      "compliance",
+      "identity",
+      "business-continuity",
+      "threat",
+      "defense"
+    ],
     "duotone": true
   },
   {
     "name": "send",
     "friendly_name": "Send",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "send",
+      "submit",
+      "share",
+      "deliver",
+      "dispatch",
+      "send-message",
+      "send-email",
+      "paper-plane",
+      "post"
+    ],
     "duotone": false
   },
   {
     "name": "service-ID",
     "friendly_name": "Service ID",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "service-ID",
+      "service-id",
+      "service-identifier",
+      "id",
+      "identifier",
+      "uuid",
+      "guid",
+      "reference-id",
+      "service-ref",
+      "service-key"
+    ],
     "duotone": false
   },
   {
     "name": "service-management",
     "friendly_name": "Service Management",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["service", "management", "operations", "lifecycle"],
     "duotone": false
   },
   {
     "name": "service-provider",
     "friendly_name": "Service Provider",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["service", "provider", "partner", "vendor", "integration"],
     "duotone": false
   },
   {
     "name": "services",
     "friendly_name": "Services",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["services", "offerings", "capabilities", "features"],
     "duotone": true
   },
   {
     "name": "services-administration",
     "friendly_name": "Services Administration",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["services", "administration", "governance", "configuration"],
     "duotone": false
   },
   {
     "name": "services-catalog",
     "friendly_name": "Services Catalog",
     "category": "Gateway",
-    "aliases": [],
+    "aliases": [
+      "services-catalog",
+      "catalog",
+      "service-catalog",
+      "browse-services",
+      "offerings",
+      "directory",
+      "marketplace",
+      "portal",
+      "discover"
+    ],
     "duotone": true
   },
   {
     "name": "settings",
     "friendly_name": "Settings",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "settings",
+      "preferences",
+      "configuration",
+      "options",
+      "controls",
+      "setup",
+      "admin",
+      "system-settings",
+      "app-settings",
+      "cog"
+    ],
     "duotone": true
   },
   {
     "name": "settings-adjust",
     "friendly_name": "Settings Adjust",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "settings-adjust",
+      "adjust-settings",
+      "tune",
+      "fine-tune",
+      "sliders",
+      "controls",
+      "preferences",
+      "configuration",
+      "calibrate"
+    ],
     "duotone": false
   },
   {
     "name": "share",
     "friendly_name": "Share",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "share",
+      "share-link",
+      "send",
+      "distribute",
+      "collaborate",
+      "invite",
+      "publish",
+      "export",
+      "social-share"
+    ],
     "duotone": false
   },
   {
     "name": "shared-services",
     "friendly_name": "Shared Services",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "shared-services",
+      "shared",
+      "central-services",
+      "common-services",
+      "platform-services",
+      "service-hub",
+      "enterprise-services"
+    ],
     "duotone": true
   },
   {
     "name": "shrink",
     "friendly_name": "Shrink",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "shrink",
+      "minimize",
+      "collapse",
+      "reduce",
+      "contract",
+      "zoom-out",
+      "smaller",
+      "compress"
+    ],
     "duotone": false
   },
   {
     "name": "side-drawer-in",
     "friendly_name": "Side Drawer In",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "side-drawer-in",
+      "open-drawer",
+      "open-panel",
+      "slide-in",
+      "expand-sidebar",
+      "show-drawer",
+      "drawer-open"
+    ],
     "duotone": false
   },
   {
     "name": "side-drawer-out",
     "friendly_name": "Side Drawer Out",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "side-drawer-out",
+      "close-drawer",
+      "hide-drawer",
+      "slide-out",
+      "collapse-sidebar",
+      "dismiss-panel",
+      "drawer-close"
+    ],
     "duotone": false
   },
   {
     "name": "simple-notification-service",
     "friendly_name": "Simple Notification Service",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["sns", "notifications", "alerts", "messaging", "pubsub"],
     "duotone": false
   },
   {
     "name": "source-code",
     "friendly_name": "Source Code",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["source-code", "code", "programming", "repository"],
     "duotone": false
   },
   {
     "name": "reorder",
     "friendly_name": "Reorder",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "reorder",
+      "re-order",
+      "arrange",
+      "sort",
+      "sort-order",
+      "move",
+      "drag",
+      "drag-and-drop",
+      "sequence",
+      "prioritize",
+      "shuffle",
+      "resequence"
+    ],
     "duotone": false
   },
   {
     "name": "square",
     "friendly_name": "Square",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "square",
+      "box",
+      "shape-square",
+      "outline-square",
+      "hollow-square",
+      "tile",
+      "block"
+    ],
     "duotone": false
   },
   {
     "name": "square-filled",
     "friendly_name": "Square Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "square-filled",
+      "solid-square",
+      "filled-square",
+      "tile-filled",
+      "block-filled"
+    ],
     "duotone": false
   },
   {
     "name": "squiggle",
     "friendly_name": "Squiggle",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "squiggle",
+      "scribble",
+      "wave",
+      "curly",
+      "flourish",
+      "decorative-line",
+      "divider",
+      "underline"
+    ],
     "duotone": false
   },
   {
     "name": "squiggle-thick",
     "friendly_name": "Squiggle Thick",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["squiggle-thick", "scribble-thick", "bold-squiggle"],
     "duotone": false
   },
   {
     "name": "subscription",
     "friendly_name": "Subscription",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "subscription",
+      "subscribe",
+      "plan",
+      "membership",
+      "license",
+      "renewal",
+      "recurring",
+      "manage-subscription"
+    ],
     "duotone": true
   },
   {
     "name": "substract",
     "friendly_name": "Substract",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "substract",
+      "subtract",
+      "minus",
+      "remove",
+      "decrease",
+      "less",
+      "dash",
+      "hyphen",
+      "deduct"
+    ],
     "duotone": false
   },
   {
     "name": "sunrise-insights",
     "friendly_name": "Sunrise Insights",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "sunrise-insights",
+      "sunrise",
+      "insights",
+      "analytics",
+      "intelligence",
+      "reporting",
+      "data",
+      "visibility",
+      "monitoring"
+    ],
     "duotone": false
   },
   {
     "name": "substract-filled",
     "friendly_name": "Substract Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "substract-filled",
+      "subtract-filled",
+      "minus-filled",
+      "remove-filled",
+      "decrease-filled",
+      "less-filled",
+      "dash-filled"
+    ],
     "duotone": false
   },
   {
     "name": "substract-simple",
     "friendly_name": "Substract Simple",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "substract-simple",
+      "subtract-simple",
+      "minus-simple",
+      "remove-simple",
+      "decrease-simple",
+      "less",
+      "dash",
+      "hyphen"
+    ],
     "duotone": false
   },
   {
     "name": "support",
     "friendly_name": "Support",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["support", "help", "assistance", "helpdesk", "ticket"],
     "duotone": true
   },
   {
     "name": "system-enviroment",
     "friendly_name": "System Enviroment",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "system-enviroment",
+      "system-environment",
+      "environment",
+      "infrastructure",
+      "platform",
+      "runtime",
+      "deployment",
+      "config",
+      "system",
+      "operations"
+    ],
     "duotone": false
   },
   {
     "name": "table-view",
     "friendly_name": "Table View",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "table-view",
+      "table",
+      "grid",
+      "data-table",
+      "rows",
+      "columns",
+      "list",
+      "tabular",
+      "sheet",
+      "spreadsheet-view"
+    ],
     "duotone": false
   },
   {
     "name": "tag-definitions",
     "friendly_name": "Tag Definitions",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "tag-definitions",
+      "tag-definition",
+      "tags",
+      "metadata",
+      "taxonomy",
+      "labels",
+      "naming",
+      "configuration",
+      "governance",
+      "setup"
+    ],
     "duotone": false
   },
   {
     "name": "tag-repository",
     "friendly_name": "Tag Repository",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "tag-repository",
+      "tags-repository",
+      "metadata-repo",
+      "tag-store",
+      "taxonomy-store",
+      "library",
+      "catalog",
+      "registry",
+      "governance"
+    ],
     "duotone": false
   },
   {
     "name": "tags",
     "friendly_name": "Tags",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "tags",
+      "tag",
+      "labels",
+      "chips",
+      "metadata",
+      "keywords",
+      "categories",
+      "badges",
+      "filters"
+    ],
     "duotone": true
   },
   {
     "name": "task",
     "friendly_name": "Task",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "task",
+      "to-do",
+      "work-item",
+      "assignment",
+      "ticket",
+      "action",
+      "job"
+    ],
     "duotone": false
   },
   {
     "name": "task-tools",
     "friendly_name": "Task Tools",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "task-tools",
+      "task-actions",
+      "task-utilities",
+      "manage-task",
+      "edit-task",
+      "assign",
+      "change-status",
+      "task-settings"
+    ],
     "duotone": false
   },
   {
     "name": "team",
     "friendly_name": "Team",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "team",
+      "group",
+      "squad",
+      "members",
+      "users",
+      "collaboration",
+      "people",
+      "staff",
+      "crew",
+      "workgroup"
+    ],
     "duotone": false
   },
   {
     "name": "template",
     "friendly_name": "Template",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "template",
+      "blueprint",
+      "starter",
+      "boilerplate",
+      "preset",
+      "pattern",
+      "layout",
+      "create-from-template"
+    ],
     "duotone": true
   },
   {
@@ -2972,287 +5955,550 @@
     "name": "testing",
     "friendly_name": "Testing",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "testing",
+      "test",
+      "qa",
+      "quality-assurance",
+      "validation",
+      "verification",
+      "checks",
+      "automated-tests",
+      "diagnostics"
+    ],
     "duotone": false
   },
   {
     "name": "text-small",
     "friendly_name": "Text Small",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "text-small",
+      "small-text",
+      "font-size-small",
+      "decrease-font",
+      "t-small",
+      "typography-small"
+    ],
     "duotone": false
   },
   {
     "name": "text",
     "friendly_name": "Text",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "text",
+      "font",
+      "typography",
+      "paragraph",
+      "copy",
+      "content",
+      "string",
+      "label"
+    ],
     "duotone": false
   },
   {
     "name": "threatcon",
     "friendly_name": "ThreatCon",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["threat", "security", "risk", "intelligence", "monitoring"],
     "duotone": false
   },
   {
     "name": "thumbs-down",
     "friendly_name": "Thumbs Down",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "thumbs-down",
+      "dislike",
+      "downvote",
+      "not-recommended",
+      "negative",
+      "no",
+      "reject"
+    ],
     "duotone": false
   },
   {
     "name": "thumbs-down-filled",
     "friendly_name": "Thumbs Down Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "thumbs-down-filled",
+      "dislike-filled",
+      "downvote-filled",
+      "not-recommended-filled",
+      "negative-filled",
+      "thumbs-down-selected"
+    ],
     "duotone": false
   },
   {
     "name": "thumbs-up",
     "friendly_name": "Thumbs Up",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "thumbs-up",
+      "like",
+      "upvote",
+      "recommend",
+      "positive",
+      "approve",
+      "yes",
+      "endorse"
+    ],
     "duotone": false
   },
   {
     "name": "thumbs-up-filled",
     "friendly_name": "Thumbs Up Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "thumbs-up-filled",
+      "like-filled",
+      "upvote-filled",
+      "recommend-filled",
+      "positive-filled",
+      "approved",
+      "thumbs-up-selected"
+    ],
     "duotone": false
   },
   {
     "name": "ticket",
     "friendly_name": "Ticket",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["ticket", "support-ticket"],
     "duotone": true
   },
   {
     "name": "time",
     "friendly_name": "Time",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "time",
+      "clock",
+      "timer",
+      "timestamp",
+      "schedule",
+      "duration",
+      "hours",
+      "minutes",
+      "timepicker",
+      "time-of-day"
+    ],
     "duotone": true
   },
   {
     "name": "time-extended",
     "friendly_name": "Time Extended",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "time-extended",
+      "extend-time",
+      "time-extension",
+      "overtime",
+      "deadline-extended",
+      "longer-duration",
+      "add-time"
+    ],
     "duotone": false
   },
   {
     "name": "time-out",
     "friendly_name": "Time Out",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "time-out",
+      "timeout",
+      "session-timeout",
+      "expired",
+      "time-expired",
+      "connection-timeout",
+      "request-timeout"
+    ],
     "duotone": false
   },
   {
     "name": "tool",
     "friendly_name": "Tool",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "tool",
+      "tools",
+      "wrench",
+      "spanner",
+      "settings",
+      "utilities",
+      "configure",
+      "maintenance",
+      "fix"
+    ],
     "duotone": false
   },
   {
     "name": "topology",
     "friendly_name": "Topology",
-    "category": "Gateway",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["topology", "network", "architecture", "map", "connections"],
     "duotone": true
   },
   {
     "name": "tool-kit",
     "friendly_name": "Tool Kit",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "tool-kit",
+      "toolkit",
+      "tools",
+      "utilities",
+      "kit",
+      "package",
+      "bundle",
+      "developer-tools",
+      "admin-tools"
+    ],
     "duotone": false
   },
   {
     "name": "touch",
     "friendly_name": "Touch",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "touch",
+      "tap",
+      "gesture",
+      "touchscreen",
+      "mobile-touch",
+      "press",
+      "finger",
+      "interaction",
+      "touch-input"
+    ],
     "duotone": false
   },
   {
     "name": "touch-filled",
     "friendly_name": "Touch Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "touch-filled",
+      "tap-filled",
+      "gesture-filled",
+      "touchscreen-filled",
+      "mobile-touch-filled",
+      "press-filled"
+    ],
     "duotone": false
   },
   {
     "name": "track",
     "friendly_name": "Track",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "track",
+      "tracking",
+      "trace",
+      "follow",
+      "monitor",
+      "progress",
+      "status"
+    ],
     "duotone": true
   },
   {
     "name": "training",
     "friendly_name": "Training",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["training", "learning", "education", "enablement"],
     "duotone": false
   },
   {
     "name": "undo",
     "friendly_name": "Undo",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "undo",
+      "go-back",
+      "revert",
+      "rollback",
+      "step-back",
+      "undo-change",
+      "undo-action",
+      "previous-step"
+    ],
     "duotone": false
   },
   {
     "name": "unlock",
     "friendly_name": "Unlock",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "unlock",
+      "unlocked",
+      "open-lock",
+      "grant-access",
+      "unprotect",
+      "decrypt",
+      "allow",
+      "permit"
+    ],
     "duotone": false
   },
   {
     "name": "unpublish",
     "friendly_name": "UnPublish",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "unpublish",
+      "take-down",
+      "make-private",
+      "retract",
+      "withdraw",
+      "remove-from-public",
+      "unpost",
+      "unrelease"
+    ],
     "duotone": false
   },
   {
     "name": "update",
     "friendly_name": "Update",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "update",
+      "refresh",
+      "upgrade",
+      "modify",
+      "change",
+      "patch",
+      "revise",
+      "sync",
+      "apply-update"
+    ],
     "duotone": false
   },
   {
     "name": "upload",
     "friendly_name": "Upload",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "upload",
+      "send",
+      "submit",
+      "import",
+      "add-file",
+      "push",
+      "transfer",
+      "upload-file"
+    ],
     "duotone": false
   },
   {
     "name": "user",
     "friendly_name": "User",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "user",
+      "person",
+      "account",
+      "profile",
+      "member",
+      "individual",
+      "avatar",
+      "identity",
+      "contact"
+    ],
     "duotone": true
   },
   {
     "name": "user-manual",
     "friendly_name": "User Manual",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": [
+      "user-manual",
+      "documentation",
+      "guide",
+      "instructions",
+      "info"
+    ],
     "duotone": true
   },
   {
     "name": "user-settings",
     "friendly_name": "User Settings",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "user-settings",
+      "preferences",
+      "configuration",
+      "account",
+      "account-settings"
+    ],
     "duotone": false
   },
   {
     "name": "verification-in-progress",
     "friendly_name": "Verification In Progress",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "verification-in-progress",
+      "verifying",
+      "validation-pending",
+      "pending-verification",
+      "processing",
+      "checking",
+      "in-progress",
+      "under-review",
+      "awaiting-approval",
+      "status-pending"
+    ],
     "duotone": false
   },
   {
     "name": "video-tutorial",
     "friendly_name": "Video Tutorial",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "video-tutorial",
+      "tutorial",
+      "video",
+      "how-to",
+      "learning",
+      "training",
+      "guide",
+      "walkthrough",
+      "play",
+      "lesson"
+    ],
     "duotone": true
   },
-   {
+  {
     "name": "virtual-machine-insights",
     "friendly_name": "Virtual Machine Insights",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["vm", "insights", "monitoring", "analytics", "observability"],
     "duotone": false
   },
   {
     "name": "virtual-machine",
     "friendly_name": "Virtual Machine",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["virtual-machine", "vm", "compute", "infrastructure"],
     "duotone": false
   },
   {
     "name": "warning",
     "friendly_name": "Warning",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "warning",
+      "caution",
+      "alert",
+      "attention",
+      "notice",
+      "triangle",
+      "exclamation",
+      "risk",
+      "issue"
+    ],
     "duotone": false
   },
   {
     "name": "warning-filled",
     "friendly_name": "Warning Filled",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "warning-filled",
+      "caution-filled",
+      "alert-filled",
+      "attention-filled",
+      "triangle-filled",
+      "exclamation-filled"
+    ],
     "duotone": false
   },
   {
     "name": "widget-builder",
     "friendly_name": "Widget Builder",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["widget", "builder", "editor", "customization", "creation"],
     "duotone": false
   },
   {
     "name": "workbench",
     "friendly_name": "Workbench",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["workbench", "workspace", "studio", "sandbox", "tool"],
     "duotone": false
   },
   {
     "name": "workflow-automation",
     "friendly_name": "Workflow Automation",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["workflow", "automation", "orchestration", "process"],
     "duotone": true
   },
   {
     "name": "workload",
     "friendly_name": "Workload",
-    "category": "Functional",
-    "aliases": [],
+    "category": "Services",
+    "aliases": ["workload", "compute", "deployment", "resources"],
     "duotone": false
   },
   {
     "name": "yaml-generator",
     "friendly_name": "Yaml Generator",
     "category": "Functional",
-    "aliases": [],
+    "aliases": ["yaml", "generator", "config", "editor", "template"],
     "duotone": false
   },
   {
     "name": "zoom-in",
     "friendly_name": "Zoom In",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "zoom-in",
+      "magnify",
+      "increase-zoom",
+      "plus",
+      "enlarge",
+      "scale-up",
+      "pinch-out"
+    ],
     "duotone": false
   },
   {
     "name": "zoom-out",
     "friendly_name": "Zoom Out",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "zoom-out",
+      "decrease-zoom",
+      "minus",
+      "reduce",
+      "shrink",
+      "scale-down",
+      "pinch-in"
+    ],
     "duotone": false
   },
   {
     "name": "zoom-reset",
     "friendly_name": "Zoom Reset",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "zoom-reset",
+      "reset-zoom",
+      "actual-size",
+      "100%",
+      "fit-to-screen",
+      "fit",
+      "default-zoom",
+      "restore-zoom",
+      "view-reset"
+    ],
     "duotone": false
   }
 ]
