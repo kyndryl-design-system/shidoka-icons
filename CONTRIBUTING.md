@@ -17,10 +17,16 @@ npm run build
 
 1. Commits
    1. Commit messages MUST use [Conventional Commit format](https://semantic-release.gitbook.io/semantic-release#commit-message-format).
-   1. [Certain commit prefixes](https://semantic-release.gitbook.io/semantic-release/#commit-message-format) like `fix:` (patch) or `feat:` (minor) will automatically trigger a release to publish a new package and update the semantic version.
+      1. [Certain commit prefixes](https://semantic-release.gitbook.io/semantic-release/#commit-message-format) like `fix:` (patch) or `feat:` (minor) will automatically trigger a release to publish a new package and update the semantic version.
       1. `BREAKING CHANGE:` in the commit message footer will trigger a major version update.
-   1. [Conventional Commits Cheat Sheet](https://gist.github.com/Zekfad/f51cb06ac76e2457f11c80ed705c95a3)
-   1. Git hooks are installed to enforce commit message formatting with commitlint, and code formatting with Prettier.
+      1. [Conventional Commits Cheat Sheet](https://gist.github.com/Zekfad/f51cb06ac76e2457f11c80ed705c95a3)
+   1. Commits MUST include a signoff `-s / -signoff` for the above DCO.
+      1. Commits through VS Code can enable auto signoffs via the `git.alwaysSignOff` setting (included in our workspace settings.json).
+      1. Commits via the GitHub web UI can be checked via browser extension:
+         1. [Chrome](https://chromewebstore.google.com/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo?pli=1)
+         1. [Firefox](https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/)
+      1. [GitHub Desktop does not support commit signoffs](https://github.com/desktop/desktop/issues/5351).
+   1. Git hooks are installed to enforce commit message formatting with commitlint, DCO check, and code formatting with Prettier.
 1. Branching
    1. `main` branch is for stable/current version changes.
    1. `beta` branch is for minor version/prerelease.
