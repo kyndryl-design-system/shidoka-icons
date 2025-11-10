@@ -16,7 +16,7 @@ const preview = {
         order: ['Welcome', 'Migration Guide'],
       },
     },
-    backgrounds: { disable: true },
+    backgrounds: { disabled: true },
   },
 
   decorators: [
