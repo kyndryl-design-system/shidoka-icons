@@ -5110,7 +5110,15 @@
     "name": "question-active",
     "friendly_name": "Question Active",
     "category": "Functional",
-    "aliases": ["help-active", "info-active", "query-active", "assistance", "support", "inquiry", "faq"],
+    "aliases": [
+      "help-active",
+      "info-active",
+      "query-active",
+      "assistance",
+      "support",
+      "inquiry",
+      "faq"
+    ],
     "duotone": false
   },
   {
@@ -5504,6 +5512,19 @@
       "discover"
     ],
     "duotone": true
+  },
+  {
+    "name": "services-overview",
+    "friendly_name": "Services Overview",
+    "category": "Gateway",
+    "aliases": [
+      "services-home",
+      "services-landing",
+      "service-dashboard",
+      "service-hub",
+      "service-main"
+    ],
+    "duotone": false
   },
   {
     "name": "settings",
@@ -5948,7 +5969,15 @@
     "name": "temporary",
     "friendly_name": "Temporary",
     "category": "Functional",
-    "aliases": ["draft", "pending", "temporary-status", "temp", "in-progress", "duration", "expiring"],
+    "aliases": [
+      "draft",
+      "pending",
+      "temporary-status",
+      "temp",
+      "in-progress",
+      "duration",
+      "expiring"
+    ],
     "duotone": false
   },
   {
