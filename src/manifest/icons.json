@@ -3,7 +3,14 @@
     "name": "AIOps",
     "friendly_name": "AIOps",
     "category": "Gateway",
-    "aliases": ["aiops", "ai-ops", "ai operations", "operations ai", "ops-ai"],
+    "aliases": [
+      "aiops",
+      "ai-ops",
+      "ai operations",
+      "operations ai",
+      "ops-ai",
+      "business"
+    ],
     "duotone": true
   },
   {
@@ -917,6 +924,21 @@
       "split",
       "tree",
       "switch-branch"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "bucket",
+    "friendly_name": "Bucket",
+    "category": "Services",
+    "aliases": [
+      "storage",
+      "s3",
+      "object storage",
+      "container",
+      "cloud storage",
+      "repository",
+      "data bucket"
     ],
     "duotone": false
   },
@@ -3265,6 +3287,37 @@
     "duotone": false
   },
   {
+    "name": "elastic-block-store",
+    "friendly_name": "Elastic Block Store",
+    "category": "Services",
+    "aliases": [
+      "block storage",
+      "volume",
+      "ebs",
+      "disk",
+      "persistent storage",
+      "cloud storage",
+      "drive",
+      "partition"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "elastic-container-service",
+    "friendly_name": "Elastic Container Service",
+    "category": "Services",
+    "aliases": [
+      "ecs",
+      "container",
+      "cluster",
+      "workload",
+      "orchestration",
+      "tasks",
+      "microservices"
+    ],
+    "duotone": false
+  },
+  {
     "name": "end-date",
     "friendly_name": "End Date",
     "category": "Functional",
@@ -3994,6 +4047,40 @@
     "duotone": true
   },
   {
+    "name": "hexagon-dashed",
+    "friendly_name": "Hexagon Dashed",
+    "category": "Functional",
+    "aliases": [
+      "container",
+      "outline",
+      "dashed shape",
+      "placeholder",
+      "container boundary",
+      "frame",
+      "geometry",
+      "structural outline"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "hexagon",
+    "friendly_name": "Hexagon",
+    "category": "Functional",
+    "aliases": [
+      "geometric",
+      "shape",
+      "container",
+      "frame",
+      "tile",
+      "node",
+      "structural shape",
+      "placeholder",
+      "wrapper",
+      "geometry"
+    ],
+    "duotone": false
+  },
+  {
     "name": "high",
     "friendly_name": "High",
     "category": "Functional",
@@ -4271,6 +4358,21 @@
     "friendly_name": "Know Your Customer",
     "category": "Services",
     "aliases": ["kyc", "compliance", "verification", "identity", "risk"],
+    "duotone": false
+  },
+  {
+    "name": "lambda",
+    "friendly_name": "Lambda",
+    "category": "Services",
+    "aliases": [
+      "function",
+      "compute",
+      "serverless",
+      "trigger",
+      "runtime",
+      "execution",
+      "cloud function"
+    ],
     "duotone": false
   },
   {
