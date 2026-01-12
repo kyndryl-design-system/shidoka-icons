@@ -323,6 +323,34 @@
     "duotone": false
   },
   {
+    "name": "agentic-ai",
+    "friendly_name": "Agentic AI",
+    "category": "Services",
+    "aliases": [
+      "autonomous",
+      "decision-making",
+      "orchestration",
+      "delegation",
+      "execution",
+      "actions"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "ai-enhancement",
+    "friendly_name": "AI Enhancement",
+    "category": "Services",
+    "aliases": [
+      "assist",
+      "augmentation",
+      "improvement",
+      "intelligence",
+      "smart",
+      "optimization"
+    ],
+    "duotone": false
+  },
+  {
     "name": "ai-external",
     "friendly_name": "Ai External",
     "category": "Functional",
@@ -753,6 +781,21 @@
       "finance",
       "cost",
       "accounting"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "bolt",
+    "friendly_name": "Bolt",
+    "category": "Functional",
+    "aliases": [
+      "speed",
+      "power",
+      "fast",
+      "instant",
+      "boost",
+      "performance",
+      "acceleration"
     ],
     "duotone": false
   },
@@ -3558,6 +3601,21 @@
     "duotone": true
   },
   {
+    "name": "fire",
+    "friendly_name": "Fire",
+    "category": "Functional",
+    "aliases": [
+      "hot",
+      "popular",
+      "trending",
+      "intensity",
+      "alert",
+      "highlight",
+      "urgency"
+    ],
+    "duotone": false
+  },
+  {
     "name": "flag",
     "friendly_name": "Flag",
     "category": "Functional",
@@ -4889,6 +4947,20 @@
     "duotone": false
   },
   {
+    "name": "onboarding-guides",
+    "friendly_name": "Onboarding Guides",
+    "category": "Services",
+    "aliases": [
+      "walkthrough",
+      "tutorial",
+      "getting-started",
+      "help",
+      "education",
+      "enablement"
+    ],
+    "duotone": false
+  },
+  {
     "name": "open-developer",
     "friendly_name": "Open Developer",
     "category": "Gateway",
@@ -5092,6 +5164,20 @@
       "layers"
     ],
     "duotone": true
+  },
+  {
+    "name": "plugin",
+    "friendly_name": "Plugin",
+    "category": "Services",
+    "aliases": [
+      "extension",
+      "integration",
+      "addon",
+      "module",
+      "connector",
+      "interoperability"
+    ],
+    "duotone": false
   },
   {
     "name": "pod",
@@ -6029,7 +6115,8 @@
       "edit-task",
       "assign",
       "change-status",
-      "task-settings"
+      "task-settings",
+      "request management"
     ],
     "duotone": false
   },
@@ -6048,6 +6135,21 @@
       "staff",
       "crew",
       "workgroup"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "template-creation",
+    "friendly_name": "Template Creation",
+    "category": "Services",
+    "aliases": [
+      "builder",
+      "layout",
+      "starter",
+      "scaffold",
+      "blueprint",
+      "generate",
+      "structure"
     ],
     "duotone": false
   },
@@ -6346,6 +6448,38 @@
     "duotone": false
   },
   {
+    "name": "trend-up",
+    "friendly_name": "Trend Up",
+    "category": "Functional",
+    "aliases": [
+      "increase",
+      "growth",
+      "positive",
+      "rise",
+      "improvement",
+      "analytics",
+      "metrics",
+      "performance"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "trend-down",
+    "friendly_name": "Trend Down",
+    "category": "Functional",
+    "aliases": [
+      "decrease",
+      "decline",
+      "negative",
+      "drop",
+      "reduction",
+      "analytics",
+      "metrics",
+      "performance"
+    ],
+    "duotone": false
+  },
+  {
     "name": "undo",
     "friendly_name": "Undo",
     "category": "Functional",
@@ -6484,6 +6618,20 @@
       "under-review",
       "awaiting-approval",
       "status-pending"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "verified",
+    "friendly_name": "Verified",
+    "category": "Gateway",
+    "aliases": [
+      "trusted",
+      "approved",
+      "validated",
+      "certified",
+      "authenticity",
+      "assurance"
     ],
     "duotone": false
   },
