@@ -1109,6 +1109,22 @@
     "duotone": false
   },
   {
+    "name": "caret-double-horizontal",
+    "friendly_name": "Caret Double Horizontal",
+    "category": "Functional",
+    "aliases": [
+      "collapse",
+      "expand",
+      "navigation",
+      "toggle",
+      "previous",
+      "next",
+      "direction",
+      "drag"
+    ],
+    "duotone": false
+  },
+  {
     "name": "caret-double",
     "friendly_name": "Caret Double",
     "category": "Functional",
@@ -3632,6 +3648,35 @@
     "duotone": false
   },
   {
+    "name": "flow-administration",
+    "friendly_name": "Flow Administration",
+    "category": "Gateway",
+    "aliases": [
+      "orchestration",
+      "governance",
+      "operator",
+      "oversight",
+      "managed",
+      "control",
+      "human-in-loop"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "flow-automation",
+    "friendly_name": "Flow Automation",
+    "category": "Gateway",
+    "aliases": [
+      "orchestration",
+      "execution",
+      "auto-run",
+      "system-driven",
+      "trigger",
+      "pipeline"
+    ],
+    "duotone": false
+  },
+  {
     "name": "flag-filled",
     "friendly_name": "Flag Filled",
     "category": "Functional",
@@ -4139,6 +4184,20 @@
     "duotone": false
   },
   {
+    "name": "high-2",
+    "friendly_name": "High 2",
+    "category": "Functional",
+    "aliases": [
+      "critical",
+      "major",
+      "maximum",
+      "priority",
+      "intensity",
+      "level"
+    ],
+    "duotone": false
+  },
+  {
     "name": "high",
     "friendly_name": "High",
     "category": "Functional",
@@ -4434,6 +4493,13 @@
     "duotone": false
   },
   {
+    "name": "laptop",
+    "friendly_name": "Laptop",
+    "category": "Functional",
+    "aliases": ["device", "workstation", "hardware"],
+    "duotone": false
+  },
+  {
     "name": "key-add",
     "friendly_name": "Key Add",
     "category": "Functional",
@@ -4600,6 +4666,13 @@
     "duotone": false
   },
   {
+    "name": "low-2",
+    "friendly_name": "Low 2",
+    "category": "Functional",
+    "aliases": ["minimal", "minor", "small", "priority", "intensity", "level"],
+    "duotone": false
+  },
+  {
     "name": "low",
     "friendly_name": "Low",
     "category": "Functional",
@@ -4685,6 +4758,20 @@
       "portal"
     ],
     "duotone": true
+  },
+  {
+    "name": "medium-2",
+    "friendly_name": "Medium 2",
+    "category": "Functional",
+    "aliases": [
+      "moderate",
+      "normal",
+      "standard",
+      "priority",
+      "intensity",
+      "level"
+    ],
+    "duotone": false
   },
   {
     "name": "medium-filled",
@@ -5470,6 +5557,13 @@
     "friendly_name": "Repository",
     "category": "Services",
     "aliases": ["repository", "repo", "storage", "library", "version-control"],
+    "duotone": false
+  },
+  {
+    "name": "resize",
+    "friendly_name": "Resize",
+    "category": "Functional",
+    "aliases": ["adjust", "scale", "width", "drag", "layout", "dimension"],
     "duotone": false
   },
   {
@@ -6682,6 +6776,13 @@
       "risk",
       "issue"
     ],
+    "duotone": false
+  },
+  {
+    "name": "widget-add",
+    "friendly_name": "Widget Add",
+    "category": "Functional",
+    "aliases": ["create", "insert", "dashboard", "customize", "layout"],
     "duotone": false
   },
   {
