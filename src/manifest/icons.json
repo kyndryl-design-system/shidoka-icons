@@ -323,6 +323,34 @@
     "duotone": false
   },
   {
+    "name": "agentic-ai",
+    "friendly_name": "Agentic AI",
+    "category": "Services",
+    "aliases": [
+      "autonomous",
+      "decision-making",
+      "orchestration",
+      "delegation",
+      "execution",
+      "actions"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "ai-enhancement",
+    "friendly_name": "AI Enhancement",
+    "category": "Services",
+    "aliases": [
+      "assist",
+      "augmentation",
+      "improvement",
+      "intelligence",
+      "smart",
+      "optimization"
+    ],
+    "duotone": false
+  },
+  {
     "name": "ai-external",
     "friendly_name": "Ai External",
     "category": "Functional",
@@ -757,6 +785,21 @@
     "duotone": false
   },
   {
+    "name": "bolt",
+    "friendly_name": "Bolt",
+    "category": "Functional",
+    "aliases": [
+      "speed",
+      "power",
+      "fast",
+      "instant",
+      "boost",
+      "performance",
+      "acceleration"
+    ],
+    "duotone": false
+  },
+  {
     "name": "book",
     "friendly_name": "Book",
     "category": "Functional",
@@ -1062,6 +1105,22 @@
       "screen-grab",
       "take-photo",
       "take-picture"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "caret-double-horizontal",
+    "friendly_name": "Caret Double Horizontal",
+    "category": "Functional",
+    "aliases": [
+      "collapse",
+      "expand",
+      "navigation",
+      "toggle",
+      "previous",
+      "next",
+      "direction",
+      "drag"
     ],
     "duotone": false
   },
@@ -3558,6 +3617,21 @@
     "duotone": true
   },
   {
+    "name": "fire",
+    "friendly_name": "Fire",
+    "category": "Functional",
+    "aliases": [
+      "hot",
+      "popular",
+      "trending",
+      "intensity",
+      "alert",
+      "highlight",
+      "urgency"
+    ],
+    "duotone": false
+  },
+  {
     "name": "flag",
     "friendly_name": "Flag",
     "category": "Functional",
@@ -3570,6 +3644,35 @@
       "attention",
       "priority",
       "report"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "flow-administration",
+    "friendly_name": "Flow Administration",
+    "category": "Gateway",
+    "aliases": [
+      "orchestration",
+      "governance",
+      "operator",
+      "oversight",
+      "managed",
+      "control",
+      "human-in-loop"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "flow-automation",
+    "friendly_name": "Flow Automation",
+    "category": "Gateway",
+    "aliases": [
+      "orchestration",
+      "execution",
+      "auto-run",
+      "system-driven",
+      "trigger",
+      "pipeline"
     ],
     "duotone": false
   },
@@ -4081,6 +4184,20 @@
     "duotone": false
   },
   {
+    "name": "high-2",
+    "friendly_name": "High 2",
+    "category": "Functional",
+    "aliases": [
+      "critical",
+      "major",
+      "maximum",
+      "priority",
+      "intensity",
+      "level"
+    ],
+    "duotone": false
+  },
+  {
     "name": "high",
     "friendly_name": "High",
     "category": "Functional",
@@ -4376,6 +4493,13 @@
     "duotone": false
   },
   {
+    "name": "laptop",
+    "friendly_name": "Laptop",
+    "category": "Functional",
+    "aliases": ["device", "workstation", "hardware"],
+    "duotone": false
+  },
+  {
     "name": "key-add",
     "friendly_name": "Key Add",
     "category": "Functional",
@@ -4542,6 +4666,13 @@
     "duotone": false
   },
   {
+    "name": "low-2",
+    "friendly_name": "Low 2",
+    "category": "Functional",
+    "aliases": ["minimal", "minor", "small", "priority", "intensity", "level"],
+    "duotone": false
+  },
+  {
     "name": "low",
     "friendly_name": "Low",
     "category": "Functional",
@@ -4627,6 +4758,20 @@
       "portal"
     ],
     "duotone": true
+  },
+  {
+    "name": "medium-2",
+    "friendly_name": "Medium 2",
+    "category": "Functional",
+    "aliases": [
+      "moderate",
+      "normal",
+      "standard",
+      "priority",
+      "intensity",
+      "level"
+    ],
+    "duotone": false
   },
   {
     "name": "medium-filled",
@@ -4889,6 +5034,20 @@
     "duotone": false
   },
   {
+    "name": "onboarding-guides",
+    "friendly_name": "Onboarding Guides",
+    "category": "Services",
+    "aliases": [
+      "walkthrough",
+      "tutorial",
+      "getting-started",
+      "help",
+      "education",
+      "enablement"
+    ],
+    "duotone": false
+  },
+  {
     "name": "open-developer",
     "friendly_name": "Open Developer",
     "category": "Gateway",
@@ -5092,6 +5251,20 @@
       "layers"
     ],
     "duotone": true
+  },
+  {
+    "name": "plugin",
+    "friendly_name": "Plugin",
+    "category": "Services",
+    "aliases": [
+      "extension",
+      "integration",
+      "addon",
+      "module",
+      "connector",
+      "interoperability"
+    ],
+    "duotone": false
   },
   {
     "name": "pod",
@@ -5384,6 +5557,13 @@
     "friendly_name": "Repository",
     "category": "Services",
     "aliases": ["repository", "repo", "storage", "library", "version-control"],
+    "duotone": false
+  },
+  {
+    "name": "resize",
+    "friendly_name": "Resize",
+    "category": "Functional",
+    "aliases": ["adjust", "scale", "width", "drag", "layout", "dimension"],
     "duotone": false
   },
   {
@@ -6029,7 +6209,8 @@
       "edit-task",
       "assign",
       "change-status",
-      "task-settings"
+      "task-settings",
+      "request management"
     ],
     "duotone": false
   },
@@ -6048,6 +6229,21 @@
       "staff",
       "crew",
       "workgroup"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "template-creation",
+    "friendly_name": "Template Creation",
+    "category": "Services",
+    "aliases": [
+      "builder",
+      "layout",
+      "starter",
+      "scaffold",
+      "blueprint",
+      "generate",
+      "structure"
     ],
     "duotone": false
   },
@@ -6346,6 +6542,38 @@
     "duotone": false
   },
   {
+    "name": "trend-up",
+    "friendly_name": "Trend Up",
+    "category": "Functional",
+    "aliases": [
+      "increase",
+      "growth",
+      "positive",
+      "rise",
+      "improvement",
+      "analytics",
+      "metrics",
+      "performance"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "trend-down",
+    "friendly_name": "Trend Down",
+    "category": "Functional",
+    "aliases": [
+      "decrease",
+      "decline",
+      "negative",
+      "drop",
+      "reduction",
+      "analytics",
+      "metrics",
+      "performance"
+    ],
+    "duotone": false
+  },
+  {
     "name": "undo",
     "friendly_name": "Undo",
     "category": "Functional",
@@ -6488,6 +6716,20 @@
     "duotone": false
   },
   {
+    "name": "verified",
+    "friendly_name": "Verified",
+    "category": "Gateway",
+    "aliases": [
+      "trusted",
+      "approved",
+      "validated",
+      "certified",
+      "authenticity",
+      "assurance"
+    ],
+    "duotone": false
+  },
+  {
     "name": "video-tutorial",
     "friendly_name": "Video Tutorial",
     "category": "Functional",
@@ -6534,6 +6776,13 @@
       "risk",
       "issue"
     ],
+    "duotone": false
+  },
+  {
+    "name": "widget-add",
+    "friendly_name": "Widget Add",
+    "category": "Functional",
+    "aliases": ["create", "insert", "dashboard", "customize", "layout"],
     "duotone": false
   },
   {
