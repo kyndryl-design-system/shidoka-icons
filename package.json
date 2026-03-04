@@ -14,7 +14,7 @@
   },
   "scripts": {
     "gulp": "gulp",
-    "build:duotone": "node build-duotone.js",
+    "build:duotone": "node build-duotone.cjs",
     "build:iconify": "node build-iconify.mjs",
     "build": "npm run gulp && npm run build:duotone && npm run build:iconify",
     "help": "svgo --help",
