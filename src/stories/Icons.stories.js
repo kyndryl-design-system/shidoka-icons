@@ -1,6 +1,7 @@
 import { html } from 'lit';
 import { useArgs, useEffect } from 'storybook/preview-api';
 import { unsafeSVG } from 'lit-html/directives/unsafe-svg.js';
+import { repeat } from 'lit-html/directives/repeat.js';
 import copyToClipboard from 'copy-to-clipboard';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/card';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/textInput';
@@ -204,55 +205,59 @@ export const Monochrome = {
       </div>
 
       <div class="monochrome icons">
-        ${args.icons.map((icon) => {
-          let renderCategory = false;
+        ${repeat(
+          args.icons,
+          (icon) => icon.name,
+          (icon) => {
+            let renderCategory = false;
 
-          if (currentCategory !== icon.category) {
-            currentCategory = icon.category;
-            renderCategory = true;
-          }
+            if (currentCategory !== icon.category) {
+              currentCategory = icon.category;
+              renderCategory = true;
+            }
 
-          return html`
-            ${renderCategory
-              ? html`
-                  <div class="category-name kd-type--headline-08">
-                    ${icon.category}
+            return html`
+              ${renderCategory
+                ? html`
+                    <div class="category-name kd-type--headline-08">
+                      ${icon.category}
+                    </div>
+                  `
+                : null}
+
+              <kyn-card>
+                <div class="icon">
+                  <div class="icon-name kd-type--ui-04">
+                    ${icon.friendly_name}
                   </div>
-                `
-              : null}
 
-            <kyn-card>
-              <div class="icon">
-                <div class="icon-name kd-type--ui-04">
-                  ${icon.friendly_name}
+                  <div class="svg">
+                    ${args.loaded
+                      ? unsafeSVG(svgs[icon.name])
+                      : html`
+                          <kyn-skeleton
+                            width="${args.size}px"
+                            height="${args.size}px"
+                          ></kyn-skeleton>
+                        `}
+                  </div>
+
+                  <div class="icon-path kd-type--ui-03">
+                    ${icon.name}
+
+                    <button
+                      class="copy-code"
+                      title="Copy import path"
+                      @click=${() => copyCode(icon)}
+                    >
+                      ${unsafeSVG(copy)}
+                    </button>
+                  </div>
                 </div>
-
-                <div class="svg">
-                  ${args.loaded
-                    ? unsafeSVG(svgs[icon.name])
-                    : html`
-                        <kyn-skeleton
-                          width="${args.size}px"
-                          height="${args.size}px"
-                        ></kyn-skeleton>
-                      `}
-                </div>
-
-                <div class="icon-path kd-type--ui-03">
-                  ${icon.name}
-
-                  <button
-                    class="copy-code"
-                    title="Copy import path"
-                    @click=${() => copyCode(icon)}
-                  >
-                    ${unsafeSVG(copy)}
-                  </button>
-                </div>
-              </div>
-            </kyn-card>
-          `;
-        })}
+              </kyn-card>
+            `;
+          }
+        )}
       </div>
     `;
   },
@@ -344,55 +349,59 @@ export const Duotone = {
       </div>
 
       <div class="icons duotone">
-        ${args.icons.map((icon) => {
-          let renderCategory = false;
+        ${repeat(
+          args.icons,
+          (icon) => icon.name,
+          (icon) => {
+            let renderCategory = false;
 
-          if (currentCategory !== icon.category) {
-            currentCategory = icon.category;
-            renderCategory = true;
-          }
+            if (currentCategory !== icon.category) {
+              currentCategory = icon.category;
+              renderCategory = true;
+            }
 
-          return html`
-            ${renderCategory
-              ? html`
-                  <div class="category-name kd-type--headline-08">
-                    ${icon.category}
+            return html`
+              ${renderCategory
+                ? html`
+                    <div class="category-name kd-type--headline-08">
+                      ${icon.category}
+                    </div>
+                  `
+                : null}
+
+              <kyn-card>
+                <div class="icon">
+                  <div class="icon-name kd-type--ui-04">
+                    ${icon.friendly_name}
                   </div>
-                `
-              : null}
 
-            <kyn-card>
-              <div class="icon">
-                <div class="icon-name kd-type--ui-04">
-                  ${icon.friendly_name}
+                  <div class="svg">
+                    ${args.loaded
+                      ? unsafeSVG(svgs[icon.name])
+                      : html`
+                          <kyn-skeleton
+                            width="${args.size}px"
+                            height="${args.size}px"
+                          ></kyn-skeleton>
+                        `}
+                  </div>
+
+                  <div class="icon-path kd-type--ui-03">
+                    ${icon.name}
+
+                    <button
+                      class="copy-code"
+                      title="Copy import path"
+                      @click=${() => copyCode(icon)}
+                    >
+                      ${unsafeSVG(copy)}
+                    </button>
+                  </div>
                 </div>
-
-                <div class="svg">
-                  ${args.loaded
-                    ? unsafeSVG(svgs[icon.name])
-                    : html`
-                        <kyn-skeleton
-                          width="${args.size}px"
-                          height="${args.size}px"
-                        ></kyn-skeleton>
-                      `}
-                </div>
-
-                <div class="icon-path kd-type--ui-03">
-                  ${icon.name}
-
-                  <button
-                    class="copy-code"
-                    title="Copy import path"
-                    @click=${() => copyCode(icon)}
-                  >
-                    ${unsafeSVG(copy)}
-                  </button>
-                </div>
-              </div>
-            </kyn-card>
-          `;
-        })}
+              </kyn-card>
+            `;
+          }
+        )}
       </div>
     `;
   },
