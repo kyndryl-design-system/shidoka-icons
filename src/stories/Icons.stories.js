@@ -16,13 +16,6 @@ import search from '../svg/monochrome/24/search.svg?raw';
 // --- Performance: SVG cache keyed by "type/size" ---
 const svgCache = new Map();
 
-// --- Performance: debounce helper ---
-let debounceTimer;
-function debounce(fn, delay = 250) {
-  clearTimeout(debounceTimer);
-  debounceTimer = setTimeout(fn, delay);
-}
-
 export default {
   title: 'Icon Library',
   parameters: {
@@ -31,11 +24,6 @@ export default {
     },
   },
   argTypes: {
-    icons: {
-      table: {
-        disable: true,
-      },
-    },
     searchTerm: {
       table: {
         disable: true,
@@ -130,9 +118,15 @@ const sortIcons = (icons) => {
 // Pre-sort once at module level
 const sortedAllIcons = sortIcons(Icons);
 const sortedDuotoneIcons = sortIcons(Icons.filter((icon) => icon.duotone));
+
+// Pre-build lowercase search index so filtering never re-lowercases strings
+Icons.forEach((icon) => {
+  icon._searchText = [icon.friendly_name, ...(icon.aliases || [])]
+    .join('\0')
+    .toLowerCase();
+});
 export const Monochrome = {
   args: {
-    icons: sortedAllIcons,
     searchTerm: '',
     size: 32,
     color: 'currentColor',
@@ -151,30 +145,18 @@ export const Monochrome = {
       });
     }, [size]);
 
+    const currentIcons = searchTerm
+      ? sortedAllIcons.filter((icon) =>
+          icon._searchText.includes(searchTerm.toLowerCase())
+        )
+      : sortedAllIcons;
+
     useEffect(() => {
       startObserving();
-    }, [args.icons.length]);
+    }, [searchTerm]);
 
     const handleSearch = (e) => {
-      const value = e.detail.value;
-      updateArgs({ searchTerm: value });
-
-      debounce(() => {
-        const term = value.toLowerCase();
-        if (!term) {
-          updateArgs({ icons: sortedAllIcons });
-          return;
-        }
-
-        const filteredIcons = sortedAllIcons.filter((icon) => {
-          if (icon.friendly_name.toLowerCase().includes(term)) return true;
-          if (icon.aliases?.some((a) => a.toLowerCase().includes(term)))
-            return true;
-          return false;
-        });
-
-        updateArgs({ icons: filteredIcons });
-      });
+      updateArgs({ searchTerm: e.detail.value });
     };
 
     const copyCode = (icon) => {
@@ -195,7 +177,7 @@ export const Monochrome = {
         <kyn-text-input
           hideLabel
           placeholder="Search"
-          caption=${args.icons.length + ' Icons'}
+          caption=${currentIcons.length + ' Icons'}
           .value=${searchTerm}
           @on-input=${(e) => handleSearch(e)}
         >
@@ -206,7 +188,7 @@ export const Monochrome = {
 
       <div class="monochrome icons">
         ${repeat(
-          args.icons,
+          currentIcons,
           (icon) => icon.name,
           (icon) => {
             let renderCategory = false;
@@ -272,7 +254,6 @@ export const Duotone = {
   },
   args: {
     size: 48,
-    icons: sortedDuotoneIcons,
     searchTerm: '',
     primaryColor: 'var(--kd-color-icon-duotone-primary)',
     secondaryColor: 'var(--kd-color-icon-duotone-secondary)',
@@ -291,30 +272,18 @@ export const Duotone = {
       });
     }, [size]);
 
+    const currentIcons = searchTerm
+      ? sortedDuotoneIcons.filter((icon) =>
+          icon._searchText.includes(searchTerm.toLowerCase())
+        )
+      : sortedDuotoneIcons;
+
     useEffect(() => {
       startObserving();
-    }, [args.icons.length]);
+    }, [searchTerm]);
 
     const handleSearch = (e) => {
-      const value = e.detail.value;
-      updateArgs({ searchTerm: value });
-
-      debounce(() => {
-        const term = value.toLowerCase();
-        if (!term) {
-          updateArgs({ icons: sortedDuotoneIcons });
-          return;
-        }
-
-        const filteredIcons = sortedDuotoneIcons.filter((icon) => {
-          if (icon.friendly_name.toLowerCase().includes(term)) return true;
-          if (icon.aliases?.some((a) => a.toLowerCase().includes(term)))
-            return true;
-          return false;
-        });
-
-        updateArgs({ icons: filteredIcons });
-      });
+      updateArgs({ searchTerm: e.detail.value });
     };
 
     const copyCode = (icon) => {
@@ -339,7 +308,7 @@ export const Duotone = {
         <kyn-text-input
           hideLabel
           placeholder="Search"
-          caption=${args.icons.length + ' Icons'}
+          caption=${currentIcons.length + ' Icons'}
           .value=${searchTerm}
           @on-input=${(e) => handleSearch(e)}
         >
@@ -350,7 +319,7 @@ export const Duotone = {
 
       <div class="icons duotone">
         ${repeat(
-          args.icons,
+          currentIcons,
           (icon) => icon.name,
           (icon) => {
             let renderCategory = false;
