@@ -16,6 +16,13 @@ import search from '../svg/monochrome/24/search.svg?raw';
 // --- Performance: SVG cache keyed by "type/size" ---
 const svgCache = new Map();
 
+// --- Performance: debounce helper ---
+let debounceTimer;
+function debounce(fn, delay = 250) {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(fn, delay);
+}
+
 export default {
   title: 'Icon Library',
   parameters: {
@@ -156,7 +163,8 @@ export const Monochrome = {
     }, [searchTerm]);
 
     const handleSearch = (e) => {
-      updateArgs({ searchTerm: e.detail.value });
+      const value = e.detail.value;
+      debounce(() => updateArgs({ searchTerm: value }));
     };
 
     const copyCode = (icon) => {
@@ -283,7 +291,8 @@ export const Duotone = {
     }, [searchTerm]);
 
     const handleSearch = (e) => {
-      updateArgs({ searchTerm: e.detail.value });
+      const value = e.detail.value;
+      debounce(() => updateArgs({ searchTerm: value }));
     };
 
     const copyCode = (icon) => {
