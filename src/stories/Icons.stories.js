@@ -12,6 +12,16 @@ import Icons from '../manifest/icons.json';
 import copy from '../svg/monochrome/16/copy.svg?raw';
 import search from '../svg/monochrome/24/search.svg?raw';
 
+// --- Performance: SVG cache keyed by "type/size" ---
+const svgCache = new Map();
+
+// --- Performance: debounce helper ---
+let debounceTimer;
+function debounce(fn, delay = 250) {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(fn, delay);
+}
+
 export default {
   title: 'Icon Library',
   parameters: {
@@ -47,36 +57,41 @@ export default {
     },
   },
   decorators: [
-    (story) =>
-      html`
-        <style>
-          kyn-card {
-            visibility: hidden;
+    (story) => html`
+      <style>
+        kyn-card {
+          visibility: hidden;
 
-            &.visible {
-              visibility: visible;
-            }
+          &.visible {
+            visibility: visible;
           }
-        </style>
-        ${story()}
-      `,
+        }
+      </style>
+      ${story()}
+    `,
   ],
 };
 
 async function getIconFiles(size = 32, type = 'monochrome') {
+  const cacheKey = `${type}/${size}`;
+  if (svgCache.has(cacheKey)) {
+    return svgCache.get(cacheKey);
+  }
+
   const svgs = {};
   const icons = Icons.filter((icon) =>
     type === 'duotone' ? icon.duotone : true
   );
 
-  return await Promise.all(
+  await Promise.all(
     icons.map(async (icon) => {
       const svg = await import(`../svg/${type}/${size}/${icon.name}.svg?raw`);
       svgs[icon.name] = svg.default;
     })
-  ).then(() => {
-    return svgs;
-  });
+  );
+
+  svgCache.set(cacheKey, svgs);
+  return svgs;
 }
 
 const observer = new IntersectionObserver(
@@ -105,21 +120,18 @@ const startObserving = () => {
 };
 
 const sortIcons = (icons) => {
-  // sort by name
-  const sortedIcons = icons.sort(function (a, b) {
-    return a.name.localeCompare(b.name);
-  });
-
-  // sort by category
-  sortedIcons.sort(function (a, b) {
-    return a.category.localeCompare(b.category);
-  });
-
-  return sortedIcons;
+  return [...icons].sort(
+    (a, b) =>
+      a.category.localeCompare(b.category) || a.name.localeCompare(b.name)
+  );
 };
+
+// Pre-sort once at module level
+const sortedAllIcons = sortIcons(Icons);
+const sortedDuotoneIcons = sortIcons(Icons.filter((icon) => icon.duotone));
 export const Monochrome = {
   args: {
-    icons: sortIcons(Icons),
+    icons: sortedAllIcons,
     searchTerm: '',
     size: 32,
     color: 'currentColor',
@@ -140,37 +152,27 @@ export const Monochrome = {
 
     useEffect(() => {
       startObserving();
-    }, [args.icons]);
+    }, [args.icons.length]);
 
     const handleSearch = (e) => {
-      updateArgs({ searchTerm: e.detail.value });
+      const value = e.detail.value;
+      updateArgs({ searchTerm: value });
 
-      const filteredIcons = Icons.filter((icon) => {
-        let returnVal = false;
-
-        if (
-          icon.friendly_name
-            .toLowerCase()
-            .includes(e.detail.value.toLowerCase())
-        ) {
-          returnVal = true;
-        } else if (icon.aliases?.length) {
-          for (let i = 0; i < icon.aliases.length; i++) {
-            if (
-              icon.aliases[i]
-                .toLowerCase()
-                .includes(e.detail.value.toLowerCase())
-            ) {
-              returnVal = true;
-            }
-          }
+      debounce(() => {
+        const term = value.toLowerCase();
+        if (!term) {
+          updateArgs({ icons: sortedAllIcons });
+          return;
         }
 
-        return returnVal;
-      });
+        const filteredIcons = sortedAllIcons.filter((icon) => {
+          if (icon.friendly_name.toLowerCase().includes(term)) return true;
+          if (icon.aliases?.some((a) => a.toLowerCase().includes(term)))
+            return true;
+          return false;
+        });
 
-      updateArgs({
-        icons: sortIcons(filteredIcons),
+        updateArgs({ icons: filteredIcons });
       });
     };
 
@@ -265,7 +267,7 @@ export const Duotone = {
   },
   args: {
     size: 48,
-    icons: sortIcons(Icons.filter((icon) => icon.duotone)),
+    icons: sortedDuotoneIcons,
     searchTerm: '',
     primaryColor: 'var(--kd-color-icon-duotone-primary)',
     secondaryColor: 'var(--kd-color-icon-duotone-secondary)',
@@ -286,41 +288,27 @@ export const Duotone = {
 
     useEffect(() => {
       startObserving();
-    }, [args.icons]);
+    }, [args.icons.length]);
 
     const handleSearch = (e) => {
-      updateArgs({ searchTerm: e.detail.value });
+      const value = e.detail.value;
+      updateArgs({ searchTerm: value });
 
-      const filteredIcons = Icons.filter((icon) => {
-        let returnVal = false;
+      debounce(() => {
+        const term = value.toLowerCase();
+        if (!term) {
+          updateArgs({ icons: sortedDuotoneIcons });
+          return;
+        }
 
-        if (!icon.duotone) {
+        const filteredIcons = sortedDuotoneIcons.filter((icon) => {
+          if (icon.friendly_name.toLowerCase().includes(term)) return true;
+          if (icon.aliases?.some((a) => a.toLowerCase().includes(term)))
+            return true;
           return false;
-        }
+        });
 
-        if (
-          icon.friendly_name
-            .toLowerCase()
-            .includes(e.detail.value.toLowerCase())
-        ) {
-          returnVal = true;
-        } else if (icon.aliases?.length) {
-          for (let i = 0; i < icon.aliases.length; i++) {
-            if (
-              icon.aliases[i]
-                .toLowerCase()
-                .includes(e.detail.value.toLowerCase())
-            ) {
-              returnVal = true;
-            }
-          }
-        }
-
-        return returnVal;
-      });
-
-      updateArgs({
-        icons: sortIcons(filteredIcons),
+        updateArgs({ icons: filteredIcons });
       });
     };
 
