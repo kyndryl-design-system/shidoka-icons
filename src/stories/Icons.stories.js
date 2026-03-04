@@ -36,6 +36,11 @@ export default {
         disable: true,
       },
     },
+    visibleCount: {
+      table: {
+        disable: true,
+      },
+    },
     size: {
       options: [16, 20, 24, 32],
       control: { type: 'select' },
@@ -132,6 +137,29 @@ Icons.forEach((icon) => {
     .join('\0')
     .toLowerCase();
 });
+
+const PAGE_SIZE = 80;
+
+// Infinite scroll: observe a sentinel div to load more icons
+let loadMoreCallback = null;
+const scrollObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting && loadMoreCallback) {
+        loadMoreCallback();
+      }
+    });
+  },
+  { rootMargin: '400px' }
+);
+
+const observeSentinel = () => {
+  scrollObserver.disconnect();
+  const sentinel = document.querySelector('.scroll-sentinel');
+  if (sentinel) {
+    scrollObserver.observe(sentinel);
+  }
+};
 export const Monochrome = {
   args: {
     searchTerm: '',
@@ -139,9 +167,9 @@ export const Monochrome = {
     color: 'currentColor',
     svgs: {},
     loaded: false,
+    visibleCount: PAGE_SIZE,
   },
   render: (args) => {
-    let currentCategory;
     const [{ searchTerm, size, svgs }, updateArgs] = useArgs();
 
     useEffect(() => {
@@ -158,13 +186,35 @@ export const Monochrome = {
         )
       : sortedAllIcons;
 
+    const visibleIcons = currentIcons.slice(0, args.visibleCount || PAGE_SIZE);
+
+    // Pre-compute which icons start a new category
+    const categoryStarts = new Set();
+    let prevCategory;
+    visibleIcons.forEach((icon) => {
+      if (icon.category !== prevCategory) {
+        categoryStarts.add(icon.name);
+        prevCategory = icon.category;
+      }
+    });
+
     useEffect(() => {
       startObserving();
-    }, [searchTerm]);
+      loadMoreCallback =
+        currentIcons.length > (args.visibleCount || PAGE_SIZE)
+          ? () =>
+              updateArgs({
+                visibleCount: (args.visibleCount || PAGE_SIZE) + PAGE_SIZE,
+              })
+          : null;
+      observeSentinel();
+    }, [searchTerm, args.visibleCount]);
 
     const handleSearch = (e) => {
       const value = e.detail.value;
-      debounce(() => updateArgs({ searchTerm: value }));
+      debounce(() =>
+        updateArgs({ searchTerm: value, visibleCount: PAGE_SIZE })
+      );
     };
 
     const copyCode = (icon) => {
@@ -196,18 +246,11 @@ export const Monochrome = {
 
       <div class="monochrome icons">
         ${repeat(
-          currentIcons,
+          visibleIcons,
           (icon) => icon.name,
           (icon) => {
-            let renderCategory = false;
-
-            if (currentCategory !== icon.category) {
-              currentCategory = icon.category;
-              renderCategory = true;
-            }
-
             return html`
-              ${renderCategory
+              ${categoryStarts.has(icon.name)
                 ? html`
                     <div class="category-name kd-type--headline-08">
                       ${icon.category}
@@ -248,6 +291,7 @@ export const Monochrome = {
             `;
           }
         )}
+        <div class="scroll-sentinel"></div>
       </div>
     `;
   },
@@ -267,9 +311,9 @@ export const Duotone = {
     secondaryColor: 'var(--kd-color-icon-duotone-secondary)',
     svgs: {},
     loaded: false,
+    visibleCount: PAGE_SIZE,
   },
   render: (args) => {
-    let currentCategory;
     const [{ searchTerm, size, svgs }, updateArgs] = useArgs();
 
     useEffect(() => {
@@ -286,13 +330,35 @@ export const Duotone = {
         )
       : sortedDuotoneIcons;
 
+    const visibleIcons = currentIcons.slice(0, args.visibleCount || PAGE_SIZE);
+
+    // Pre-compute which icons start a new category
+    const categoryStarts = new Set();
+    let prevCategory;
+    visibleIcons.forEach((icon) => {
+      if (icon.category !== prevCategory) {
+        categoryStarts.add(icon.name);
+        prevCategory = icon.category;
+      }
+    });
+
     useEffect(() => {
       startObserving();
-    }, [searchTerm]);
+      loadMoreCallback =
+        currentIcons.length > (args.visibleCount || PAGE_SIZE)
+          ? () =>
+              updateArgs({
+                visibleCount: (args.visibleCount || PAGE_SIZE) + PAGE_SIZE,
+              })
+          : null;
+      observeSentinel();
+    }, [searchTerm, args.visibleCount]);
 
     const handleSearch = (e) => {
       const value = e.detail.value;
-      debounce(() => updateArgs({ searchTerm: value }));
+      debounce(() =>
+        updateArgs({ searchTerm: value, visibleCount: PAGE_SIZE })
+      );
     };
 
     const copyCode = (icon) => {
@@ -328,18 +394,11 @@ export const Duotone = {
 
       <div class="icons duotone">
         ${repeat(
-          currentIcons,
+          visibleIcons,
           (icon) => icon.name,
           (icon) => {
-            let renderCategory = false;
-
-            if (currentCategory !== icon.category) {
-              currentCategory = icon.category;
-              renderCategory = true;
-            }
-
             return html`
-              ${renderCategory
+              ${categoryStarts.has(icon.name)
                 ? html`
                     <div class="category-name kd-type--headline-08">
                       ${icon.category}
@@ -380,6 +439,7 @@ export const Duotone = {
             `;
           }
         )}
+        <div class="scroll-sentinel"></div>
       </div>
     `;
   },
