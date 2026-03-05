@@ -94,3 +94,60 @@ svg {
   height: 128px;
 }
 ```
+
+## Iconify Icon Sets
+
+Pre-built [Iconify](https://iconify.design/) JSON icon sets are included in the package for use with any Iconify-compatible library or tool (e.g. Iconify web components, Mermaid.js, UnoCSS, etc.).
+
+### Available Icon Sets
+
+| Import name    | Prefix       | Size | Type       |
+| -------------- | ------------ | ---- | ---------- |
+| `monochrome16` | `kd-mono-16` | 16   | Monochrome |
+| `monochrome20` | `kd-mono-20` | 20   | Monochrome |
+| `monochrome24` | `kd-mono-24` | 24   | Monochrome |
+| `monochrome32` | `kd-mono-32` | 32   | Monochrome |
+| `duotone48`    | `kd-duo-48`  | 48   | Duotone    |
+| `duotone64`    | `kd-duo-64`  | 64   | Duotone    |
+| `duotone96`    | `kd-duo-96`  | 96   | Duotone    |
+
+### Import
+
+```js
+import { monochrome32, duotone48 } from '@kyndryl-design-system/shidoka-icons';
+
+// Or import individual JSON files directly
+import monochrome32 from '@kyndryl-design-system/shidoka-icons/monochrome-32.json' with { type: 'json' };
+import duotone48 from '@kyndryl-design-system/shidoka-icons/duotone-48.json' with { type: 'json' };
+```
+
+### Usage with `addCollection()` (Iconify)
+
+```js
+import { addCollection } from '@iconify/iconify';
+import { monochrome32 } from '@kyndryl-design-system/shidoka-icons';
+
+addCollection(monochrome32);
+
+// Use icons as: prefix:icon-name
+```
+
+### Usage with Mermaid.js
+
+```js
+import { monochrome32 } from '@kyndryl-design-system/shidoka-icons';
+
+mermaid.registerIconPacks([
+  {
+    name: monochrome32.prefix, // 'kd-mono-32'
+    icons: monochrome32,
+  },
+]);
+```
+
+Then reference icons in your Mermaid diagrams using the prefix:
+
+```
+architecture-beta
+  service icon[prefix:icon-name](My Service)
+```
