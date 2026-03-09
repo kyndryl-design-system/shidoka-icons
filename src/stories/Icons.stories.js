@@ -1,6 +1,7 @@
 import { html } from 'lit';
 import { useArgs, useEffect } from 'storybook/preview-api';
 import { unsafeSVG } from 'lit-html/directives/unsafe-svg.js';
+import { repeat } from 'lit-html/directives/repeat.js';
 import copyToClipboard from 'copy-to-clipboard';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/card';
 import '@kyndryl-design-system/shidoka-applications/components/reusable/textInput';
@@ -12,6 +13,16 @@ import Icons from '../manifest/icons.json';
 import copy from '../svg/monochrome/16/copy.svg?raw';
 import search from '../svg/monochrome/24/search.svg?raw';
 
+// --- Performance: SVG cache keyed by "type/size" ---
+const svgCache = new Map();
+
+// --- Performance: debounce helper ---
+let debounceTimer;
+function debounce(fn, delay = 250) {
+  clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(fn, delay);
+}
+
 export default {
   title: 'Icon Library',
   parameters: {
@@ -20,12 +31,12 @@ export default {
     },
   },
   argTypes: {
-    icons: {
+    searchTerm: {
       table: {
         disable: true,
       },
     },
-    searchTerm: {
+    visibleCount: {
       table: {
         disable: true,
       },
@@ -47,36 +58,41 @@ export default {
     },
   },
   decorators: [
-    (story) =>
-      html`
-        <style>
-          kyn-card {
-            visibility: hidden;
+    (story) => html`
+      <style>
+        kyn-card {
+          visibility: hidden;
 
-            &.visible {
-              visibility: visible;
-            }
+          &.visible {
+            visibility: visible;
           }
-        </style>
-        ${story()}
-      `,
+        }
+      </style>
+      ${story()}
+    `,
   ],
 };
 
 async function getIconFiles(size = 32, type = 'monochrome') {
+  const cacheKey = `${type}/${size}`;
+  if (svgCache.has(cacheKey)) {
+    return svgCache.get(cacheKey);
+  }
+
   const svgs = {};
   const icons = Icons.filter((icon) =>
     type === 'duotone' ? icon.duotone : true
   );
 
-  return await Promise.all(
+  await Promise.all(
     icons.map(async (icon) => {
       const svg = await import(`../svg/${type}/${size}/${icon.name}.svg?raw`);
       svgs[icon.name] = svg.default;
     })
-  ).then(() => {
-    return svgs;
-  });
+  );
+
+  svgCache.set(cacheKey, svgs);
+  return svgs;
 }
 
 const observer = new IntersectionObserver(
@@ -105,29 +121,55 @@ const startObserving = () => {
 };
 
 const sortIcons = (icons) => {
-  // sort by name
-  const sortedIcons = icons.sort(function (a, b) {
-    return a.name.localeCompare(b.name);
-  });
+  return [...icons].sort(
+    (a, b) =>
+      a.category.localeCompare(b.category) || a.name.localeCompare(b.name)
+  );
+};
 
-  // sort by category
-  sortedIcons.sort(function (a, b) {
-    return a.category.localeCompare(b.category);
-  });
+// Pre-sort once at module level
+const sortedAllIcons = sortIcons(Icons);
+const sortedDuotoneIcons = sortIcons(Icons.filter((icon) => icon.duotone));
 
-  return sortedIcons;
+// Pre-build lowercase search index so filtering never re-lowercases strings
+Icons.forEach((icon) => {
+  icon._searchText = [icon.friendly_name, ...(icon.aliases || [])]
+    .join('\0')
+    .toLowerCase();
+});
+
+const PAGE_SIZE = 80;
+
+// Infinite scroll: observe a sentinel div to load more icons
+let loadMoreCallback = null;
+const scrollObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting && loadMoreCallback) {
+        loadMoreCallback();
+      }
+    });
+  },
+  { rootMargin: '400px' }
+);
+
+const observeSentinel = () => {
+  scrollObserver.disconnect();
+  const sentinel = document.querySelector('.scroll-sentinel');
+  if (sentinel) {
+    scrollObserver.observe(sentinel);
+  }
 };
 export const Monochrome = {
   args: {
-    icons: sortIcons(Icons),
     searchTerm: '',
     size: 32,
     color: 'currentColor',
     svgs: {},
     loaded: false,
+    visibleCount: PAGE_SIZE,
   },
   render: (args) => {
-    let currentCategory;
     const [{ searchTerm, size, svgs }, updateArgs] = useArgs();
 
     useEffect(() => {
@@ -138,40 +180,41 @@ export const Monochrome = {
       });
     }, [size]);
 
+    const currentIcons = searchTerm
+      ? sortedAllIcons.filter((icon) =>
+          icon._searchText.includes(searchTerm.toLowerCase())
+        )
+      : sortedAllIcons;
+
+    const visibleIcons = currentIcons.slice(0, args.visibleCount || PAGE_SIZE);
+
+    // Pre-compute which icons start a new category
+    const categoryStarts = new Set();
+    let prevCategory;
+    visibleIcons.forEach((icon) => {
+      if (icon.category !== prevCategory) {
+        categoryStarts.add(icon.name);
+        prevCategory = icon.category;
+      }
+    });
+
     useEffect(() => {
       startObserving();
-    }, [args.icons]);
+      loadMoreCallback =
+        currentIcons.length > (args.visibleCount || PAGE_SIZE)
+          ? () =>
+              updateArgs({
+                visibleCount: (args.visibleCount || PAGE_SIZE) + PAGE_SIZE,
+              })
+          : null;
+      observeSentinel();
+    }, [searchTerm, args.visibleCount]);
 
     const handleSearch = (e) => {
-      updateArgs({ searchTerm: e.detail.value });
-
-      const filteredIcons = Icons.filter((icon) => {
-        let returnVal = false;
-
-        if (
-          icon.friendly_name
-            .toLowerCase()
-            .includes(e.detail.value.toLowerCase())
-        ) {
-          returnVal = true;
-        } else if (icon.aliases?.length) {
-          for (let i = 0; i < icon.aliases.length; i++) {
-            if (
-              icon.aliases[i]
-                .toLowerCase()
-                .includes(e.detail.value.toLowerCase())
-            ) {
-              returnVal = true;
-            }
-          }
-        }
-
-        return returnVal;
-      });
-
-      updateArgs({
-        icons: sortIcons(filteredIcons),
-      });
+      const value = e.detail.value;
+      debounce(() =>
+        updateArgs({ searchTerm: value, visibleCount: PAGE_SIZE })
+      );
     };
 
     const copyCode = (icon) => {
@@ -192,7 +235,7 @@ export const Monochrome = {
         <kyn-text-input
           hideLabel
           placeholder="Search"
-          caption=${args.icons.length + ' Icons'}
+          caption=${currentIcons.length + ' Icons'}
           .value=${searchTerm}
           @on-input=${(e) => handleSearch(e)}
         >
@@ -202,55 +245,53 @@ export const Monochrome = {
       </div>
 
       <div class="monochrome icons">
-        ${args.icons.map((icon) => {
-          let renderCategory = false;
+        ${repeat(
+          visibleIcons,
+          (icon) => icon.name,
+          (icon) => {
+            return html`
+              ${categoryStarts.has(icon.name)
+                ? html`
+                    <div class="category-name kd-type--headline-08">
+                      ${icon.category}
+                    </div>
+                  `
+                : null}
 
-          if (currentCategory !== icon.category) {
-            currentCategory = icon.category;
-            renderCategory = true;
-          }
-
-          return html`
-            ${renderCategory
-              ? html`
-                  <div class="category-name kd-type--headline-08">
-                    ${icon.category}
+              <kyn-card>
+                <div class="icon">
+                  <div class="icon-name kd-type--ui-04">
+                    ${icon.friendly_name}
                   </div>
-                `
-              : null}
 
-            <kyn-card>
-              <div class="icon">
-                <div class="icon-name kd-type--ui-04">
-                  ${icon.friendly_name}
+                  <div class="svg">
+                    ${args.loaded
+                      ? unsafeSVG(svgs[icon.name])
+                      : html`
+                          <kyn-skeleton
+                            width="${args.size}px"
+                            height="${args.size}px"
+                          ></kyn-skeleton>
+                        `}
+                  </div>
+
+                  <div class="icon-path kd-type--ui-03">
+                    ${icon.name}
+
+                    <button
+                      class="copy-code"
+                      title="Copy import path"
+                      @click=${() => copyCode(icon)}
+                    >
+                      ${unsafeSVG(copy)}
+                    </button>
+                  </div>
                 </div>
-
-                <div class="svg">
-                  ${args.loaded
-                    ? unsafeSVG(svgs[icon.name])
-                    : html`
-                        <kyn-skeleton
-                          width="${args.size}px"
-                          height="${args.size}px"
-                        ></kyn-skeleton>
-                      `}
-                </div>
-
-                <div class="icon-path kd-type--ui-03">
-                  ${icon.name}
-
-                  <button
-                    class="copy-code"
-                    title="Copy import path"
-                    @click=${() => copyCode(icon)}
-                  >
-                    ${unsafeSVG(copy)}
-                  </button>
-                </div>
-              </div>
-            </kyn-card>
-          `;
-        })}
+              </kyn-card>
+            `;
+          }
+        )}
+        <div class="scroll-sentinel"></div>
       </div>
     `;
   },
@@ -265,15 +306,14 @@ export const Duotone = {
   },
   args: {
     size: 48,
-    icons: sortIcons(Icons.filter((icon) => icon.duotone)),
     searchTerm: '',
     primaryColor: 'var(--kd-color-icon-duotone-primary)',
     secondaryColor: 'var(--kd-color-icon-duotone-secondary)',
     svgs: {},
     loaded: false,
+    visibleCount: PAGE_SIZE,
   },
   render: (args) => {
-    let currentCategory;
     const [{ searchTerm, size, svgs }, updateArgs] = useArgs();
 
     useEffect(() => {
@@ -284,44 +324,41 @@ export const Duotone = {
       });
     }, [size]);
 
+    const currentIcons = searchTerm
+      ? sortedDuotoneIcons.filter((icon) =>
+          icon._searchText.includes(searchTerm.toLowerCase())
+        )
+      : sortedDuotoneIcons;
+
+    const visibleIcons = currentIcons.slice(0, args.visibleCount || PAGE_SIZE);
+
+    // Pre-compute which icons start a new category
+    const categoryStarts = new Set();
+    let prevCategory;
+    visibleIcons.forEach((icon) => {
+      if (icon.category !== prevCategory) {
+        categoryStarts.add(icon.name);
+        prevCategory = icon.category;
+      }
+    });
+
     useEffect(() => {
       startObserving();
-    }, [args.icons]);
+      loadMoreCallback =
+        currentIcons.length > (args.visibleCount || PAGE_SIZE)
+          ? () =>
+              updateArgs({
+                visibleCount: (args.visibleCount || PAGE_SIZE) + PAGE_SIZE,
+              })
+          : null;
+      observeSentinel();
+    }, [searchTerm, args.visibleCount]);
 
     const handleSearch = (e) => {
-      updateArgs({ searchTerm: e.detail.value });
-
-      const filteredIcons = Icons.filter((icon) => {
-        let returnVal = false;
-
-        if (!icon.duotone) {
-          return false;
-        }
-
-        if (
-          icon.friendly_name
-            .toLowerCase()
-            .includes(e.detail.value.toLowerCase())
-        ) {
-          returnVal = true;
-        } else if (icon.aliases?.length) {
-          for (let i = 0; i < icon.aliases.length; i++) {
-            if (
-              icon.aliases[i]
-                .toLowerCase()
-                .includes(e.detail.value.toLowerCase())
-            ) {
-              returnVal = true;
-            }
-          }
-        }
-
-        return returnVal;
-      });
-
-      updateArgs({
-        icons: sortIcons(filteredIcons),
-      });
+      const value = e.detail.value;
+      debounce(() =>
+        updateArgs({ searchTerm: value, visibleCount: PAGE_SIZE })
+      );
     };
 
     const copyCode = (icon) => {
@@ -346,7 +383,7 @@ export const Duotone = {
         <kyn-text-input
           hideLabel
           placeholder="Search"
-          caption=${args.icons.length + ' Icons'}
+          caption=${currentIcons.length + ' Icons'}
           .value=${searchTerm}
           @on-input=${(e) => handleSearch(e)}
         >
@@ -356,55 +393,53 @@ export const Duotone = {
       </div>
 
       <div class="icons duotone">
-        ${args.icons.map((icon) => {
-          let renderCategory = false;
+        ${repeat(
+          visibleIcons,
+          (icon) => icon.name,
+          (icon) => {
+            return html`
+              ${categoryStarts.has(icon.name)
+                ? html`
+                    <div class="category-name kd-type--headline-08">
+                      ${icon.category}
+                    </div>
+                  `
+                : null}
 
-          if (currentCategory !== icon.category) {
-            currentCategory = icon.category;
-            renderCategory = true;
-          }
-
-          return html`
-            ${renderCategory
-              ? html`
-                  <div class="category-name kd-type--headline-08">
-                    ${icon.category}
+              <kyn-card>
+                <div class="icon">
+                  <div class="icon-name kd-type--ui-04">
+                    ${icon.friendly_name}
                   </div>
-                `
-              : null}
 
-            <kyn-card>
-              <div class="icon">
-                <div class="icon-name kd-type--ui-04">
-                  ${icon.friendly_name}
+                  <div class="svg">
+                    ${args.loaded
+                      ? unsafeSVG(svgs[icon.name])
+                      : html`
+                          <kyn-skeleton
+                            width="${args.size}px"
+                            height="${args.size}px"
+                          ></kyn-skeleton>
+                        `}
+                  </div>
+
+                  <div class="icon-path kd-type--ui-03">
+                    ${icon.name}
+
+                    <button
+                      class="copy-code"
+                      title="Copy import path"
+                      @click=${() => copyCode(icon)}
+                    >
+                      ${unsafeSVG(copy)}
+                    </button>
+                  </div>
                 </div>
-
-                <div class="svg">
-                  ${args.loaded
-                    ? unsafeSVG(svgs[icon.name])
-                    : html`
-                        <kyn-skeleton
-                          width="${args.size}px"
-                          height="${args.size}px"
-                        ></kyn-skeleton>
-                      `}
-                </div>
-
-                <div class="icon-path kd-type--ui-03">
-                  ${icon.name}
-
-                  <button
-                    class="copy-code"
-                    title="Copy import path"
-                    @click=${() => copyCode(icon)}
-                  >
-                    ${unsafeSVG(copy)}
-                  </button>
-                </div>
-              </div>
-            </kyn-card>
-          `;
-        })}
+              </kyn-card>
+            `;
+          }
+        )}
+        <div class="scroll-sentinel"></div>
       </div>
     `;
   },
