@@ -530,6 +530,21 @@
     "duotone": false
   },
   {
+    "name": "arrow-corner-down-right",
+    "friendly_name": "Arrow Corner Down Right",
+    "category": "Functional",
+    "aliases": [
+      "turn",
+      "bend",
+      "redirect",
+      "flow",
+      "route",
+      "direction",
+      "branch"
+    ],
+    "duotone": false
+  },
+  {
     "name": "arrow-down-thick",
     "friendly_name": "Arrow Down Thick",
     "category": "Functional",
@@ -2076,6 +2091,21 @@
       "portal"
     ],
     "duotone": true
+  },
+  {
+    "name": "column-view",
+    "friendly_name": "Column View",
+    "category": "Functional",
+    "aliases": [
+      "layout",
+      "grid",
+      "panel",
+      "structure",
+      "sections",
+      "arrangement",
+      "dashboard"
+    ],
+    "duotone": false
   },
   {
     "name": "component",
@@ -4148,6 +4178,36 @@
       "health-check"
     ],
     "duotone": true
+  },
+  {
+    "name": "heart-filled",
+    "friendly_name": "Heart Filled",
+    "category": "Functional",
+    "aliases": [
+      "saved",
+      "selected",
+      "active",
+      "liked",
+      "marked",
+      "favorited",
+      "love"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "heart",
+    "friendly_name": "Heart",
+    "category": "Functional",
+    "aliases": [
+      "favorite",
+      "like",
+      "bookmark",
+      "preference",
+      "appreciation",
+      "rating",
+      "love"
+    ],
+    "duotone": false
   },
   {
     "name": "hexagon-dashed",
