@@ -4308,6 +4308,24 @@
     "duotone": false
   },
   {
+    "name": "home-filled",
+    "friendly_name": "Home Filled",
+    "category": "Functional",
+    "aliases": [
+      "dashboard",
+      "main",
+      "start",
+      "landing",
+      "root",
+      "overview",
+      "hub",
+      "index",
+      "base",
+      "entry"
+    ],
+    "duotone": false
+  },
+  {
     "name": "home",
     "friendly_name": "Home",
     "category": "Functional",
@@ -4682,6 +4700,24 @@
       "position"
     ],
     "duotone": true
+  },
+  {
+    "name": "lock-filled",
+    "friendly_name": "Lock Filled",
+    "category": "Functional",
+    "aliases": [
+      "secure",
+      "privacy",
+      "protected",
+      "restricted",
+      "authentication",
+      "access",
+      "permission",
+      "encrypted",
+      "safety",
+      "blocked"
+    ],
+    "duotone": false
   },
   {
     "name": "lock",
@@ -5416,6 +5452,60 @@
       "operations-portal"
     ],
     "duotone": true
+  },
+  {
+    "name": "progress-radial-25",
+    "friendly_name": "Progress Radial 25",
+    "category": "Functional",
+    "aliases": [
+      "completion",
+      "percentage",
+      "loading",
+      "status",
+      "advancement",
+      "fill",
+      "indicator",
+      "tracking",
+      "partial",
+      "cycle"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "progress-radial-50",
+    "friendly_name": "Progress Radial 50",
+    "category": "Functional",
+    "aliases": [
+      "completion",
+      "percentage",
+      "loading",
+      "status",
+      "advancement",
+      "fill",
+      "indicator",
+      "tracking",
+      "partial",
+      "cycle"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "progress-radial-75",
+    "friendly_name": "Progress Radial 75",
+    "category": "Functional",
+    "aliases": [
+      "completion",
+      "percentage",
+      "loading",
+      "status",
+      "advancement",
+      "fill",
+      "indicator",
+      "tracking",
+      "partial",
+      "cycle"
+    ],
+    "duotone": false
   },
   {
     "name": "provisioning-catalog",
