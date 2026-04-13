@@ -337,6 +337,27 @@
     "duotone": false
   },
   {
+    "name": "ai-assist",
+    "friendly_name": "AI Assist",
+    "category": "Functional",
+    "aliases": [
+      "assistant",
+      "chatbot",
+      "bot",
+      "help",
+      "support",
+      "guidance",
+      "insights",
+      "suggestions",
+      "chat",
+      "conversation",
+      "messaging",
+      "prompt",
+      "response"
+    ],
+    "duotone": false
+  },
+  {
     "name": "ai-enhancement",
     "friendly_name": "AI Enhancement",
     "category": "Services",
