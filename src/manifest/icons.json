@@ -323,6 +323,52 @@
     "duotone": false
   },
   {
+    "name": "agent-deployment",
+    "friendly_name": "Agent Deployment",
+    "category": "Gateway",
+    "aliases": [
+      "launch",
+      "publish",
+      "release",
+      "activate",
+      "rollout",
+      "delivery",
+      "execution",
+      "runtime",
+      "transfer",
+      "pipeline",
+      "outbound",
+      "automation",
+      "trigger",
+      "initialize",
+      "ship"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "agent-library",
+    "friendly_name": "Agent Library",
+    "category": "Services",
+    "aliases": [
+      "catalog",
+      "collection",
+      "registry",
+      "directory",
+      "browse",
+      "discover",
+      "inventory",
+      "resources",
+      "templates",
+      "marketplace",
+      "repository",
+      "storage",
+      "assets",
+      "workspace",
+      "archive"
+    ],
+    "duotone": false
+  },
+  {
     "name": "agentic-ai",
     "friendly_name": "Agentic AI",
     "category": "Services",
