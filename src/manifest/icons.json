@@ -5763,6 +5763,32 @@
     "duotone": false
   },
   {
+    "name": "relationship-explorer",
+    "friendly_name": "Relationship Explorer",
+    "category": "Services",
+    "aliases": [
+      "dependency",
+      "topology",
+      "network",
+      "connection",
+      "graph",
+      "node",
+      "link",
+      "mapping",
+      "correlation",
+      "analysis",
+      "investigation",
+      "discovery",
+      "trace",
+      "visibility",
+      "observability",
+      "context",
+      "impact-analysis",
+      "service-map"
+    ],
+    "duotone": false
+  },
+  {
     "name": "report-data",
     "friendly_name": "Report Data",
     "category": "Functional",
