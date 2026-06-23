@@ -832,6 +832,13 @@
     "duotone": true
   },
   {
+    "name": "box-empty",
+    "friendly_name": "Box Empty",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "attachment",
     "friendly_name": "Attachment",
     "category": "Functional",
@@ -2681,6 +2688,13 @@
     "duotone": true
   },
   {
+    "name": "data-search",
+    "friendly_name": "Data Search",
+    "category": "Functional",
+    "aliases": [],
+    "duotone": true
+  },
+  {
     "name": "data-center",
     "friendly_name": "Data Center",
     "category": "Services",
@@ -3508,6 +3522,13 @@
     "friendly_name": "Enterprise Marketplace",
     "category": "Gateway",
     "aliases": ["enterprise", "marketplace", "catalog", "offerings"],
+    "duotone": true
+  },
+  {
+    "name": "error",
+    "friendly_name": "Error",
+    "category": "Functional",
+    "aliases": [],
     "duotone": true
   },
   {

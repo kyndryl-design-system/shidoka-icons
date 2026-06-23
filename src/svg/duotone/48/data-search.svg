@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48">
+  <g class="data-search">
+    <g class="Icon">
+      <path fill="#3D3C3C" d="M28 4a5 5 0 0 1 5 5v12.077a1 1 0 0 1-2 0V20H7v9h15a1 1 0 1 1 0 2H7v8a3 3 0 0 0 3 3h13a1 1 0 1 1 0 2H10a5 5 0 0 1-5-5V9a5 5 0 0 1 5-5h18ZM11.5 35a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Zm0-12a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3ZM10 6a3 3 0 0 0-3 3v9h24V9a3 3 0 0 0-3-3H10Zm1.5 5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3Z" class="primary"/>
+      <path fill="#FF462D" d="M33 24a8 8 0 0 1 5.799 13.508l3.975 4.86a1 1 0 0 1-1.548 1.265l-3.975-4.858A8 8 0 1 1 33 24Zm0 2a6 6 0 1 0 0 12 6 6 0 0 0 0-12Z" class="secondary"/>
+    </g>
+  </g>
+</svg>

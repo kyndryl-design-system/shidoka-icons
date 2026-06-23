@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none" viewBox="0 0 64 64">
+  <g class="error">
+    <g class="Icon">
+      <path fill="#3D3C3C" d="M58 32C58 17.64 46.36 6 32 6S6 17.64 6 32s11.64 26 26 26 26-11.64 26-26Zm2 0c0 15.464-12.536 28-28 28S4 47.464 4 32 16.536 4 32 4s28 12.536 28 28Z" class="primary"/>
+      <path fill="#FF462D" d="M32 41.05a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm0-24.55a1.5 1.5 0 0 1 1.5 1.5v17a1.5 1.5 0 0 1-3 0V18a1.5 1.5 0 0 1 1.5-1.5Z" class="secondary"/>
+    </g>
+  </g>
+</svg>
