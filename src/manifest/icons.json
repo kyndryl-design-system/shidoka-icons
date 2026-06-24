@@ -832,13 +832,6 @@
     "duotone": true
   },
   {
-    "name": "box-empty",
-    "friendly_name": "Box Empty",
-    "category": "Functional",
-    "aliases": [],
-    "duotone": true
-  },
-  {
     "name": "attachment",
     "friendly_name": "Attachment",
     "category": "Functional",
@@ -991,7 +984,7 @@
       "vacant",
       "zero-inventory"
     ],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "box-search",
@@ -2688,13 +2681,6 @@
     "duotone": true
   },
   {
-    "name": "data-search",
-    "friendly_name": "Data Search",
-    "category": "Functional",
-    "aliases": [],
-    "duotone": true
-  },
-  {
     "name": "data-center",
     "friendly_name": "Data Center",
     "category": "Services",
@@ -2726,7 +2712,7 @@
     "friendly_name": "Data Search",
     "category": "Functional",
     "aliases": ["data", "search", "find", "lookup", "query"],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "database-2",
@@ -3525,13 +3511,6 @@
     "duotone": true
   },
   {
-    "name": "error",
-    "friendly_name": "Error",
-    "category": "Functional",
-    "aliases": [],
-    "duotone": true
-  },
-  {
     "name": "erase",
     "friendly_name": "Erase",
     "category": "Functional",
@@ -3564,7 +3543,7 @@
       "alert",
       "status-error"
     ],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "error-2",
@@ -5122,7 +5101,7 @@
       "permission-denied",
       "prohibited"
     ],
-    "duotone": false
+    "duotone": true
   },
   {
     "name": "no-connection",
