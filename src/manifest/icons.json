@@ -2160,6 +2160,22 @@
     "duotone": true
   },
   {
+    "name": "collapse-all",
+    "friendly_name": "Collapse All",
+    "category": "Functional",
+    "aliases": [
+      "minimize",
+      "fold",
+      "contract",
+      "reduce",
+      "compress",
+      "hide",
+      "close",
+      "overview"
+    ],
+    "duotone": false
+  },
+  {
     "name": "column-view",
     "friendly_name": "Column View",
     "category": "Functional",
@@ -2171,6 +2187,22 @@
       "sections",
       "arrangement",
       "dashboard"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "component-type",
+    "friendly_name": "Component Type",
+    "category": "Functional",
+    "aliases": [
+      "definition",
+      "category",
+      "class",
+      "schema",
+      "model",
+      "blueprint",
+      "archetype",
+      "specification"
     ],
     "duotone": false
   },
@@ -3546,6 +3578,22 @@
     "duotone": true
   },
   {
+    "name": "expand-all",
+    "friendly_name": "Expand All",
+    "category": "Functional",
+    "aliases": [
+      "maximize",
+      "unfold",
+      "reveal",
+      "enlarge",
+      "open",
+      "show",
+      "full view",
+      "display"
+    ],
+    "duotone": false
+  },
+  {
     "name": "error-2",
     "friendly_name": "Error 2",
     "category": "Functional",
@@ -4485,6 +4533,23 @@
     "duotone": false
   },
   {
+    "name": "instance",
+    "friendly_name": "Instance",
+    "category": "Functional",
+    "aliases": [
+      "object",
+      "asset",
+      "entity",
+      "node",
+      "element",
+      "deployed",
+      "runtime",
+      "implementation",
+      "resource"
+    ],
+    "duotone": false
+  },
+  {
     "name": "information-2",
     "friendly_name": "Information 2",
     "category": "Functional",
@@ -4680,6 +4745,23 @@
       "execute",
       "go",
       "begin"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "legend",
+    "friendly_name": "Legend",
+    "category": "Functional",
+    "aliases": [
+      "labels",
+      "key",
+      "reference",
+      "guide",
+      "annotation",
+      "mapping",
+      "explanation",
+      "symbol",
+      "visualization"
     ],
     "duotone": false
   },
