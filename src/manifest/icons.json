@@ -1053,6 +1053,23 @@
     "duotone": false
   },
   {
+    "name": "broken",
+    "friendly_name": "Broken",
+    "category": "Functional",
+    "aliases": [
+      "error",
+      "failure",
+      "disconnected",
+      "damaged",
+      "unavailable",
+      "unlink",
+      "severed",
+      "failed",
+      "inactive"
+    ],
+    "duotone": false
+  },
+  {
     "name": "bucket",
     "friendly_name": "Bucket",
     "category": "Services",
@@ -5335,6 +5352,24 @@
     "friendly_name": "Optimization",
     "category": "Services",
     "aliases": ["optimization", "efficiency", "performance", "tuning"],
+    "duotone": false
+  },
+  {
+    "name": "orchestration-catalog",
+    "friendly_name": "Orchestration Catalog",
+    "category": "Gateway",
+    "aliases": [
+      "automation",
+      "workflow",
+      "coordination",
+      "integration",
+      "connection",
+      "routing",
+      "sequence",
+      "process",
+      "nodes",
+      "network"
+    ],
     "duotone": false
   },
   {
