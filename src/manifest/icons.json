@@ -5125,6 +5125,13 @@
     "duotone": false
   },
   {
+    "name": "moon",
+    "friendly_name": "Moon",
+    "category": "",
+    "aliases": [],
+    "duotone": false
+  },
+  {
     "name": "namespace",
     "friendly_name": "Namespace",
     "category": "Functional",
@@ -6396,6 +6403,13 @@
       "hyphen",
       "deduct"
     ],
+    "duotone": false
+  },
+  {
+    "name": "sun",
+    "friendly_name": "Sun",
+    "category": "Functional",
+    "aliases": [],
     "duotone": false
   },
   {
