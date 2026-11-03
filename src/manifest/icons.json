@@ -5125,6 +5125,21 @@
     "duotone": false
   },
   {
+    "name": "moon",
+    "friendly_name": "Moon",
+    "category": "Functional",
+    "aliases": [
+      "dark-mode",
+      "night",
+      "theme",
+      "appearance",
+      "display",
+      "low-light",
+      "nighttime"
+    ],
+    "duotone": false
+  },
+  {
     "name": "namespace",
     "friendly_name": "Namespace",
     "category": "Functional",
@@ -6399,6 +6414,21 @@
     "duotone": false
   },
   {
+    "name": "sun",
+    "friendly_name": "Sun",
+    "category": "Functional",
+    "aliases": [
+      "light-mode",
+      "day",
+      "theme",
+      "appearance",
+      "display",
+      "brightness",
+      "daytime"
+    ],
+    "duotone": false
+  },
+  {
     "name": "sunrise-insights",
     "friendly_name": "Sunrise Insights",
     "category": "Services",
@@ -7029,6 +7059,38 @@
       "contact"
     ],
     "duotone": true
+  },
+  {
+    "name": "vault-connections",
+    "friendly_name": "Vault Connections",
+    "category": "Services",
+    "aliases": [
+      "integration",
+      "connectivity",
+      "secure access",
+      "linked resources",
+      "authentication",
+      "network",
+      "credentials",
+      "secrets",
+      "storage"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "vault",
+    "friendly_name": "Vault",
+    "category": "Services",
+    "aliases": [
+      "secure-storage",
+      "credentials",
+      "encryption",
+      "protection",
+      "access-control",
+      "sensitive-data",
+      "security"
+    ],
+    "duotone": false
   },
   {
     "name": "user-manual",
