@@ -5127,8 +5127,16 @@
   {
     "name": "moon",
     "friendly_name": "Moon",
-    "category": "",
-    "aliases": [],
+    "category": "Functional",
+    "aliases": [
+      "dark-mode",
+      "night",
+      "theme",
+      "appearance",
+      "display",
+      "low-light",
+      "nighttime"
+    ],
     "duotone": false
   },
   {
@@ -6409,7 +6417,15 @@
     "name": "sun",
     "friendly_name": "Sun",
     "category": "Functional",
-    "aliases": [],
+    "aliases": [
+      "light-mode",
+      "day",
+      "theme",
+      "appearance",
+      "display",
+      "brightness",
+      "daytime"
+    ],
     "duotone": false
   },
   {
@@ -7043,6 +7059,38 @@
       "contact"
     ],
     "duotone": true
+  },
+  {
+    "name": "vault-connection",
+    "friendly_name": "Vault Connection",
+    "category": "Services",
+    "aliases": [
+      "integration",
+      "connectivity",
+      "secure access",
+      "linked resources",
+      "authentication",
+      "network",
+      "credentials",
+      "secrets",
+      "storage"
+    ],
+    "duotone": false
+  },
+  {
+    "name": "vault",
+    "friendly_name": "Vault",
+    "category": "Services",
+    "aliases": [
+      "secure-storage",
+      "credentials",
+      "encryption",
+      "protection",
+      "access-control",
+      "sensitive-data",
+      "security"
+    ],
+    "duotone": false
   },
   {
     "name": "user-manual",
