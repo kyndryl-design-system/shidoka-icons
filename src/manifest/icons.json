@@ -7061,8 +7061,8 @@
     "duotone": true
   },
   {
-    "name": "vault-connection",
-    "friendly_name": "Vault Connection",
+    "name": "vault-connections",
+    "friendly_name": "Vault Connections",
     "category": "Services",
     "aliases": [
       "integration",
